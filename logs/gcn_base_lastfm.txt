@@ -1,0 +1,1051 @@
+Namespace(bakcbone='gcn', dataset='./data/lastfm-360k/process/process.pkl', emb_size=64, lr=0.001, l2_reg=0.001, batch_size=4096, num_workers=6, n_layers=3, log_path='logs/gcn_base_lastfm.txt', param_path='param/gcn_base_lastfm.pth', num_epochs=500, device='cuda:0')
+epoch: 0, bpr_loss:0.416640 emb_loss:0.005997 
+ndcg@10:[0.049824] ndcg@20:[0.063647] ndcg@30:[0.073516] recall@10:[0.039332] recall@20:[0.061963] recall@30:[0.081051] js_dp@10:[0.017803] js_eo@10:[0.127322] js_dp@20:[0.016562] js_eo@20:[0.121470] js_dp@30:[0.014640] js_eo@30:[0.128477] 
+save successful
+epoch: 1, bpr_loss:0.299643 emb_loss:0.011515 
+ndcg@10:[0.049650] ndcg@20:[0.063418] ndcg@30:[0.073320] recall@10:[0.039340] recall@20:[0.061865] recall@30:[0.081029] js_dp@10:[0.018323] js_eo@10:[0.126953] js_dp@20:[0.017574] js_eo@20:[0.121440] js_dp@30:[0.015718] js_eo@30:[0.129442] 
+epoch: 2, bpr_loss:0.292174 emb_loss:0.011436 
+ndcg@10:[0.050165] ndcg@20:[0.064961] ndcg@30:[0.074502] recall@10:[0.039411] recall@20:[0.063709] recall@30:[0.082207] js_dp@10:[0.022125] js_eo@10:[0.129024] js_dp@20:[0.032663] js_eo@20:[0.126924] js_dp@30:[0.021103] js_eo@30:[0.132437] 
+save successful
+epoch: 3, bpr_loss:0.281922 emb_loss:0.011106 
+ndcg@10:[0.051038] ndcg@20:[0.067307] ndcg@30:[0.078157] recall@10:[0.040315] recall@20:[0.066911] recall@30:[0.087954] js_dp@10:[0.039599] js_eo@10:[0.138188] js_dp@20:[0.047581] js_eo@20:[0.136629] js_dp@30:[0.041266] js_eo@30:[0.137331] 
+save successful
+epoch: 4, bpr_loss:0.265858 emb_loss:0.010944 
+ndcg@10:[0.055946] ndcg@20:[0.074028] ndcg@30:[0.085542] recall@10:[0.044152] recall@20:[0.073771] recall@30:[0.096074] js_dp@10:[0.060610] js_eo@10:[0.157124] js_dp@20:[0.067833] js_eo@20:[0.153673] js_dp@30:[0.064443] js_eo@30:[0.153995] 
+save successful
+epoch: 5, bpr_loss:0.244768 emb_loss:0.010970 
+ndcg@10:[0.063206] ndcg@20:[0.083267] ndcg@30:[0.096618] recall@10:[0.050242] recall@20:[0.083062] recall@30:[0.108898] js_dp@10:[0.080322] js_eo@10:[0.170050] js_dp@20:[0.083837] js_eo@20:[0.165644] js_dp@30:[0.080521] js_eo@30:[0.167505] 
+save successful
+epoch: 6, bpr_loss:0.221384 emb_loss:0.011196 
+ndcg@10:[0.069713] ndcg@20:[0.092050] ndcg@30:[0.106686] recall@10:[0.055858] recall@20:[0.092486] recall@30:[0.120797] js_dp@10:[0.094448] js_eo@10:[0.178142] js_dp@20:[0.095579] js_eo@20:[0.176548] js_dp@30:[0.093189] js_eo@30:[0.179594] 
+save successful
+epoch: 7, bpr_loss:0.199041 emb_loss:0.011610 
+ndcg@10:[0.077711] ndcg@20:[0.101709] ndcg@30:[0.117602] recall@10:[0.062807] recall@20:[0.102205] recall@30:[0.132961] js_dp@10:[0.107665] js_eo@10:[0.185933] js_dp@20:[0.106924] js_eo@20:[0.186302] js_dp@30:[0.104498] js_eo@30:[0.192711] 
+save successful
+epoch: 8, bpr_loss:0.180326 emb_loss:0.012017 
+ndcg@10:[0.086532] ndcg@20:[0.112058] ndcg@30:[0.129156] recall@10:[0.070218] recall@20:[0.112114] recall@30:[0.145276] js_dp@10:[0.123211] js_eo@10:[0.198012] js_dp@20:[0.119332] js_eo@20:[0.199527] js_dp@30:[0.115405] js_eo@30:[0.202608] 
+save successful
+epoch: 9, bpr_loss:0.163458 emb_loss:0.012507 
+ndcg@10:[0.094259] ndcg@20:[0.121290] ndcg@30:[0.139158] recall@10:[0.076312] recall@20:[0.120712] recall@30:[0.155418] js_dp@10:[0.136209] js_eo@10:[0.208801] js_dp@20:[0.130624] js_eo@20:[0.208811] js_dp@30:[0.125366] js_eo@30:[0.209724] 
+save successful
+epoch: 10, bpr_loss:0.150365 emb_loss:0.012992 
+ndcg@10:[0.100610] ndcg@20:[0.128842] ndcg@30:[0.147479] recall@10:[0.081161] recall@20:[0.127566] recall@30:[0.163723] js_dp@10:[0.145549] js_eo@10:[0.215598] js_dp@20:[0.140095] js_eo@20:[0.215792] js_dp@30:[0.135018] js_eo@30:[0.218040] 
+save successful
+epoch: 11, bpr_loss:0.139302 emb_loss:0.013458 
+ndcg@10:[0.105456] ndcg@20:[0.134994] ndcg@30:[0.154049] recall@10:[0.084593] recall@20:[0.133217] recall@30:[0.170168] js_dp@10:[0.153160] js_eo@10:[0.220483] js_dp@20:[0.146766] js_eo@20:[0.221323] js_dp@30:[0.141664] js_eo@30:[0.224648] 
+save successful
+epoch: 12, bpr_loss:0.130402 emb_loss:0.013883 
+ndcg@10:[0.109341] ndcg@20:[0.139803] ndcg@30:[0.159540] recall@10:[0.087402] recall@20:[0.137536] recall@30:[0.175868] js_dp@10:[0.159332] js_eo@10:[0.225913] js_dp@20:[0.152853] js_eo@20:[0.226724] js_dp@30:[0.147840] js_eo@30:[0.228267] 
+save successful
+epoch: 13, bpr_loss:0.123583 emb_loss:0.014227 
+ndcg@10:[0.112874] ndcg@20:[0.143925] ndcg@30:[0.164239] recall@10:[0.090049] recall@20:[0.141142] recall@30:[0.180566] js_dp@10:[0.164206] js_eo@10:[0.232829] js_dp@20:[0.157608] js_eo@20:[0.230833] js_dp@30:[0.152973] js_eo@30:[0.231871] 
+save successful
+epoch: 14, bpr_loss:0.117393 emb_loss:0.014566 
+ndcg@10:[0.115773] ndcg@20:[0.147418] ndcg@30:[0.167948] recall@10:[0.092211] recall@20:[0.144247] recall@30:[0.184072] js_dp@10:[0.168739] js_eo@10:[0.238075] js_dp@20:[0.161275] js_eo@20:[0.234789] js_dp@30:[0.156607] js_eo@30:[0.234934] 
+save successful
+epoch: 15, bpr_loss:0.112015 emb_loss:0.014855 
+ndcg@10:[0.118363] ndcg@20:[0.150448] ndcg@30:[0.171307] recall@10:[0.094210] recall@20:[0.146988] recall@30:[0.187459] js_dp@10:[0.172690] js_eo@10:[0.244223] js_dp@20:[0.165011] js_eo@20:[0.237740] js_dp@30:[0.160590] js_eo@30:[0.238657] 
+save successful
+epoch: 16, bpr_loss:0.107317 emb_loss:0.015145 
+ndcg@10:[0.120599] ndcg@20:[0.153233] ndcg@30:[0.174442] recall@10:[0.095751] recall@20:[0.149398] recall@30:[0.190538] js_dp@10:[0.176066] js_eo@10:[0.246187] js_dp@20:[0.168517] js_eo@20:[0.241370] js_dp@30:[0.163775] js_eo@30:[0.242230] 
+save successful
+epoch: 17, bpr_loss:0.103946 emb_loss:0.015370 
+ndcg@10:[0.122697] ndcg@20:[0.155786] ndcg@30:[0.177229] recall@10:[0.097243] recall@20:[0.151648] recall@30:[0.193270] js_dp@10:[0.179354] js_eo@10:[0.248732] js_dp@20:[0.171582] js_eo@20:[0.245737] js_dp@30:[0.166622] js_eo@30:[0.244998] 
+save successful
+epoch: 18, bpr_loss:0.099905 emb_loss:0.015585 
+ndcg@10:[0.124658] ndcg@20:[0.158151] ndcg@30:[0.179772] recall@10:[0.098801] recall@20:[0.153921] recall@30:[0.195908] js_dp@10:[0.181967] js_eo@10:[0.252286] js_dp@20:[0.174354] js_eo@20:[0.247699] js_dp@30:[0.169232] js_eo@30:[0.248077] 
+save successful
+epoch: 19, bpr_loss:0.097443 emb_loss:0.015773 
+ndcg@10:[0.126342] ndcg@20:[0.160181] ndcg@30:[0.182041] recall@10:[0.100112] recall@20:[0.155765] recall@30:[0.198225] js_dp@10:[0.184998] js_eo@10:[0.254385] js_dp@20:[0.176884] js_eo@20:[0.249600] js_dp@30:[0.171838] js_eo@30:[0.248913] 
+save successful
+epoch: 20, bpr_loss:0.094507 emb_loss:0.015920 
+ndcg@10:[0.127881] ndcg@20:[0.162082] ndcg@30:[0.184212] recall@10:[0.101326] recall@20:[0.157561] recall@30:[0.200563] js_dp@10:[0.186851] js_eo@10:[0.255855] js_dp@20:[0.178836] js_eo@20:[0.251819] js_dp@30:[0.174001] js_eo@30:[0.251188] 
+save successful
+epoch: 21, bpr_loss:0.091688 emb_loss:0.016093 
+ndcg@10:[0.129374] ndcg@20:[0.163808] ndcg@30:[0.186137] recall@10:[0.102620] recall@20:[0.159249] recall@30:[0.202647] js_dp@10:[0.189331] js_eo@10:[0.259333] js_dp@20:[0.180896] js_eo@20:[0.254999] js_dp@30:[0.176083] js_eo@30:[0.252950] 
+save successful
+epoch: 22, bpr_loss:0.089551 emb_loss:0.016246 
+ndcg@10:[0.130758] ndcg@20:[0.165427] ndcg@30:[0.188110] recall@10:[0.103646] recall@20:[0.160680] recall@30:[0.204788] js_dp@10:[0.191575] js_eo@10:[0.261261] js_dp@20:[0.183219] js_eo@20:[0.255808] js_dp@30:[0.178130] js_eo@30:[0.254511] 
+save successful
+epoch: 23, bpr_loss:0.087450 emb_loss:0.016371 
+ndcg@10:[0.132068] ndcg@20:[0.167101] ndcg@30:[0.189907] recall@10:[0.104688] recall@20:[0.162319] recall@30:[0.206655] js_dp@10:[0.193540] js_eo@10:[0.262865] js_dp@20:[0.185353] js_eo@20:[0.258105] js_dp@30:[0.180156] js_eo@30:[0.256578] 
+save successful
+epoch: 24, bpr_loss:0.085298 emb_loss:0.016513 
+ndcg@10:[0.133217] ndcg@20:[0.168567] ndcg@30:[0.191624] recall@10:[0.105663] recall@20:[0.163803] recall@30:[0.208646] js_dp@10:[0.196085] js_eo@10:[0.265127] js_dp@20:[0.187461] js_eo@20:[0.259516] js_dp@30:[0.182195] js_eo@30:[0.258520] 
+save successful
+epoch: 25, bpr_loss:0.083564 emb_loss:0.016621 
+ndcg@10:[0.134399] ndcg@20:[0.170055] ndcg@30:[0.193293] recall@10:[0.106643] recall@20:[0.165288] recall@30:[0.210514] js_dp@10:[0.198661] js_eo@10:[0.267257] js_dp@20:[0.189644] js_eo@20:[0.260787] js_dp@30:[0.184163] js_eo@30:[0.260042] 
+save successful
+epoch: 26, bpr_loss:0.081539 emb_loss:0.016718 
+ndcg@10:[0.135507] ndcg@20:[0.171391] ndcg@30:[0.194856] recall@10:[0.107637] recall@20:[0.166682] recall@30:[0.212357] js_dp@10:[0.199847] js_eo@10:[0.267838] js_dp@20:[0.191261] js_eo@20:[0.263429] js_dp@30:[0.185678] js_eo@30:[0.261631] 
+save successful
+epoch: 27, bpr_loss:0.079215 emb_loss:0.016855 
+ndcg@10:[0.136729] ndcg@20:[0.172971] ndcg@30:[0.196593] recall@10:[0.108503] recall@20:[0.168139] recall@30:[0.214083] js_dp@10:[0.201544] js_eo@10:[0.268578] js_dp@20:[0.192781] js_eo@20:[0.265635] js_dp@30:[0.186749] js_eo@30:[0.262819] 
+save successful
+epoch: 28, bpr_loss:0.078115 emb_loss:0.016974 
+ndcg@10:[0.138037] ndcg@20:[0.174367] ndcg@30:[0.198216] recall@10:[0.109635] recall@20:[0.169419] recall@30:[0.215809] js_dp@10:[0.203501] js_eo@10:[0.270866] js_dp@20:[0.195062] js_eo@20:[0.268185] js_dp@30:[0.188861] js_eo@30:[0.265431] 
+save successful
+epoch: 29, bpr_loss:0.076164 emb_loss:0.017081 
+ndcg@10:[0.139180] ndcg@20:[0.175858] ndcg@30:[0.199729] recall@10:[0.110492] recall@20:[0.170870] recall@30:[0.217311] js_dp@10:[0.205435] js_eo@10:[0.272661] js_dp@20:[0.196140] js_eo@20:[0.268730] js_dp@30:[0.190367] js_eo@30:[0.265531] 
+save successful
+epoch: 30, bpr_loss:0.074644 emb_loss:0.017184 
+ndcg@10:[0.140144] ndcg@20:[0.177226] ndcg@30:[0.201245] recall@10:[0.111160] recall@20:[0.172242] recall@30:[0.218985] js_dp@10:[0.207175] js_eo@10:[0.274003] js_dp@20:[0.197601] js_eo@20:[0.270192] js_dp@30:[0.191595] js_eo@30:[0.267431] 
+save successful
+epoch: 31, bpr_loss:0.073201 emb_loss:0.017278 
+ndcg@10:[0.141214] ndcg@20:[0.178484] ndcg@30:[0.202588] recall@10:[0.112069] recall@20:[0.173457] recall@30:[0.220306] js_dp@10:[0.209241] js_eo@10:[0.276103] js_dp@20:[0.198950] js_eo@20:[0.272315] js_dp@30:[0.193114] js_eo@30:[0.268309] 
+save successful
+epoch: 32, bpr_loss:0.071868 emb_loss:0.017362 
+ndcg@10:[0.142402] ndcg@20:[0.179780] ndcg@30:[0.204046] recall@10:[0.112987] recall@20:[0.174526] recall@30:[0.221696] js_dp@10:[0.210688] js_eo@10:[0.277407] js_dp@20:[0.200401] js_eo@20:[0.273194] js_dp@30:[0.194408] js_eo@30:[0.270341] 
+save successful
+epoch: 33, bpr_loss:0.070581 emb_loss:0.017450 
+ndcg@10:[0.143392] ndcg@20:[0.181052] ndcg@30:[0.205430] recall@10:[0.113754] recall@20:[0.175734] recall@30:[0.223133] js_dp@10:[0.212416] js_eo@10:[0.279076] js_dp@20:[0.202050] js_eo@20:[0.275136] js_dp@30:[0.195821] js_eo@30:[0.271442] 
+save successful
+epoch: 34, bpr_loss:0.069634 emb_loss:0.017540 
+ndcg@10:[0.144395] ndcg@20:[0.182454] ndcg@30:[0.206872] recall@10:[0.114456] recall@20:[0.177120] recall@30:[0.224624] js_dp@10:[0.213330] js_eo@10:[0.280478] js_dp@20:[0.203402] js_eo@20:[0.276934] js_dp@30:[0.196853] js_eo@30:[0.271937] 
+save successful
+epoch: 35, bpr_loss:0.068000 emb_loss:0.017631 
+ndcg@10:[0.145503] ndcg@20:[0.183608] ndcg@30:[0.208338] recall@10:[0.115292] recall@20:[0.177975] recall@30:[0.226127] js_dp@10:[0.214321] js_eo@10:[0.281578] js_dp@20:[0.204285] js_eo@20:[0.277551] js_dp@30:[0.197804] js_eo@30:[0.273592] 
+save successful
+epoch: 36, bpr_loss:0.066733 emb_loss:0.017737 
+ndcg@10:[0.146406] ndcg@20:[0.184695] ndcg@30:[0.209484] recall@10:[0.116167] recall@20:[0.179173] recall@30:[0.227435] js_dp@10:[0.215336] js_eo@10:[0.283277] js_dp@20:[0.205449] js_eo@20:[0.278281] js_dp@30:[0.198928] js_eo@30:[0.274253] 
+save successful
+epoch: 37, bpr_loss:0.066009 emb_loss:0.017813 
+ndcg@10:[0.147291] ndcg@20:[0.185791] ndcg@30:[0.210633] recall@10:[0.116942] recall@20:[0.180313] recall@30:[0.228629] js_dp@10:[0.216881] js_eo@10:[0.285568] js_dp@20:[0.206440] js_eo@20:[0.278763] js_dp@30:[0.199937] js_eo@30:[0.275984] 
+save successful
+epoch: 38, bpr_loss:0.065087 emb_loss:0.017869 
+ndcg@10:[0.148121] ndcg@20:[0.186903] ndcg@30:[0.211781] recall@10:[0.117577] recall@20:[0.181464] recall@30:[0.229868] js_dp@10:[0.218117] js_eo@10:[0.286496] js_dp@20:[0.207532] js_eo@20:[0.279774] js_dp@30:[0.201028] js_eo@30:[0.277285] 
+save successful
+epoch: 39, bpr_loss:0.063563 emb_loss:0.017970 
+ndcg@10:[0.149214] ndcg@20:[0.188063] ndcg@30:[0.213036] recall@10:[0.118402] recall@20:[0.182361] recall@30:[0.230960] js_dp@10:[0.219500] js_eo@10:[0.288261] js_dp@20:[0.208640] js_eo@20:[0.280425] js_dp@30:[0.201934] js_eo@30:[0.277175] 
+save successful
+epoch: 40, bpr_loss:0.062636 emb_loss:0.018058 
+ndcg@10:[0.150001] ndcg@20:[0.189230] ndcg@30:[0.214188] recall@10:[0.118993] recall@20:[0.183660] recall@30:[0.232200] js_dp@10:[0.220366] js_eo@10:[0.288130] js_dp@20:[0.209615] js_eo@20:[0.282041] js_dp@30:[0.203019] js_eo@30:[0.278233] 
+save successful
+epoch: 41, bpr_loss:0.061708 emb_loss:0.018131 
+ndcg@10:[0.150822] ndcg@20:[0.190099] ndcg@30:[0.215262] recall@10:[0.119686] recall@20:[0.184389] recall@30:[0.233331] js_dp@10:[0.221917] js_eo@10:[0.289109] js_dp@20:[0.210600] js_eo@20:[0.282690] js_dp@30:[0.203914] js_eo@30:[0.279414] 
+save successful
+epoch: 42, bpr_loss:0.060733 emb_loss:0.018205 
+ndcg@10:[0.151639] ndcg@20:[0.191083] ndcg@30:[0.216415] recall@10:[0.120421] recall@20:[0.185372] recall@30:[0.234645] js_dp@10:[0.222751] js_eo@10:[0.290359] js_dp@20:[0.211733] js_eo@20:[0.283297] js_dp@30:[0.205267] js_eo@30:[0.279672] 
+save successful
+epoch: 43, bpr_loss:0.059751 emb_loss:0.018276 
+ndcg@10:[0.152365] ndcg@20:[0.191998] ndcg@30:[0.217312] recall@10:[0.121062] recall@20:[0.186341] recall@30:[0.235541] js_dp@10:[0.223953] js_eo@10:[0.291799] js_dp@20:[0.212609] js_eo@20:[0.284349] js_dp@30:[0.206205] js_eo@30:[0.280827] 
+save successful
+epoch: 44, bpr_loss:0.058968 emb_loss:0.018372 
+ndcg@10:[0.153157] ndcg@20:[0.192882] ndcg@30:[0.218425] recall@10:[0.121691] recall@20:[0.187135] recall@30:[0.236801] js_dp@10:[0.224881] js_eo@10:[0.292281] js_dp@20:[0.213558] js_eo@20:[0.284750] js_dp@30:[0.207321] js_eo@30:[0.281279] 
+save successful
+epoch: 45, bpr_loss:0.058009 emb_loss:0.018443 
+ndcg@10:[0.153987] ndcg@20:[0.193849] ndcg@30:[0.219538] recall@10:[0.122345] recall@20:[0.187995] recall@30:[0.237972] js_dp@10:[0.225722] js_eo@10:[0.293234] js_dp@20:[0.214767] js_eo@20:[0.285907] js_dp@30:[0.208395] js_eo@30:[0.281900] 
+save successful
+epoch: 46, bpr_loss:0.056969 emb_loss:0.018527 
+ndcg@10:[0.154425] ndcg@20:[0.194597] ndcg@30:[0.220253] recall@10:[0.122711] recall@20:[0.188884] recall@30:[0.238774] js_dp@10:[0.226770] js_eo@10:[0.293283] js_dp@20:[0.215877] js_eo@20:[0.286584] js_dp@30:[0.209456] js_eo@30:[0.282771] 
+save successful
+epoch: 47, bpr_loss:0.056557 emb_loss:0.018585 
+ndcg@10:[0.155192] ndcg@20:[0.195469] ndcg@30:[0.221185] recall@10:[0.123374] recall@20:[0.189710] recall@30:[0.239745] js_dp@10:[0.228022] js_eo@10:[0.295187] js_dp@20:[0.216831] js_eo@20:[0.287604] js_dp@30:[0.210541] js_eo@30:[0.283444] 
+save successful
+epoch: 48, bpr_loss:0.056136 emb_loss:0.018654 
+ndcg@10:[0.155621] ndcg@20:[0.196171] ndcg@30:[0.221943] recall@10:[0.123795] recall@20:[0.190576] recall@30:[0.240720] js_dp@10:[0.228775] js_eo@10:[0.296005] js_dp@20:[0.217967] js_eo@20:[0.288172] js_dp@30:[0.211566] js_eo@30:[0.284874] 
+save successful
+epoch: 49, bpr_loss:0.054824 emb_loss:0.018719 
+ndcg@10:[0.156325] ndcg@20:[0.197018] ndcg@30:[0.222888] recall@10:[0.124292] recall@20:[0.191283] recall@30:[0.241645] js_dp@10:[0.230094] js_eo@10:[0.297607] js_dp@20:[0.218696] js_eo@20:[0.288642] js_dp@30:[0.212469] js_eo@30:[0.285753] 
+save successful
+epoch: 50, bpr_loss:0.054836 emb_loss:0.018785 
+ndcg@10:[0.156970] ndcg@20:[0.197783] ndcg@30:[0.223715] recall@10:[0.124930] recall@20:[0.192082] recall@30:[0.242552] js_dp@10:[0.231197] js_eo@10:[0.298215] js_dp@20:[0.219564] js_eo@20:[0.289528] js_dp@30:[0.213130] js_eo@30:[0.286378] 
+save successful
+epoch: 51, bpr_loss:0.053754 emb_loss:0.018842 
+ndcg@10:[0.157543] ndcg@20:[0.198446] ndcg@30:[0.224507] recall@10:[0.125317] recall@20:[0.192671] recall@30:[0.243388] js_dp@10:[0.231755] js_eo@10:[0.298598] js_dp@20:[0.220365] js_eo@20:[0.290445] js_dp@30:[0.213854] js_eo@30:[0.287186] 
+save successful
+epoch: 52, bpr_loss:0.052839 emb_loss:0.018937 
+ndcg@10:[0.158137] ndcg@20:[0.199190] ndcg@30:[0.225226] recall@10:[0.125884] recall@20:[0.193515] recall@30:[0.244133] js_dp@10:[0.232001] js_eo@10:[0.299936] js_dp@20:[0.221197] js_eo@20:[0.291400] js_dp@30:[0.214302] js_eo@30:[0.287655] 
+save successful
+epoch: 53, bpr_loss:0.052263 emb_loss:0.019019 
+ndcg@10:[0.158663] ndcg@20:[0.199893] ndcg@30:[0.226088] recall@10:[0.126220] recall@20:[0.194127] recall@30:[0.245051] js_dp@10:[0.232881] js_eo@10:[0.300830] js_dp@20:[0.221850] js_eo@20:[0.291980] js_dp@30:[0.215126] js_eo@30:[0.288609] 
+save successful
+epoch: 54, bpr_loss:0.051951 emb_loss:0.019069 
+ndcg@10:[0.159126] ndcg@20:[0.200533] ndcg@30:[0.226658] recall@10:[0.126714] recall@20:[0.194919] recall@30:[0.245726] js_dp@10:[0.233693] js_eo@10:[0.301177] js_dp@20:[0.222668] js_eo@20:[0.292471] js_dp@30:[0.216035] js_eo@30:[0.289124] 
+save successful
+epoch: 55, bpr_loss:0.050844 emb_loss:0.019137 
+ndcg@10:[0.159714] ndcg@20:[0.201266] ndcg@30:[0.227431] recall@10:[0.127139] recall@20:[0.195612] recall@30:[0.246491] js_dp@10:[0.234724] js_eo@10:[0.301268] js_dp@20:[0.223638] js_eo@20:[0.294244] js_dp@30:[0.216895] js_eo@30:[0.289633] 
+save successful
+epoch: 56, bpr_loss:0.050376 emb_loss:0.019210 
+ndcg@10:[0.160162] ndcg@20:[0.201778] ndcg@30:[0.228165] recall@10:[0.127610] recall@20:[0.196216] recall@30:[0.247540] js_dp@10:[0.235592] js_eo@10:[0.301678] js_dp@20:[0.224595] js_eo@20:[0.295343] js_dp@30:[0.218006] js_eo@30:[0.290284] 
+save successful
+epoch: 57, bpr_loss:0.049876 emb_loss:0.019273 
+ndcg@10:[0.160748] ndcg@20:[0.202520] ndcg@30:[0.228908] recall@10:[0.128035] recall@20:[0.196886] recall@30:[0.248212] js_dp@10:[0.236598] js_eo@10:[0.303662] js_dp@20:[0.225314] js_eo@20:[0.295345] js_dp@30:[0.218648] js_eo@30:[0.291069] 
+save successful
+epoch: 58, bpr_loss:0.049386 emb_loss:0.019314 
+ndcg@10:[0.161224] ndcg@20:[0.203096] ndcg@30:[0.229632] recall@10:[0.128360] recall@20:[0.197352] recall@30:[0.248981] js_dp@10:[0.237245] js_eo@10:[0.305333] js_dp@20:[0.225442] js_eo@20:[0.295907] js_dp@30:[0.219185] js_eo@30:[0.291258] 
+save successful
+epoch: 59, bpr_loss:0.049021 emb_loss:0.019366 
+ndcg@10:[0.161745] ndcg@20:[0.203699] ndcg@30:[0.230229] recall@10:[0.128862] recall@20:[0.198013] recall@30:[0.249656] js_dp@10:[0.237987] js_eo@10:[0.304254] js_dp@20:[0.226011] js_eo@20:[0.296590] js_dp@30:[0.219844] js_eo@30:[0.291668] 
+save successful
+epoch: 60, bpr_loss:0.048602 emb_loss:0.019400 
+ndcg@10:[0.162241] ndcg@20:[0.204166] ndcg@30:[0.230859] recall@10:[0.129239] recall@20:[0.198358] recall@30:[0.250284] js_dp@10:[0.238650] js_eo@10:[0.305675] js_dp@20:[0.226843] js_eo@20:[0.297328] js_dp@30:[0.220473] js_eo@30:[0.292870] 
+save successful
+epoch: 61, bpr_loss:0.048266 emb_loss:0.019441 
+ndcg@10:[0.162536] ndcg@20:[0.204713] ndcg@30:[0.231314] recall@10:[0.129507] recall@20:[0.199038] recall@30:[0.250763] js_dp@10:[0.239190] js_eo@10:[0.306495] js_dp@20:[0.227738] js_eo@20:[0.298365] js_dp@30:[0.220960] js_eo@30:[0.292716] 
+save successful
+epoch: 62, bpr_loss:0.047248 emb_loss:0.019494 
+ndcg@10:[0.163036] ndcg@20:[0.205256] ndcg@30:[0.231946] recall@10:[0.129874] recall@20:[0.199463] recall@30:[0.251402] js_dp@10:[0.239411] js_eo@10:[0.306123] js_dp@20:[0.228179] js_eo@20:[0.298996] js_dp@30:[0.221458] js_eo@30:[0.293239] 
+save successful
+epoch: 63, bpr_loss:0.046840 emb_loss:0.019558 
+ndcg@10:[0.163546] ndcg@20:[0.205961] ndcg@30:[0.232711] recall@10:[0.130252] recall@20:[0.200170] recall@30:[0.252230] js_dp@10:[0.240363] js_eo@10:[0.307199] js_dp@20:[0.228907] js_eo@20:[0.299535] js_dp@30:[0.222213] js_eo@30:[0.294937] 
+save successful
+epoch: 64, bpr_loss:0.046538 emb_loss:0.019622 
+ndcg@10:[0.163986] ndcg@20:[0.206422] ndcg@30:[0.233235] recall@10:[0.130746] recall@20:[0.200699] recall@30:[0.252895] js_dp@10:[0.241317] js_eo@10:[0.308218] js_dp@20:[0.229668] js_eo@20:[0.299845] js_dp@30:[0.223040] js_eo@30:[0.295489] 
+save successful
+epoch: 65, bpr_loss:0.046071 emb_loss:0.019649 
+ndcg@10:[0.164193] ndcg@20:[0.206852] ndcg@30:[0.233642] recall@10:[0.130861] recall@20:[0.201149] recall@30:[0.253280] js_dp@10:[0.242130] js_eo@10:[0.309572] js_dp@20:[0.230267] js_eo@20:[0.300347] js_dp@30:[0.223566] js_eo@30:[0.296036] 
+save successful
+epoch: 66, bpr_loss:0.045591 emb_loss:0.019704 
+ndcg@10:[0.164641] ndcg@20:[0.207414] ndcg@30:[0.234178] recall@10:[0.131240] recall@20:[0.201699] recall@30:[0.253770] js_dp@10:[0.242237] js_eo@10:[0.310380] js_dp@20:[0.230310] js_eo@20:[0.301262] js_dp@30:[0.223575] js_eo@30:[0.296045] 
+save successful
+epoch: 67, bpr_loss:0.045147 emb_loss:0.019763 
+ndcg@10:[0.164901] ndcg@20:[0.207774] ndcg@30:[0.234616] recall@10:[0.131535] recall@20:[0.202203] recall@30:[0.254450] js_dp@10:[0.243329] js_eo@10:[0.310807] js_dp@20:[0.230928] js_eo@20:[0.301011] js_dp@30:[0.224223] js_eo@30:[0.297078] 
+save successful
+epoch: 68, bpr_loss:0.044822 emb_loss:0.019785 
+ndcg@10:[0.165372] ndcg@20:[0.208284] ndcg@30:[0.235125] recall@10:[0.131853] recall@20:[0.202584] recall@30:[0.254813] js_dp@10:[0.243575] js_eo@10:[0.310794] js_dp@20:[0.231852] js_eo@20:[0.302692] js_dp@30:[0.224951] js_eo@30:[0.297729] 
+save successful
+epoch: 69, bpr_loss:0.044274 emb_loss:0.019848 
+ndcg@10:[0.165753] ndcg@20:[0.208866] ndcg@30:[0.235669] recall@10:[0.132049] recall@20:[0.203093] recall@30:[0.255267] js_dp@10:[0.244230] js_eo@10:[0.311108] js_dp@20:[0.232255] js_eo@20:[0.302351] js_dp@30:[0.225442] js_eo@30:[0.297443] 
+save successful
+epoch: 70, bpr_loss:0.044242 emb_loss:0.019898 
+ndcg@10:[0.165979] ndcg@20:[0.209255] ndcg@30:[0.236158] recall@10:[0.132265] recall@20:[0.203547] recall@30:[0.255938] js_dp@10:[0.244823] js_eo@10:[0.312767] js_dp@20:[0.232851] js_eo@20:[0.303277] js_dp@30:[0.225847] js_eo@30:[0.297990] 
+save successful
+epoch: 71, bpr_loss:0.043577 emb_loss:0.019924 
+ndcg@10:[0.166556] ndcg@20:[0.209826] ndcg@30:[0.236677] recall@10:[0.132787] recall@20:[0.204048] recall@30:[0.256323] js_dp@10:[0.245612] js_eo@10:[0.313098] js_dp@20:[0.233457] js_eo@20:[0.303403] js_dp@30:[0.226605] js_eo@30:[0.298313] 
+save successful
+epoch: 72, bpr_loss:0.042939 emb_loss:0.019962 
+ndcg@10:[0.166907] ndcg@20:[0.210255] ndcg@30:[0.237067] recall@10:[0.133115] recall@20:[0.204491] recall@30:[0.256700] js_dp@10:[0.246179] js_eo@10:[0.313602] js_dp@20:[0.233955] js_eo@20:[0.303713] js_dp@30:[0.227065] js_eo@30:[0.298469] 
+save successful
+epoch: 73, bpr_loss:0.042624 emb_loss:0.020013 
+ndcg@10:[0.167323] ndcg@20:[0.210748] ndcg@30:[0.237680] recall@10:[0.133467] recall@20:[0.204993] recall@30:[0.257439] js_dp@10:[0.246624] js_eo@10:[0.313911] js_dp@20:[0.234325] js_eo@20:[0.304420] js_dp@30:[0.226994] js_eo@30:[0.298839] 
+save successful
+epoch: 74, bpr_loss:0.042336 emb_loss:0.020054 
+ndcg@10:[0.167724] ndcg@20:[0.211269] ndcg@30:[0.238181] recall@10:[0.133701] recall@20:[0.205396] recall@30:[0.257777] js_dp@10:[0.247185] js_eo@10:[0.314192] js_dp@20:[0.234893] js_eo@20:[0.305029] js_dp@30:[0.227499] js_eo@30:[0.299156] 
+save successful
+epoch: 75, bpr_loss:0.042061 emb_loss:0.020091 
+ndcg@10:[0.167953] ndcg@20:[0.211547] ndcg@30:[0.238542] recall@10:[0.134004] recall@20:[0.205785] recall@30:[0.258332] js_dp@10:[0.248359] js_eo@10:[0.315983] js_dp@20:[0.235708] js_eo@20:[0.305679] js_dp@30:[0.227900] js_eo@30:[0.300266] 
+save successful
+epoch: 76, bpr_loss:0.041746 emb_loss:0.020130 
+ndcg@10:[0.168321] ndcg@20:[0.211967] ndcg@30:[0.239042] recall@10:[0.134286] recall@20:[0.206152] recall@30:[0.258827] js_dp@10:[0.248548] js_eo@10:[0.316000] js_dp@20:[0.235960] js_eo@20:[0.306248] js_dp@30:[0.228292] js_eo@30:[0.300221] 
+save successful
+epoch: 77, bpr_loss:0.041199 emb_loss:0.020177 
+ndcg@10:[0.168768] ndcg@20:[0.212500] ndcg@30:[0.239557] recall@10:[0.134608] recall@20:[0.206652] recall@30:[0.259280] js_dp@10:[0.249362] js_eo@10:[0.316397] js_dp@20:[0.236471] js_eo@20:[0.307096] js_dp@30:[0.228742] js_eo@30:[0.300561] 
+save successful
+epoch: 78, bpr_loss:0.040936 emb_loss:0.020220 
+ndcg@10:[0.169044] ndcg@20:[0.212897] ndcg@30:[0.239971] recall@10:[0.134830] recall@20:[0.207089] recall@30:[0.259793] js_dp@10:[0.249865] js_eo@10:[0.316298] js_dp@20:[0.237175] js_eo@20:[0.307734] js_dp@30:[0.229346] js_eo@30:[0.300708] 
+save successful
+epoch: 79, bpr_loss:0.040666 emb_loss:0.020238 
+ndcg@10:[0.169296] ndcg@20:[0.213204] ndcg@30:[0.240423] recall@10:[0.135091] recall@20:[0.207367] recall@30:[0.260375] js_dp@10:[0.250342] js_eo@10:[0.317052] js_dp@20:[0.237414] js_eo@20:[0.307055] js_dp@30:[0.229538] js_eo@30:[0.300945] 
+save successful
+epoch: 80, bpr_loss:0.040445 emb_loss:0.020289 
+ndcg@10:[0.169638] ndcg@20:[0.213496] ndcg@30:[0.240824] recall@10:[0.135362] recall@20:[0.207561] recall@30:[0.260758] js_dp@10:[0.250419] js_eo@10:[0.317323] js_dp@20:[0.237784] js_eo@20:[0.307771] js_dp@30:[0.229817] js_eo@30:[0.301755] 
+save successful
+epoch: 81, bpr_loss:0.039955 emb_loss:0.020317 
+ndcg@10:[0.169973] ndcg@20:[0.213892] ndcg@30:[0.241248] recall@10:[0.135639] recall@20:[0.207956] recall@30:[0.261170] js_dp@10:[0.251018] js_eo@10:[0.317759] js_dp@20:[0.238043] js_eo@20:[0.307554] js_dp@30:[0.230343] js_eo@30:[0.301909] 
+save successful
+epoch: 82, bpr_loss:0.039626 emb_loss:0.020365 
+ndcg@10:[0.170206] ndcg@20:[0.214362] ndcg@30:[0.241762] recall@10:[0.135784] recall@20:[0.208481] recall@30:[0.261772] js_dp@10:[0.251581] js_eo@10:[0.318306] js_dp@20:[0.238664] js_eo@20:[0.308097] js_dp@30:[0.230691] js_eo@30:[0.302203] 
+save successful
+epoch: 83, bpr_loss:0.039562 emb_loss:0.020381 
+ndcg@10:[0.170355] ndcg@20:[0.214615] ndcg@30:[0.241971] recall@10:[0.135994] recall@20:[0.208872] recall@30:[0.262073] js_dp@10:[0.252437] js_eo@10:[0.320154] js_dp@20:[0.239077] js_eo@20:[0.308831] js_dp@30:[0.231318] js_eo@30:[0.303006] 
+save successful
+epoch: 84, bpr_loss:0.039310 emb_loss:0.020393 
+ndcg@10:[0.170838] ndcg@20:[0.215061] ndcg@30:[0.242598] recall@10:[0.136410] recall@20:[0.209235] recall@30:[0.262807] js_dp@10:[0.252105] js_eo@10:[0.320453] js_dp@20:[0.239428] js_eo@20:[0.309131] js_dp@30:[0.231909] js_eo@30:[0.303502] 
+save successful
+epoch: 85, bpr_loss:0.038965 emb_loss:0.020440 
+ndcg@10:[0.171201] ndcg@20:[0.215543] ndcg@30:[0.243038] recall@10:[0.136700] recall@20:[0.209757] recall@30:[0.263235] js_dp@10:[0.253059] js_eo@10:[0.320693] js_dp@20:[0.239954] js_eo@20:[0.309894] js_dp@30:[0.232127] js_eo@30:[0.303684] 
+save successful
+epoch: 86, bpr_loss:0.038202 emb_loss:0.020476 
+ndcg@10:[0.171555] ndcg@20:[0.215914] ndcg@30:[0.243448] recall@10:[0.136951] recall@20:[0.210021] recall@30:[0.263584] js_dp@10:[0.253346] js_eo@10:[0.321510] js_dp@20:[0.239986] js_eo@20:[0.309375] js_dp@30:[0.232406] js_eo@30:[0.303693] 
+save successful
+epoch: 87, bpr_loss:0.037970 emb_loss:0.020504 
+ndcg@10:[0.171733] ndcg@20:[0.216282] ndcg@30:[0.243858] recall@10:[0.137045] recall@20:[0.210424] recall@30:[0.264045] js_dp@10:[0.254075] js_eo@10:[0.321913] js_dp@20:[0.240446] js_eo@20:[0.309464] js_dp@30:[0.232916] js_eo@30:[0.303129] 
+save successful
+epoch: 88, bpr_loss:0.038127 emb_loss:0.020528 
+ndcg@10:[0.172126] ndcg@20:[0.216739] ndcg@30:[0.244266] recall@10:[0.137312] recall@20:[0.210796] recall@30:[0.264319] js_dp@10:[0.254665] js_eo@10:[0.322242] js_dp@20:[0.241369] js_eo@20:[0.310359] js_dp@30:[0.233580] js_eo@30:[0.304052] 
+save successful
+epoch: 89, bpr_loss:0.037807 emb_loss:0.020544 
+ndcg@10:[0.172589] ndcg@20:[0.217263] ndcg@30:[0.244758] recall@10:[0.137759] recall@20:[0.211354] recall@30:[0.264809] js_dp@10:[0.255320] js_eo@10:[0.321833] js_dp@20:[0.241580] js_eo@20:[0.310387] js_dp@30:[0.233742] js_eo@30:[0.303768] 
+save successful
+epoch: 90, bpr_loss:0.037335 emb_loss:0.020593 
+ndcg@10:[0.172907] ndcg@20:[0.217617] ndcg@30:[0.245240] recall@10:[0.137963] recall@20:[0.211579] recall@30:[0.265308] js_dp@10:[0.255856] js_eo@10:[0.322439] js_dp@20:[0.242057] js_eo@20:[0.310557] js_dp@30:[0.234184] js_eo@30:[0.304310] 
+save successful
+epoch: 91, bpr_loss:0.036974 emb_loss:0.020610 
+ndcg@10:[0.173286] ndcg@20:[0.217939] ndcg@30:[0.245660] recall@10:[0.138287] recall@20:[0.211800] recall@30:[0.265726] js_dp@10:[0.256876] js_eo@10:[0.323522] js_dp@20:[0.242647] js_eo@20:[0.311093] js_dp@30:[0.234573] js_eo@30:[0.304714] 
+save successful
+epoch: 92, bpr_loss:0.037027 emb_loss:0.020636 
+ndcg@10:[0.173342] ndcg@20:[0.218042] ndcg@30:[0.245836] recall@10:[0.138436] recall@20:[0.212024] recall@30:[0.266092] js_dp@10:[0.257369] js_eo@10:[0.324660] js_dp@20:[0.243114] js_eo@20:[0.311845] js_dp@30:[0.234986] js_eo@30:[0.305643] 
+save successful
+epoch: 93, bpr_loss:0.036718 emb_loss:0.020650 
+ndcg@10:[0.173598] ndcg@20:[0.218395] ndcg@30:[0.246167] recall@10:[0.138641] recall@20:[0.212378] recall@30:[0.266443] js_dp@10:[0.257879] js_eo@10:[0.324347] js_dp@20:[0.243355] js_eo@20:[0.312027] js_dp@30:[0.235632] js_eo@30:[0.306127] 
+save successful
+epoch: 94, bpr_loss:0.036352 emb_loss:0.020689 
+ndcg@10:[0.174139] ndcg@20:[0.218969] ndcg@30:[0.246785] recall@10:[0.139055] recall@20:[0.212883] recall@30:[0.267007] js_dp@10:[0.258501] js_eo@10:[0.325081] js_dp@20:[0.243544] js_eo@20:[0.312304] js_dp@30:[0.235862] js_eo@30:[0.306559] 
+save successful
+epoch: 95, bpr_loss:0.035776 emb_loss:0.020718 
+ndcg@10:[0.174493] ndcg@20:[0.219509] ndcg@30:[0.247174] recall@10:[0.139348] recall@20:[0.213503] recall@30:[0.267368] js_dp@10:[0.258446] js_eo@10:[0.325646] js_dp@20:[0.243546] js_eo@20:[0.311807] js_dp@30:[0.235956] js_eo@30:[0.306188] 
+save successful
+epoch: 96, bpr_loss:0.035752 emb_loss:0.020772 
+ndcg@10:[0.174946] ndcg@20:[0.219853] ndcg@30:[0.247670] recall@10:[0.139703] recall@20:[0.213648] recall@30:[0.267797] js_dp@10:[0.258832] js_eo@10:[0.325590] js_dp@20:[0.244002] js_eo@20:[0.312059] js_dp@30:[0.236380] js_eo@30:[0.306287] 
+save successful
+epoch: 97, bpr_loss:0.035577 emb_loss:0.020783 
+ndcg@10:[0.175093] ndcg@20:[0.220192] ndcg@30:[0.248018] recall@10:[0.139694] recall@20:[0.213985] recall@30:[0.268118] js_dp@10:[0.258935] js_eo@10:[0.325466] js_dp@20:[0.244482] js_eo@20:[0.313643] js_dp@30:[0.236925] js_eo@30:[0.306746] 
+save successful
+epoch: 98, bpr_loss:0.035291 emb_loss:0.020796 
+ndcg@10:[0.175489] ndcg@20:[0.220497] ndcg@30:[0.248353] recall@10:[0.140120] recall@20:[0.214244] recall@30:[0.268450] js_dp@10:[0.259090] js_eo@10:[0.326432] js_dp@20:[0.244711] js_eo@20:[0.313418] js_dp@30:[0.237253] js_eo@30:[0.307050] 
+save successful
+epoch: 99, bpr_loss:0.035295 emb_loss:0.020792 
+ndcg@10:[0.175574] ndcg@20:[0.220588] ndcg@30:[0.248526] recall@10:[0.140243] recall@20:[0.214383] recall@30:[0.268742] js_dp@10:[0.259576] js_eo@10:[0.328048] js_dp@20:[0.245102] js_eo@20:[0.314448] js_dp@30:[0.237537] js_eo@30:[0.307668] 
+save successful
+epoch: 100, bpr_loss:0.035226 emb_loss:0.020823 
+ndcg@10:[0.175823] ndcg@20:[0.220973] ndcg@30:[0.248840] recall@10:[0.140422] recall@20:[0.214833] recall@30:[0.269075] js_dp@10:[0.260165] js_eo@10:[0.328138] js_dp@20:[0.245624] js_eo@20:[0.314596] js_dp@30:[0.237976] js_eo@30:[0.307792] 
+save successful
+epoch: 101, bpr_loss:0.034655 emb_loss:0.020847 
+ndcg@10:[0.176051] ndcg@20:[0.221164] ndcg@30:[0.249074] recall@10:[0.140729] recall@20:[0.215086] recall@30:[0.269387] js_dp@10:[0.260054] js_eo@10:[0.328129] js_dp@20:[0.245989] js_eo@20:[0.314519] js_dp@30:[0.238250] js_eo@30:[0.308439] 
+save successful
+epoch: 102, bpr_loss:0.034487 emb_loss:0.020881 
+ndcg@10:[0.176268] ndcg@20:[0.221548] ndcg@30:[0.249501] recall@10:[0.140760] recall@20:[0.215373] recall@30:[0.269775] js_dp@10:[0.260214] js_eo@10:[0.327300] js_dp@20:[0.246023] js_eo@20:[0.314359] js_dp@30:[0.238354] js_eo@30:[0.308737] 
+save successful
+epoch: 103, bpr_loss:0.034027 emb_loss:0.020897 
+ndcg@10:[0.176489] ndcg@20:[0.221854] ndcg@30:[0.249796] recall@10:[0.140863] recall@20:[0.215588] recall@30:[0.269970] js_dp@10:[0.260865] js_eo@10:[0.327422] js_dp@20:[0.246391] js_eo@20:[0.315324] js_dp@30:[0.238855] js_eo@30:[0.308666] 
+save successful
+epoch: 104, bpr_loss:0.034014 emb_loss:0.020928 
+ndcg@10:[0.177088] ndcg@20:[0.222489] ndcg@30:[0.250196] recall@10:[0.141377] recall@20:[0.216198] recall@30:[0.270111] js_dp@10:[0.261126] js_eo@10:[0.327499] js_dp@20:[0.246795] js_eo@20:[0.315162] js_dp@30:[0.239096] js_eo@30:[0.309072] 
+save successful
+epoch: 105, bpr_loss:0.034089 emb_loss:0.020949 
+ndcg@10:[0.177328] ndcg@20:[0.222672] ndcg@30:[0.250556] recall@10:[0.141576] recall@20:[0.216280] recall@30:[0.270536] js_dp@10:[0.261356] js_eo@10:[0.327252] js_dp@20:[0.246952] js_eo@20:[0.315144] js_dp@30:[0.239399] js_eo@30:[0.309127] 
+save successful
+epoch: 106, bpr_loss:0.033502 emb_loss:0.020964 
+ndcg@10:[0.177508] ndcg@20:[0.222880] ndcg@30:[0.250818] recall@10:[0.141681] recall@20:[0.216448] recall@30:[0.270773] js_dp@10:[0.261795] js_eo@10:[0.327602] js_dp@20:[0.247444] js_eo@20:[0.316136] js_dp@30:[0.239510] js_eo@30:[0.309303] 
+save successful
+epoch: 107, bpr_loss:0.033355 emb_loss:0.020989 
+ndcg@10:[0.177499] ndcg@20:[0.222949] ndcg@30:[0.250957] recall@10:[0.141778] recall@20:[0.216612] recall@30:[0.271123] js_dp@10:[0.262353] js_eo@10:[0.328379] js_dp@20:[0.247919] js_eo@20:[0.315990] js_dp@30:[0.240028] js_eo@30:[0.309446] 
+epoch: 108, bpr_loss:0.033261 emb_loss:0.020999 
+ndcg@10:[0.177918] ndcg@20:[0.223464] ndcg@30:[0.251449] recall@10:[0.142008] recall@20:[0.217032] recall@30:[0.271512] js_dp@10:[0.262859] js_eo@10:[0.328600] js_dp@20:[0.248156] js_eo@20:[0.316471] js_dp@30:[0.240198] js_eo@30:[0.309617] 
+save successful
+epoch: 109, bpr_loss:0.032896 emb_loss:0.021035 
+ndcg@10:[0.178296] ndcg@20:[0.223917] ndcg@30:[0.251955] recall@10:[0.142227] recall@20:[0.217358] recall@30:[0.271973] js_dp@10:[0.262805] js_eo@10:[0.328733] js_dp@20:[0.248577] js_eo@20:[0.316618] js_dp@30:[0.240416] js_eo@30:[0.309861] 
+save successful
+epoch: 110, bpr_loss:0.032713 emb_loss:0.021046 
+ndcg@10:[0.178374] ndcg@20:[0.224011] ndcg@30:[0.251969] recall@10:[0.142412] recall@20:[0.217586] recall@30:[0.272030] js_dp@10:[0.263422] js_eo@10:[0.328466] js_dp@20:[0.248589] js_eo@20:[0.317125] js_dp@30:[0.240641] js_eo@30:[0.310241] 
+save successful
+epoch: 111, bpr_loss:0.032884 emb_loss:0.021071 
+ndcg@10:[0.178706] ndcg@20:[0.224412] ndcg@30:[0.252346] recall@10:[0.142653] recall@20:[0.217951] recall@30:[0.272346] js_dp@10:[0.263780] js_eo@10:[0.329172] js_dp@20:[0.249244] js_eo@20:[0.317467] js_dp@30:[0.241102] js_eo@30:[0.310417] 
+save successful
+epoch: 112, bpr_loss:0.032479 emb_loss:0.021067 
+ndcg@10:[0.178964] ndcg@20:[0.224639] ndcg@30:[0.252690] recall@10:[0.142922] recall@20:[0.218156] recall@30:[0.272769] js_dp@10:[0.264218] js_eo@10:[0.329747] js_dp@20:[0.249786] js_eo@20:[0.318151] js_dp@30:[0.241633] js_eo@30:[0.310655] 
+save successful
+epoch: 113, bpr_loss:0.032183 emb_loss:0.021077 
+ndcg@10:[0.179262] ndcg@20:[0.224992] ndcg@30:[0.253144] recall@10:[0.143088] recall@20:[0.218418] recall@30:[0.273200] js_dp@10:[0.264678] js_eo@10:[0.329369] js_dp@20:[0.250157] js_eo@20:[0.318092] js_dp@30:[0.241936] js_eo@30:[0.311334] 
+save successful
+epoch: 114, bpr_loss:0.032141 emb_loss:0.021086 
+ndcg@10:[0.179412] ndcg@20:[0.225224] ndcg@30:[0.253353] recall@10:[0.143187] recall@20:[0.218659] recall@30:[0.273355] js_dp@10:[0.264992] js_eo@10:[0.330006] js_dp@20:[0.250530] js_eo@20:[0.318258] js_dp@30:[0.242237] js_eo@30:[0.311254] 
+save successful
+epoch: 115, bpr_loss:0.031845 emb_loss:0.021122 
+ndcg@10:[0.179681] ndcg@20:[0.225470] ndcg@30:[0.253605] recall@10:[0.143434] recall@20:[0.218870] recall@30:[0.273600] js_dp@10:[0.265097] js_eo@10:[0.329678] js_dp@20:[0.250723] js_eo@20:[0.318525] js_dp@30:[0.242491] js_eo@30:[0.311195] 
+save successful
+epoch: 116, bpr_loss:0.031746 emb_loss:0.021115 
+ndcg@10:[0.179792] ndcg@20:[0.225707] ndcg@30:[0.253955] recall@10:[0.143449] recall@20:[0.219063] recall@30:[0.274034] js_dp@10:[0.265589] js_eo@10:[0.330061] js_dp@20:[0.250780] js_eo@20:[0.319109] js_dp@30:[0.242913] js_eo@30:[0.311076] 
+save successful
+epoch: 117, bpr_loss:0.031856 emb_loss:0.021135 
+ndcg@10:[0.180079] ndcg@20:[0.226084] ndcg@30:[0.254277] recall@10:[0.143661] recall@20:[0.219394] recall@30:[0.274267] js_dp@10:[0.266042] js_eo@10:[0.331811] js_dp@20:[0.250748] js_eo@20:[0.319220] js_dp@30:[0.242970] js_eo@30:[0.311338] 
+save successful
+epoch: 118, bpr_loss:0.031441 emb_loss:0.021164 
+ndcg@10:[0.180404] ndcg@20:[0.226317] ndcg@30:[0.254586] recall@10:[0.143960] recall@20:[0.219517] recall@30:[0.274556] js_dp@10:[0.265660] js_eo@10:[0.330064] js_dp@20:[0.251206] js_eo@20:[0.320274] js_dp@30:[0.243186] js_eo@30:[0.311323] 
+save successful
+epoch: 119, bpr_loss:0.030963 emb_loss:0.021190 
+ndcg@10:[0.180699] ndcg@20:[0.226738] ndcg@30:[0.255100] recall@10:[0.144113] recall@20:[0.219908] recall@30:[0.275159] js_dp@10:[0.266152] js_eo@10:[0.330308] js_dp@20:[0.251375] js_eo@20:[0.319688] js_dp@30:[0.243072] js_eo@30:[0.311133] 
+save successful
+epoch: 120, bpr_loss:0.031039 emb_loss:0.021207 
+ndcg@10:[0.180766] ndcg@20:[0.226737] ndcg@30:[0.255093] recall@10:[0.144299] recall@20:[0.219972] recall@30:[0.275166] js_dp@10:[0.266597] js_eo@10:[0.332146] js_dp@20:[0.251818] js_eo@20:[0.319530] js_dp@30:[0.243716] js_eo@30:[0.311541] 
+save successful
+epoch: 121, bpr_loss:0.030923 emb_loss:0.021210 
+ndcg@10:[0.181045] ndcg@20:[0.227088] ndcg@30:[0.255343] recall@10:[0.144488] recall@20:[0.220296] recall@30:[0.275337] js_dp@10:[0.267301] js_eo@10:[0.331622] js_dp@20:[0.252269] js_eo@20:[0.319611] js_dp@30:[0.244235] js_eo@30:[0.312000] 
+save successful
+epoch: 122, bpr_loss:0.030722 emb_loss:0.021211 
+ndcg@10:[0.181233] ndcg@20:[0.227191] ndcg@30:[0.255497] recall@10:[0.144651] recall@20:[0.220331] recall@30:[0.275454] js_dp@10:[0.267774] js_eo@10:[0.332746] js_dp@20:[0.252649] js_eo@20:[0.320435] js_dp@30:[0.244130] js_eo@30:[0.312801] 
+save successful
+epoch: 123, bpr_loss:0.030556 emb_loss:0.021226 
+ndcg@10:[0.181276] ndcg@20:[0.227343] ndcg@30:[0.255671] recall@10:[0.144696] recall@20:[0.220518] recall@30:[0.275665] js_dp@10:[0.268196] js_eo@10:[0.333142] js_dp@20:[0.252831] js_eo@20:[0.320408] js_dp@30:[0.244429] js_eo@30:[0.312973] 
+save successful
+epoch: 124, bpr_loss:0.030403 emb_loss:0.021272 
+ndcg@10:[0.181645] ndcg@20:[0.227528] ndcg@30:[0.256076] recall@10:[0.144971] recall@20:[0.220460] recall@30:[0.276050] js_dp@10:[0.268691] js_eo@10:[0.331816] js_dp@20:[0.253080] js_eo@20:[0.320781] js_dp@30:[0.244520] js_eo@30:[0.313060] 
+save successful
+epoch: 125, bpr_loss:0.030637 emb_loss:0.021255 
+ndcg@10:[0.181655] ndcg@20:[0.227786] ndcg@30:[0.256249] recall@10:[0.144945] recall@20:[0.220856] recall@30:[0.276240] js_dp@10:[0.269008] js_eo@10:[0.332277] js_dp@20:[0.253535] js_eo@20:[0.320451] js_dp@30:[0.245119] js_eo@30:[0.313508] 
+save successful
+epoch: 126, bpr_loss:0.030182 emb_loss:0.021271 
+ndcg@10:[0.181945] ndcg@20:[0.228140] ndcg@30:[0.256474] recall@10:[0.145267] recall@20:[0.221300] recall@30:[0.276435] js_dp@10:[0.268909] js_eo@10:[0.333747] js_dp@20:[0.253322] js_eo@20:[0.320705] js_dp@30:[0.244749] js_eo@30:[0.313111] 
+save successful
+epoch: 127, bpr_loss:0.029985 emb_loss:0.021298 
+ndcg@10:[0.182056] ndcg@20:[0.228255] ndcg@30:[0.256638] recall@10:[0.145289] recall@20:[0.221313] recall@30:[0.276630] js_dp@10:[0.269048] js_eo@10:[0.333934] js_dp@20:[0.253698] js_eo@20:[0.321092] js_dp@30:[0.245213] js_eo@30:[0.313488] 
+save successful
+epoch: 128, bpr_loss:0.029914 emb_loss:0.021304 
+ndcg@10:[0.182100] ndcg@20:[0.228435] ndcg@30:[0.256881] recall@10:[0.145394] recall@20:[0.221628] recall@30:[0.277019] js_dp@10:[0.269440] js_eo@10:[0.334052] js_dp@20:[0.253783] js_eo@20:[0.321394] js_dp@30:[0.245527] js_eo@30:[0.313523] 
+save successful
+epoch: 129, bpr_loss:0.029440 emb_loss:0.021316 
+ndcg@10:[0.182416] ndcg@20:[0.228715] ndcg@30:[0.257126] recall@10:[0.145750] recall@20:[0.221933] recall@30:[0.277262] js_dp@10:[0.269218] js_eo@10:[0.334724] js_dp@20:[0.254003] js_eo@20:[0.321600] js_dp@30:[0.245630] js_eo@30:[0.313561] 
+save successful
+epoch: 130, bpr_loss:0.029443 emb_loss:0.021344 
+ndcg@10:[0.182474] ndcg@20:[0.228834] ndcg@30:[0.257314] recall@10:[0.145753] recall@20:[0.222017] recall@30:[0.277488] js_dp@10:[0.269865] js_eo@10:[0.334759] js_dp@20:[0.254370] js_eo@20:[0.321707] js_dp@30:[0.246032] js_eo@30:[0.313550] 
+save successful
+epoch: 131, bpr_loss:0.029380 emb_loss:0.021338 
+ndcg@10:[0.182440] ndcg@20:[0.228840] ndcg@30:[0.257423] recall@10:[0.145770] recall@20:[0.222120] recall@30:[0.277790] js_dp@10:[0.269924] js_eo@10:[0.334399] js_dp@20:[0.254880] js_eo@20:[0.321450] js_dp@30:[0.246434] js_eo@30:[0.313996] 
+epoch: 132, bpr_loss:0.029199 emb_loss:0.021367 
+ndcg@10:[0.182680] ndcg@20:[0.229178] ndcg@30:[0.257652] recall@10:[0.145951] recall@20:[0.222463] recall@30:[0.277945] js_dp@10:[0.269754] js_eo@10:[0.334961] js_dp@20:[0.254984] js_eo@20:[0.322046] js_dp@30:[0.246408] js_eo@30:[0.314310] 
+save successful
+epoch: 133, bpr_loss:0.029271 emb_loss:0.021333 
+ndcg@10:[0.182603] ndcg@20:[0.229134] ndcg@30:[0.257575] recall@10:[0.145940] recall@20:[0.222516] recall@30:[0.277894] js_dp@10:[0.270540] js_eo@10:[0.335245] js_dp@20:[0.255781] js_eo@20:[0.323044] js_dp@30:[0.246930] js_eo@30:[0.315198] 
+epoch: 134, bpr_loss:0.028953 emb_loss:0.021356 
+ndcg@10:[0.182891] ndcg@20:[0.229456] ndcg@30:[0.258007] recall@10:[0.146067] recall@20:[0.222671] recall@30:[0.278258] js_dp@10:[0.270228] js_eo@10:[0.334390] js_dp@20:[0.255864] js_eo@20:[0.322567] js_dp@30:[0.247090] js_eo@30:[0.315232] 
+save successful
+epoch: 135, bpr_loss:0.028849 emb_loss:0.021372 
+ndcg@10:[0.183161] ndcg@20:[0.229622] ndcg@30:[0.258305] recall@10:[0.146325] recall@20:[0.222731] recall@30:[0.278590] js_dp@10:[0.270393] js_eo@10:[0.334346] js_dp@20:[0.255805] js_eo@20:[0.322097] js_dp@30:[0.247000] js_eo@30:[0.315213] 
+save successful
+epoch: 136, bpr_loss:0.028881 emb_loss:0.021400 
+ndcg@10:[0.183366] ndcg@20:[0.229915] ndcg@30:[0.258549] recall@10:[0.146588] recall@20:[0.223201] recall@30:[0.278959] js_dp@10:[0.270930] js_eo@10:[0.334514] js_dp@20:[0.255783] js_eo@20:[0.322287] js_dp@30:[0.247200] js_eo@30:[0.315353] 
+save successful
+epoch: 137, bpr_loss:0.028342 emb_loss:0.021409 
+ndcg@10:[0.183612] ndcg@20:[0.230257] ndcg@30:[0.258874] recall@10:[0.146675] recall@20:[0.223444] recall@30:[0.279148] js_dp@10:[0.271195] js_eo@10:[0.334776] js_dp@20:[0.255759] js_eo@20:[0.322333] js_dp@30:[0.247301] js_eo@30:[0.315283] 
+save successful
+epoch: 138, bpr_loss:0.028483 emb_loss:0.021408 
+ndcg@10:[0.183635] ndcg@20:[0.230467] ndcg@30:[0.258948] recall@10:[0.146689] recall@20:[0.223774] recall@30:[0.279217] js_dp@10:[0.271502] js_eo@10:[0.334665] js_dp@20:[0.256039] js_eo@20:[0.322290] js_dp@30:[0.247678] js_eo@30:[0.315742] 
+save successful
+epoch: 139, bpr_loss:0.028399 emb_loss:0.021416 
+ndcg@10:[0.183768] ndcg@20:[0.230558] ndcg@30:[0.259110] recall@10:[0.146834] recall@20:[0.223838] recall@30:[0.279424] js_dp@10:[0.271559] js_eo@10:[0.336026] js_dp@20:[0.256822] js_eo@20:[0.323215] js_dp@30:[0.248090] js_eo@30:[0.315668] 
+save successful
+epoch: 140, bpr_loss:0.028214 emb_loss:0.021422 
+ndcg@10:[0.183922] ndcg@20:[0.230781] ndcg@30:[0.259271] recall@10:[0.146957] recall@20:[0.224042] recall@30:[0.279514] js_dp@10:[0.272178] js_eo@10:[0.336818] js_dp@20:[0.256928] js_eo@20:[0.323352] js_dp@30:[0.247769] js_eo@30:[0.315646] 
+save successful
+epoch: 141, bpr_loss:0.027875 emb_loss:0.021449 
+ndcg@10:[0.184389] ndcg@20:[0.231139] ndcg@30:[0.259721] recall@10:[0.147334] recall@20:[0.224264] recall@30:[0.279887] js_dp@10:[0.271967] js_eo@10:[0.336914] js_dp@20:[0.256910] js_eo@20:[0.322962] js_dp@30:[0.247938] js_eo@30:[0.315827] 
+save successful
+epoch: 142, bpr_loss:0.027843 emb_loss:0.021452 
+ndcg@10:[0.184208] ndcg@20:[0.231082] ndcg@30:[0.259713] recall@10:[0.147161] recall@20:[0.224279] recall@30:[0.279969] js_dp@10:[0.272218] js_eo@10:[0.338143] js_dp@20:[0.257172] js_eo@20:[0.323505] js_dp@30:[0.248241] js_eo@30:[0.315778] 
+epoch: 143, bpr_loss:0.027650 emb_loss:0.021469 
+ndcg@10:[0.184488] ndcg@20:[0.231328] ndcg@30:[0.260065] recall@10:[0.147498] recall@20:[0.224550] recall@30:[0.280491] js_dp@10:[0.272668] js_eo@10:[0.337581] js_dp@20:[0.257284] js_eo@20:[0.324398] js_dp@30:[0.248311] js_eo@30:[0.315654] 
+save successful
+epoch: 144, bpr_loss:0.027534 emb_loss:0.021488 
+ndcg@10:[0.184596] ndcg@20:[0.231434] ndcg@30:[0.260302] recall@10:[0.147547] recall@20:[0.224564] recall@30:[0.280759] js_dp@10:[0.272436] js_eo@10:[0.337859] js_dp@20:[0.257161] js_eo@20:[0.324178] js_dp@30:[0.248239] js_eo@30:[0.315616] 
+save successful
+epoch: 145, bpr_loss:0.027488 emb_loss:0.021485 
+ndcg@10:[0.184690] ndcg@20:[0.231482] ndcg@30:[0.260266] recall@10:[0.147627] recall@20:[0.224544] recall@30:[0.280594] js_dp@10:[0.272712] js_eo@10:[0.337353] js_dp@20:[0.257551] js_eo@20:[0.324199] js_dp@30:[0.248654] js_eo@30:[0.315984] 
+save successful
+epoch: 146, bpr_loss:0.027404 emb_loss:0.021481 
+ndcg@10:[0.184903] ndcg@20:[0.231875] ndcg@30:[0.260686] recall@10:[0.147691] recall@20:[0.224922] recall@30:[0.280988] js_dp@10:[0.272894] js_eo@10:[0.338282] js_dp@20:[0.257434] js_eo@20:[0.323717] js_dp@30:[0.248557] js_eo@30:[0.316314] 
+save successful
+epoch: 147, bpr_loss:0.027196 emb_loss:0.021498 
+ndcg@10:[0.184941] ndcg@20:[0.231911] ndcg@30:[0.260647] recall@10:[0.147722] recall@20:[0.224930] recall@30:[0.280813] js_dp@10:[0.273533] js_eo@10:[0.338414] js_dp@20:[0.258245] js_eo@20:[0.324828] js_dp@30:[0.248787] js_eo@30:[0.316678] 
+save successful
+epoch: 148, bpr_loss:0.027003 emb_loss:0.021502 
+ndcg@10:[0.185102] ndcg@20:[0.232092] ndcg@30:[0.260903] recall@10:[0.147851] recall@20:[0.225111] recall@30:[0.281213] js_dp@10:[0.273716] js_eo@10:[0.337657] js_dp@20:[0.258445] js_eo@20:[0.325050] js_dp@30:[0.248958] js_eo@30:[0.316402] 
+save successful
+epoch: 149, bpr_loss:0.026860 emb_loss:0.021514 
+ndcg@10:[0.185335] ndcg@20:[0.232294] ndcg@30:[0.261096] recall@10:[0.148101] recall@20:[0.225366] recall@30:[0.281421] js_dp@10:[0.273644] js_eo@10:[0.337870] js_dp@20:[0.258476] js_eo@20:[0.324970] js_dp@30:[0.248896] js_eo@30:[0.316375] 
+save successful
+epoch: 150, bpr_loss:0.026667 emb_loss:0.021533 
+ndcg@10:[0.185602] ndcg@20:[0.232472] ndcg@30:[0.261384] recall@10:[0.148289] recall@20:[0.225335] recall@30:[0.281612] js_dp@10:[0.274048] js_eo@10:[0.338023] js_dp@20:[0.258843] js_eo@20:[0.325027] js_dp@30:[0.249385] js_eo@30:[0.317206] 
+save successful
+epoch: 151, bpr_loss:0.026788 emb_loss:0.021516 
+ndcg@10:[0.185743] ndcg@20:[0.232616] ndcg@30:[0.261519] recall@10:[0.148464] recall@20:[0.225507] recall@30:[0.281739] js_dp@10:[0.274358] js_eo@10:[0.338612] js_dp@20:[0.259185] js_eo@20:[0.325668] js_dp@30:[0.249639] js_eo@30:[0.317083] 
+save successful
+epoch: 152, bpr_loss:0.026618 emb_loss:0.021544 
+ndcg@10:[0.185993] ndcg@20:[0.232907] ndcg@30:[0.261800] recall@10:[0.148661] recall@20:[0.225770] recall@30:[0.282031] js_dp@10:[0.274522] js_eo@10:[0.338926] js_dp@20:[0.259072] js_eo@20:[0.325494] js_dp@30:[0.249659] js_eo@30:[0.317358] 
+save successful
+epoch: 153, bpr_loss:0.026748 emb_loss:0.021544 
+ndcg@10:[0.186038] ndcg@20:[0.232929] ndcg@30:[0.261780] recall@10:[0.148628] recall@20:[0.225750] recall@30:[0.281894] js_dp@10:[0.274548] js_eo@10:[0.338206] js_dp@20:[0.259093] js_eo@20:[0.325645] js_dp@30:[0.250042] js_eo@30:[0.317570] 
+save successful
+epoch: 154, bpr_loss:0.026460 emb_loss:0.021528 
+ndcg@10:[0.186009] ndcg@20:[0.232907] ndcg@30:[0.261795] recall@10:[0.148557] recall@20:[0.225675] recall@30:[0.281907] js_dp@10:[0.274865] js_eo@10:[0.338649] js_dp@20:[0.259465] js_eo@20:[0.325371] js_dp@30:[0.250268] js_eo@30:[0.317976] 
+epoch: 155, bpr_loss:0.026597 emb_loss:0.021520 
+ndcg@10:[0.186188] ndcg@20:[0.233152] ndcg@30:[0.262053] recall@10:[0.148680] recall@20:[0.225935] recall@30:[0.282191] js_dp@10:[0.275113] js_eo@10:[0.338523] js_dp@20:[0.259091] js_eo@20:[0.325878] js_dp@30:[0.250055] js_eo@30:[0.317132] 
+save successful
+epoch: 156, bpr_loss:0.026034 emb_loss:0.021546 
+ndcg@10:[0.186584] ndcg@20:[0.233445] ndcg@30:[0.262255] recall@10:[0.149078] recall@20:[0.226204] recall@30:[0.282290] js_dp@10:[0.275075] js_eo@10:[0.339635] js_dp@20:[0.259491] js_eo@20:[0.325418] js_dp@30:[0.250362] js_eo@30:[0.317669] 
+save successful
+epoch: 157, bpr_loss:0.026314 emb_loss:0.021543 
+ndcg@10:[0.186532] ndcg@20:[0.233578] ndcg@30:[0.262437] recall@10:[0.148834] recall@20:[0.226232] recall@30:[0.282433] js_dp@10:[0.275385] js_eo@10:[0.339196] js_dp@20:[0.259796] js_eo@20:[0.325754] js_dp@30:[0.250619] js_eo@30:[0.318393] 
+epoch: 158, bpr_loss:0.026098 emb_loss:0.021533 
+ndcg@10:[0.186520] ndcg@20:[0.233654] ndcg@30:[0.262536] recall@10:[0.148840] recall@20:[0.226369] recall@30:[0.282615] js_dp@10:[0.275474] js_eo@10:[0.339295] js_dp@20:[0.259717] js_eo@20:[0.325783] js_dp@30:[0.250507] js_eo@30:[0.318262] 
+epoch: 159, bpr_loss:0.025861 emb_loss:0.021558 
+ndcg@10:[0.186804] ndcg@20:[0.233745] ndcg@30:[0.262673] recall@10:[0.149176] recall@20:[0.226353] recall@30:[0.282710] js_dp@10:[0.275467] js_eo@10:[0.339285] js_dp@20:[0.260027] js_eo@20:[0.325315] js_dp@30:[0.250814] js_eo@30:[0.318281] 
+save successful
+epoch: 160, bpr_loss:0.025901 emb_loss:0.021551 
+ndcg@10:[0.186722] ndcg@20:[0.233736] ndcg@30:[0.262620] recall@10:[0.149127] recall@20:[0.226479] recall@30:[0.282708] js_dp@10:[0.276173] js_eo@10:[0.340297] js_dp@20:[0.260355] js_eo@20:[0.326072] js_dp@30:[0.251045] js_eo@30:[0.318336] 
+epoch: 161, bpr_loss:0.025809 emb_loss:0.021557 
+ndcg@10:[0.186771] ndcg@20:[0.233913] ndcg@30:[0.262739] recall@10:[0.149166] recall@20:[0.226728] recall@30:[0.282852] js_dp@10:[0.276499] js_eo@10:[0.341228] js_dp@20:[0.260400] js_eo@20:[0.326291] js_dp@30:[0.250997] js_eo@30:[0.318389] 
+epoch: 162, bpr_loss:0.025484 emb_loss:0.021581 
+ndcg@10:[0.187005] ndcg@20:[0.234075] ndcg@30:[0.263002] recall@10:[0.149293] recall@20:[0.226697] recall@30:[0.283036] js_dp@10:[0.275720] js_eo@10:[0.340311] js_dp@20:[0.260361] js_eo@20:[0.326048] js_dp@30:[0.251125] js_eo@30:[0.318635] 
+save successful
+epoch: 163, bpr_loss:0.025609 emb_loss:0.021577 
+ndcg@10:[0.187061] ndcg@20:[0.234276] ndcg@30:[0.262971] recall@10:[0.149350] recall@20:[0.227039] recall@30:[0.282891] js_dp@10:[0.276044] js_eo@10:[0.341032] js_dp@20:[0.259995] js_eo@20:[0.326458] js_dp@30:[0.251072] js_eo@30:[0.318768] 
+save successful
+epoch: 164, bpr_loss:0.025547 emb_loss:0.021572 
+ndcg@10:[0.187099] ndcg@20:[0.234278] ndcg@30:[0.263124] recall@10:[0.149410] recall@20:[0.227022] recall@30:[0.283168] js_dp@10:[0.276158] js_eo@10:[0.340893] js_dp@20:[0.260237] js_eo@20:[0.326926] js_dp@30:[0.251341] js_eo@30:[0.318153] 
+save successful
+epoch: 165, bpr_loss:0.025204 emb_loss:0.021582 
+ndcg@10:[0.187497] ndcg@20:[0.234750] ndcg@30:[0.263572] recall@10:[0.149643] recall@20:[0.227382] recall@30:[0.283508] js_dp@10:[0.276353] js_eo@10:[0.341079] js_dp@20:[0.259752] js_eo@20:[0.326481] js_dp@30:[0.251291] js_eo@30:[0.317373] 
+save successful
+epoch: 166, bpr_loss:0.025244 emb_loss:0.021603 
+ndcg@10:[0.187525] ndcg@20:[0.234911] ndcg@30:[0.263816] recall@10:[0.149626] recall@20:[0.227588] recall@30:[0.283884] js_dp@10:[0.276575] js_eo@10:[0.341172] js_dp@20:[0.260300] js_eo@20:[0.326169] js_dp@30:[0.251488] js_eo@30:[0.317996] 
+save successful
+epoch: 167, bpr_loss:0.025029 emb_loss:0.021612 
+ndcg@10:[0.187656] ndcg@20:[0.234936] ndcg@30:[0.263902] recall@10:[0.149829] recall@20:[0.227584] recall@30:[0.284018] js_dp@10:[0.276993] js_eo@10:[0.340749] js_dp@20:[0.260447] js_eo@20:[0.326746] js_dp@30:[0.251333] js_eo@30:[0.318030] 
+save successful
+epoch: 168, bpr_loss:0.025140 emb_loss:0.021621 
+ndcg@10:[0.187570] ndcg@20:[0.234939] ndcg@30:[0.263928] recall@10:[0.149783] recall@20:[0.227690] recall@30:[0.284177] js_dp@10:[0.276635] js_eo@10:[0.340471] js_dp@20:[0.260448] js_eo@20:[0.326710] js_dp@30:[0.251633] js_eo@30:[0.317794] 
+epoch: 169, bpr_loss:0.024949 emb_loss:0.021611 
+ndcg@10:[0.187708] ndcg@20:[0.235015] ndcg@30:[0.264019] recall@10:[0.150002] recall@20:[0.227812] recall@30:[0.284310] js_dp@10:[0.276900] js_eo@10:[0.341114] js_dp@20:[0.260787] js_eo@20:[0.326970] js_dp@30:[0.251930] js_eo@30:[0.317961] 
+save successful
+epoch: 170, bpr_loss:0.024922 emb_loss:0.021607 
+ndcg@10:[0.187674] ndcg@20:[0.235051] ndcg@30:[0.264009] recall@10:[0.149933] recall@20:[0.227902] recall@30:[0.284257] js_dp@10:[0.276899] js_eo@10:[0.340695] js_dp@20:[0.260727] js_eo@20:[0.326684] js_dp@30:[0.252028] js_eo@30:[0.317876] 
+epoch: 171, bpr_loss:0.024722 emb_loss:0.021599 
+ndcg@10:[0.187706] ndcg@20:[0.235015] ndcg@30:[0.264077] recall@10:[0.149945] recall@20:[0.227766] recall@30:[0.284332] js_dp@10:[0.277008] js_eo@10:[0.341262] js_dp@20:[0.260665] js_eo@20:[0.327049] js_dp@30:[0.252127] js_eo@30:[0.318351] 
+epoch: 172, bpr_loss:0.024590 emb_loss:0.021602 
+ndcg@10:[0.187896] ndcg@20:[0.235311] ndcg@30:[0.264337] recall@10:[0.150073] recall@20:[0.228080] recall@30:[0.284608] js_dp@10:[0.276959] js_eo@10:[0.341068] js_dp@20:[0.260637] js_eo@20:[0.326955] js_dp@30:[0.252267] js_eo@30:[0.318135] 
+save successful
+epoch: 173, bpr_loss:0.024644 emb_loss:0.021626 
+ndcg@10:[0.187989] ndcg@20:[0.235316] ndcg@30:[0.264476] recall@10:[0.150184] recall@20:[0.228058] recall@30:[0.284822] js_dp@10:[0.276736] js_eo@10:[0.341568] js_dp@20:[0.260608] js_eo@20:[0.326809] js_dp@30:[0.251963] js_eo@30:[0.317463] 
+save successful
+epoch: 174, bpr_loss:0.024407 emb_loss:0.021632 
+ndcg@10:[0.188303] ndcg@20:[0.235825] ndcg@30:[0.264911] recall@10:[0.150294] recall@20:[0.228520] recall@30:[0.285106] js_dp@10:[0.276885] js_eo@10:[0.340534] js_dp@20:[0.260894] js_eo@20:[0.327160] js_dp@30:[0.252144] js_eo@30:[0.317954] 
+save successful
+epoch: 175, bpr_loss:0.024560 emb_loss:0.021642 
+ndcg@10:[0.188335] ndcg@20:[0.235597] ndcg@30:[0.264870] recall@10:[0.150417] recall@20:[0.228188] recall@30:[0.285179] js_dp@10:[0.277567] js_eo@10:[0.342101] js_dp@20:[0.260989] js_eo@20:[0.327323] js_dp@30:[0.252316] js_eo@30:[0.318039] 
+save successful
+epoch: 176, bpr_loss:0.024314 emb_loss:0.021621 
+ndcg@10:[0.188389] ndcg@20:[0.235679] ndcg@30:[0.264859] recall@10:[0.150462] recall@20:[0.228283] recall@30:[0.285052] js_dp@10:[0.277673] js_eo@10:[0.342282] js_dp@20:[0.261200] js_eo@20:[0.328024] js_dp@30:[0.252418] js_eo@30:[0.318571] 
+save successful
+epoch: 177, bpr_loss:0.024272 emb_loss:0.021620 
+ndcg@10:[0.188525] ndcg@20:[0.235689] ndcg@30:[0.264822] recall@10:[0.150621] recall@20:[0.228281] recall@30:[0.284940] js_dp@10:[0.278433] js_eo@10:[0.342202] js_dp@20:[0.261352] js_eo@20:[0.327919] js_dp@30:[0.252726] js_eo@30:[0.318539] 
+save successful
+epoch: 178, bpr_loss:0.024022 emb_loss:0.021620 
+ndcg@10:[0.188544] ndcg@20:[0.235922] ndcg@30:[0.264974] recall@10:[0.150589] recall@20:[0.228611] recall@30:[0.285133] js_dp@10:[0.278278] js_eo@10:[0.342065] js_dp@20:[0.261862] js_eo@20:[0.328255] js_dp@30:[0.252708] js_eo@30:[0.318743] 
+save successful
+epoch: 179, bpr_loss:0.023634 emb_loss:0.021638 
+ndcg@10:[0.188706] ndcg@20:[0.236054] ndcg@30:[0.265148] recall@10:[0.150787] recall@20:[0.228759] recall@30:[0.285341] js_dp@10:[0.278348] js_eo@10:[0.341442] js_dp@20:[0.261601] js_eo@20:[0.327545] js_dp@30:[0.252578] js_eo@30:[0.318528] 
+save successful
+epoch: 180, bpr_loss:0.023800 emb_loss:0.021668 
+ndcg@10:[0.188734] ndcg@20:[0.236171] ndcg@30:[0.265180] recall@10:[0.150818] recall@20:[0.228982] recall@30:[0.285416] js_dp@10:[0.278498] js_eo@10:[0.341760] js_dp@20:[0.261848] js_eo@20:[0.328271] js_dp@30:[0.252759] js_eo@30:[0.318979] 
+save successful
+epoch: 181, bpr_loss:0.023808 emb_loss:0.021648 
+ndcg@10:[0.188776] ndcg@20:[0.236032] ndcg@30:[0.265353] recall@10:[0.150896] recall@20:[0.228707] recall@30:[0.285759] js_dp@10:[0.278408] js_eo@10:[0.342209] js_dp@20:[0.262079] js_eo@20:[0.328065] js_dp@30:[0.252906] js_eo@30:[0.319142] 
+save successful
+epoch: 182, bpr_loss:0.023597 emb_loss:0.021654 
+ndcg@10:[0.189057] ndcg@20:[0.236398] ndcg@30:[0.265561] recall@10:[0.151092] recall@20:[0.229020] recall@30:[0.285799] js_dp@10:[0.278451] js_eo@10:[0.342259] js_dp@20:[0.261950] js_eo@20:[0.327898] js_dp@30:[0.252877] js_eo@30:[0.319339] 
+save successful
+epoch: 183, bpr_loss:0.023838 emb_loss:0.021656 
+ndcg@10:[0.189062] ndcg@20:[0.236473] ndcg@30:[0.265642] recall@10:[0.151003] recall@20:[0.229041] recall@30:[0.285807] js_dp@10:[0.278418] js_eo@10:[0.342547] js_dp@20:[0.261691] js_eo@20:[0.328617] js_dp@30:[0.252745] js_eo@30:[0.319191] 
+save successful
+epoch: 184, bpr_loss:0.023661 emb_loss:0.021664 
+ndcg@10:[0.189436] ndcg@20:[0.236784] ndcg@30:[0.266096] recall@10:[0.151240] recall@20:[0.229120] recall@30:[0.286177] js_dp@10:[0.278615] js_eo@10:[0.342658] js_dp@20:[0.261917] js_eo@20:[0.327898] js_dp@30:[0.252877] js_eo@30:[0.319595] 
+save successful
+epoch: 185, bpr_loss:0.023668 emb_loss:0.021674 
+ndcg@10:[0.189374] ndcg@20:[0.236806] ndcg@30:[0.266113] recall@10:[0.151174] recall@20:[0.229207] recall@30:[0.286248] js_dp@10:[0.278843] js_eo@10:[0.342767] js_dp@20:[0.261956] js_eo@20:[0.327766] js_dp@30:[0.252782] js_eo@30:[0.319642] 
+epoch: 186, bpr_loss:0.023197 emb_loss:0.021678 
+ndcg@10:[0.189624] ndcg@20:[0.237018] ndcg@30:[0.266235] recall@10:[0.151397] recall@20:[0.229408] recall@30:[0.286232] js_dp@10:[0.278974] js_eo@10:[0.343133] js_dp@20:[0.261980] js_eo@20:[0.327498] js_dp@30:[0.252606] js_eo@30:[0.319495] 
+save successful
+epoch: 187, bpr_loss:0.023400 emb_loss:0.021677 
+ndcg@10:[0.189314] ndcg@20:[0.236735] ndcg@30:[0.266165] recall@10:[0.151161] recall@20:[0.229192] recall@30:[0.286438] js_dp@10:[0.279294] js_eo@10:[0.343154] js_dp@20:[0.262326] js_eo@20:[0.328046] js_dp@30:[0.252739] js_eo@30:[0.319585] 
+epoch: 188, bpr_loss:0.023399 emb_loss:0.021658 
+ndcg@10:[0.189525] ndcg@20:[0.237083] ndcg@30:[0.266267] recall@10:[0.151375] recall@20:[0.229622] recall@30:[0.286385] js_dp@10:[0.279353] js_eo@10:[0.343720] js_dp@20:[0.262299] js_eo@20:[0.327825] js_dp@30:[0.252530] js_eo@30:[0.320200] 
+epoch: 189, bpr_loss:0.023246 emb_loss:0.021663 
+ndcg@10:[0.189576] ndcg@20:[0.237148] ndcg@30:[0.266387] recall@10:[0.151408] recall@20:[0.229653] recall@30:[0.286541] js_dp@10:[0.279589] js_eo@10:[0.343935] js_dp@20:[0.261930] js_eo@20:[0.328065] js_dp@30:[0.252586] js_eo@30:[0.319868] 
+epoch: 190, bpr_loss:0.023066 emb_loss:0.021676 
+ndcg@10:[0.189635] ndcg@20:[0.237061] ndcg@30:[0.266408] recall@10:[0.151573] recall@20:[0.229577] recall@30:[0.286664] js_dp@10:[0.280050] js_eo@10:[0.344697] js_dp@20:[0.262376] js_eo@20:[0.328494] js_dp@30:[0.252899] js_eo@30:[0.320465] 
+save successful
+epoch: 191, bpr_loss:0.022961 emb_loss:0.021670 
+ndcg@10:[0.189810] ndcg@20:[0.237426] ndcg@30:[0.266715] recall@10:[0.151594] recall@20:[0.229919] recall@30:[0.286886] js_dp@10:[0.280171] js_eo@10:[0.344879] js_dp@20:[0.262336] js_eo@20:[0.327823] js_dp@30:[0.252610] js_eo@30:[0.320572] 
+save successful
+epoch: 192, bpr_loss:0.022826 emb_loss:0.021701 
+ndcg@10:[0.189834] ndcg@20:[0.237423] ndcg@30:[0.266838] recall@10:[0.151565] recall@20:[0.229811] recall@30:[0.286986] js_dp@10:[0.279854] js_eo@10:[0.345047] js_dp@20:[0.262556] js_eo@20:[0.327739] js_dp@30:[0.252729] js_eo@30:[0.320658] 
+save successful
+epoch: 193, bpr_loss:0.022829 emb_loss:0.021692 
+ndcg@10:[0.189927] ndcg@20:[0.237563] ndcg@30:[0.266905] recall@10:[0.151641] recall@20:[0.229996] recall@30:[0.287072] js_dp@10:[0.280389] js_eo@10:[0.345515] js_dp@20:[0.262629] js_eo@20:[0.328336] js_dp@30:[0.253003] js_eo@30:[0.320523] 
+save successful
+epoch: 194, bpr_loss:0.022690 emb_loss:0.021674 
+ndcg@10:[0.189853] ndcg@20:[0.237480] ndcg@30:[0.266973] recall@10:[0.151486] recall@20:[0.229810] recall@30:[0.287149] js_dp@10:[0.280251] js_eo@10:[0.345624] js_dp@20:[0.262365] js_eo@20:[0.328975] js_dp@30:[0.253188] js_eo@30:[0.320813] 
+epoch: 195, bpr_loss:0.022786 emb_loss:0.021700 
+ndcg@10:[0.189976] ndcg@20:[0.237700] ndcg@30:[0.267052] recall@10:[0.151643] recall@20:[0.230193] recall@30:[0.287280] js_dp@10:[0.280579] js_eo@10:[0.345993] js_dp@20:[0.262410] js_eo@20:[0.329121] js_dp@30:[0.253255] js_eo@30:[0.320421] 
+save successful
+epoch: 196, bpr_loss:0.022758 emb_loss:0.021686 
+ndcg@10:[0.190154] ndcg@20:[0.237865] ndcg@30:[0.267268] recall@10:[0.151769] recall@20:[0.230290] recall@30:[0.287466] js_dp@10:[0.280312] js_eo@10:[0.344683] js_dp@20:[0.262931] js_eo@20:[0.329853] js_dp@30:[0.253174] js_eo@30:[0.320666] 
+save successful
+epoch: 197, bpr_loss:0.022594 emb_loss:0.021695 
+ndcg@10:[0.190364] ndcg@20:[0.238084] ndcg@30:[0.267397] recall@10:[0.151934] recall@20:[0.230467] recall@30:[0.287495] js_dp@10:[0.280580] js_eo@10:[0.345533] js_dp@20:[0.262884] js_eo@20:[0.329196] js_dp@30:[0.253515] js_eo@30:[0.320731] 
+save successful
+epoch: 198, bpr_loss:0.022359 emb_loss:0.021684 
+ndcg@10:[0.190440] ndcg@20:[0.238185] ndcg@30:[0.267520] recall@10:[0.151928] recall@20:[0.230476] recall@30:[0.287534] js_dp@10:[0.280785] js_eo@10:[0.346000] js_dp@20:[0.263107] js_eo@20:[0.329277] js_dp@30:[0.253643] js_eo@30:[0.320938] 
+save successful
+epoch: 199, bpr_loss:0.022202 emb_loss:0.021697 
+ndcg@10:[0.190523] ndcg@20:[0.238187] ndcg@30:[0.267475] recall@10:[0.152157] recall@20:[0.230568] recall@30:[0.287567] js_dp@10:[0.280985] js_eo@10:[0.345860] js_dp@20:[0.263193] js_eo@20:[0.329903] js_dp@30:[0.253596] js_eo@30:[0.321085] 
+save successful
+epoch: 200, bpr_loss:0.022169 emb_loss:0.021689 
+ndcg@10:[0.190660] ndcg@20:[0.238446] ndcg@30:[0.267772] recall@10:[0.152136] recall@20:[0.230740] recall@30:[0.287805] js_dp@10:[0.281026] js_eo@10:[0.346353] js_dp@20:[0.263041] js_eo@20:[0.329343] js_dp@30:[0.253611] js_eo@30:[0.321355] 
+save successful
+epoch: 201, bpr_loss:0.022445 emb_loss:0.021705 
+ndcg@10:[0.190655] ndcg@20:[0.238413] ndcg@30:[0.267872] recall@10:[0.152166] recall@20:[0.230725] recall@30:[0.288049] js_dp@10:[0.280668] js_eo@10:[0.345463] js_dp@20:[0.263106] js_eo@20:[0.329379] js_dp@30:[0.253619] js_eo@30:[0.321264] 
+epoch: 202, bpr_loss:0.022188 emb_loss:0.021693 
+ndcg@10:[0.190780] ndcg@20:[0.238625] ndcg@30:[0.267991] recall@10:[0.152222] recall@20:[0.230940] recall@30:[0.288064] js_dp@10:[0.281279] js_eo@10:[0.345574] js_dp@20:[0.263165] js_eo@20:[0.329768] js_dp@30:[0.253784] js_eo@30:[0.321518] 
+save successful
+epoch: 203, bpr_loss:0.022257 emb_loss:0.021673 
+ndcg@10:[0.190745] ndcg@20:[0.238492] ndcg@30:[0.267942] recall@10:[0.152277] recall@20:[0.230801] recall@30:[0.288120] js_dp@10:[0.281235] js_eo@10:[0.346959] js_dp@20:[0.263487] js_eo@20:[0.330172] js_dp@30:[0.253985] js_eo@30:[0.321212] 
+epoch: 204, bpr_loss:0.022051 emb_loss:0.021681 
+ndcg@10:[0.190938] ndcg@20:[0.238705] ndcg@30:[0.268203] recall@10:[0.152368] recall@20:[0.230934] recall@30:[0.288325] js_dp@10:[0.280898] js_eo@10:[0.346593] js_dp@20:[0.263504] js_eo@20:[0.329988] js_dp@30:[0.254012] js_eo@30:[0.321010] 
+save successful
+epoch: 205, bpr_loss:0.021942 emb_loss:0.021691 
+ndcg@10:[0.190975] ndcg@20:[0.238760] ndcg@30:[0.268197] recall@10:[0.152391] recall@20:[0.231011] recall@30:[0.288267] js_dp@10:[0.281124] js_eo@10:[0.346056] js_dp@20:[0.263824] js_eo@20:[0.330467] js_dp@30:[0.254294] js_eo@30:[0.321561] 
+save successful
+epoch: 206, bpr_loss:0.021827 emb_loss:0.021694 
+ndcg@10:[0.191142] ndcg@20:[0.238808] ndcg@30:[0.268276] recall@10:[0.152597] recall@20:[0.231001] recall@30:[0.288329] js_dp@10:[0.281249] js_eo@10:[0.346822] js_dp@20:[0.263914] js_eo@20:[0.330555] js_dp@30:[0.254341] js_eo@30:[0.321354] 
+save successful
+epoch: 207, bpr_loss:0.021819 emb_loss:0.021684 
+ndcg@10:[0.191307] ndcg@20:[0.239039] ndcg@30:[0.268350] recall@10:[0.152799] recall@20:[0.231356] recall@30:[0.288380] js_dp@10:[0.281319] js_eo@10:[0.346407] js_dp@20:[0.263596] js_eo@20:[0.330259] js_dp@30:[0.254408] js_eo@30:[0.321606] 
+save successful
+epoch: 208, bpr_loss:0.021887 emb_loss:0.021696 
+ndcg@10:[0.191394] ndcg@20:[0.239122] ndcg@30:[0.268557] recall@10:[0.152859] recall@20:[0.231422] recall@30:[0.288668] js_dp@10:[0.281484] js_eo@10:[0.346640] js_dp@20:[0.263849] js_eo@20:[0.330231] js_dp@30:[0.254437] js_eo@30:[0.321813] 
+save successful
+epoch: 209, bpr_loss:0.021743 emb_loss:0.021694 
+ndcg@10:[0.191326] ndcg@20:[0.239149] ndcg@30:[0.268538] recall@10:[0.152749] recall@20:[0.231439] recall@30:[0.288602] js_dp@10:[0.281741] js_eo@10:[0.347065] js_dp@20:[0.264034] js_eo@20:[0.330754] js_dp@30:[0.254780] js_eo@30:[0.322299] 
+epoch: 210, bpr_loss:0.021630 emb_loss:0.021691 
+ndcg@10:[0.191666] ndcg@20:[0.239315] ndcg@30:[0.268809] recall@10:[0.153072] recall@20:[0.231511] recall@30:[0.288856] js_dp@10:[0.281720] js_eo@10:[0.347197] js_dp@20:[0.264210] js_eo@20:[0.330700] js_dp@30:[0.254615] js_eo@30:[0.321956] 
+save successful
+epoch: 211, bpr_loss:0.021615 emb_loss:0.021696 
+ndcg@10:[0.191425] ndcg@20:[0.239122] ndcg@30:[0.268624] recall@10:[0.152901] recall@20:[0.231397] recall@30:[0.288792] js_dp@10:[0.281382] js_eo@10:[0.347261] js_dp@20:[0.264191] js_eo@20:[0.330765] js_dp@30:[0.254870] js_eo@30:[0.322265] 
+epoch: 212, bpr_loss:0.021393 emb_loss:0.021684 
+ndcg@10:[0.191527] ndcg@20:[0.239280] ndcg@30:[0.268778] recall@10:[0.152879] recall@20:[0.231425] recall@30:[0.288792] js_dp@10:[0.281543] js_eo@10:[0.347521] js_dp@20:[0.264417] js_eo@20:[0.331202] js_dp@30:[0.255001] js_eo@30:[0.322734] 
+epoch: 213, bpr_loss:0.021390 emb_loss:0.021698 
+ndcg@10:[0.191514] ndcg@20:[0.239334] ndcg@30:[0.268787] recall@10:[0.152896] recall@20:[0.231588] recall@30:[0.288876] js_dp@10:[0.281901] js_eo@10:[0.347820] js_dp@20:[0.264086] js_eo@20:[0.331085] js_dp@30:[0.255024] js_eo@30:[0.322627] 
+epoch: 214, bpr_loss:0.021452 emb_loss:0.021678 
+ndcg@10:[0.191502] ndcg@20:[0.239373] ndcg@30:[0.268854] recall@10:[0.152884] recall@20:[0.231623] recall@30:[0.288993] js_dp@10:[0.281478] js_eo@10:[0.347407] js_dp@20:[0.264330] js_eo@20:[0.331083] js_dp@30:[0.255034] js_eo@30:[0.322484] 
+epoch: 215, bpr_loss:0.021236 emb_loss:0.021689 
+ndcg@10:[0.191687] ndcg@20:[0.239507] ndcg@30:[0.269096] recall@10:[0.153114] recall@20:[0.231761] recall@30:[0.289319] js_dp@10:[0.281057] js_eo@10:[0.345944] js_dp@20:[0.264343] js_eo@20:[0.331597] js_dp@30:[0.254976] js_eo@30:[0.322554] 
+save successful
+epoch: 216, bpr_loss:0.021356 emb_loss:0.021703 
+ndcg@10:[0.191526] ndcg@20:[0.239344] ndcg@30:[0.268859] recall@10:[0.152982] recall@20:[0.231628] recall@30:[0.289039] js_dp@10:[0.281339] js_eo@10:[0.346875] js_dp@20:[0.264459] js_eo@20:[0.331888] js_dp@30:[0.254950] js_eo@30:[0.322865] 
+epoch: 217, bpr_loss:0.021139 emb_loss:0.021700 
+ndcg@10:[0.191809] ndcg@20:[0.239704] ndcg@30:[0.269199] recall@10:[0.153190] recall@20:[0.232001] recall@30:[0.289345] js_dp@10:[0.281293] js_eo@10:[0.346068] js_dp@20:[0.264311] js_eo@20:[0.330663] js_dp@30:[0.254815] js_eo@30:[0.322127] 
+save successful
+epoch: 218, bpr_loss:0.021322 emb_loss:0.021707 
+ndcg@10:[0.191882] ndcg@20:[0.239697] ndcg@30:[0.269174] recall@10:[0.153220] recall@20:[0.231906] recall@30:[0.289147] js_dp@10:[0.281505] js_eo@10:[0.346395] js_dp@20:[0.264531] js_eo@20:[0.330958] js_dp@30:[0.254731] js_eo@30:[0.322717] 
+save successful
+epoch: 219, bpr_loss:0.020989 emb_loss:0.021709 
+ndcg@10:[0.191965] ndcg@20:[0.239871] ndcg@30:[0.269366] recall@10:[0.153266] recall@20:[0.232080] recall@30:[0.289388] js_dp@10:[0.281168] js_eo@10:[0.345783] js_dp@20:[0.264549] js_eo@20:[0.330557] js_dp@30:[0.254923] js_eo@30:[0.322875] 
+save successful
+epoch: 220, bpr_loss:0.021124 emb_loss:0.021719 
+ndcg@10:[0.192058] ndcg@20:[0.240008] ndcg@30:[0.269435] recall@10:[0.153375] recall@20:[0.232294] recall@30:[0.289458] js_dp@10:[0.281628] js_eo@10:[0.346527] js_dp@20:[0.264645] js_eo@20:[0.330776] js_dp@30:[0.255195] js_eo@30:[0.322432] 
+save successful
+epoch: 221, bpr_loss:0.020899 emb_loss:0.021718 
+ndcg@10:[0.192143] ndcg@20:[0.240058] ndcg@30:[0.269605] recall@10:[0.153465] recall@20:[0.232323] recall@30:[0.289733] js_dp@10:[0.281976] js_eo@10:[0.346363] js_dp@20:[0.264565] js_eo@20:[0.330711] js_dp@30:[0.255263] js_eo@30:[0.322578] 
+save successful
+epoch: 222, bpr_loss:0.020948 emb_loss:0.021701 
+ndcg@10:[0.192183] ndcg@20:[0.240036] ndcg@30:[0.269499] recall@10:[0.153590] recall@20:[0.232393] recall@30:[0.289616] js_dp@10:[0.282028] js_eo@10:[0.346486] js_dp@20:[0.264384] js_eo@20:[0.331701] js_dp@30:[0.255218] js_eo@30:[0.322587] 
+save successful
+epoch: 223, bpr_loss:0.020882 emb_loss:0.021708 
+ndcg@10:[0.192256] ndcg@20:[0.240180] ndcg@30:[0.269646] recall@10:[0.153571] recall@20:[0.232448] recall@30:[0.289687] js_dp@10:[0.282247] js_eo@10:[0.346942] js_dp@20:[0.264814] js_eo@20:[0.331784] js_dp@30:[0.255224] js_eo@30:[0.322119] 
+save successful
+epoch: 224, bpr_loss:0.020739 emb_loss:0.021707 
+ndcg@10:[0.192165] ndcg@20:[0.240039] ndcg@30:[0.269572] recall@10:[0.153563] recall@20:[0.232335] recall@30:[0.289771] js_dp@10:[0.282445] js_eo@10:[0.347415] js_dp@20:[0.264690] js_eo@20:[0.331504] js_dp@30:[0.255346] js_eo@30:[0.322641] 
+epoch: 225, bpr_loss:0.020806 emb_loss:0.021689 
+ndcg@10:[0.192207] ndcg@20:[0.240006] ndcg@30:[0.269641] recall@10:[0.153659] recall@20:[0.232281] recall@30:[0.289913] js_dp@10:[0.282344] js_eo@10:[0.346898] js_dp@20:[0.265046] js_eo@20:[0.331858] js_dp@30:[0.255483] js_eo@30:[0.322845] 
+epoch: 226, bpr_loss:0.020647 emb_loss:0.021697 
+ndcg@10:[0.192295] ndcg@20:[0.240258] ndcg@30:[0.269858] recall@10:[0.153675] recall@20:[0.232537] recall@30:[0.290103] js_dp@10:[0.282246] js_eo@10:[0.347670] js_dp@20:[0.264829] js_eo@20:[0.331012] js_dp@30:[0.255173] js_eo@30:[0.322953] 
+save successful
+epoch: 227, bpr_loss:0.020668 emb_loss:0.021695 
+ndcg@10:[0.192436] ndcg@20:[0.240263] ndcg@30:[0.269851] recall@10:[0.153745] recall@20:[0.232436] recall@30:[0.289939] js_dp@10:[0.282617] js_eo@10:[0.347886] js_dp@20:[0.265089] js_eo@20:[0.331909] js_dp@30:[0.255367] js_eo@30:[0.322594] 
+save successful
+epoch: 228, bpr_loss:0.020849 emb_loss:0.021669 
+ndcg@10:[0.192358] ndcg@20:[0.240201] ndcg@30:[0.269721] recall@10:[0.153700] recall@20:[0.232417] recall@30:[0.289840] js_dp@10:[0.282538] js_eo@10:[0.347136] js_dp@20:[0.265145] js_eo@20:[0.331505] js_dp@30:[0.255521] js_eo@30:[0.322427] 
+epoch: 229, bpr_loss:0.020589 emb_loss:0.021664 
+ndcg@10:[0.192322] ndcg@20:[0.240195] ndcg@30:[0.269862] recall@10:[0.153653] recall@20:[0.232363] recall@30:[0.290072] js_dp@10:[0.282849] js_eo@10:[0.347069] js_dp@20:[0.265378] js_eo@20:[0.332117] js_dp@30:[0.255559] js_eo@30:[0.322960] 
+epoch: 230, bpr_loss:0.020498 emb_loss:0.021681 
+ndcg@10:[0.192467] ndcg@20:[0.240501] ndcg@30:[0.270202] recall@10:[0.153656] recall@20:[0.232645] recall@30:[0.290423] js_dp@10:[0.282906] js_eo@10:[0.347572] js_dp@20:[0.265226] js_eo@20:[0.332280] js_dp@30:[0.255495] js_eo@30:[0.322931] 
+save successful
+epoch: 231, bpr_loss:0.020442 emb_loss:0.021695 
+ndcg@10:[0.192660] ndcg@20:[0.240660] ndcg@30:[0.270360] recall@10:[0.153898] recall@20:[0.232819] recall@30:[0.290594] js_dp@10:[0.282679] js_eo@10:[0.347468] js_dp@20:[0.264936] js_eo@20:[0.331374] js_dp@30:[0.255156] js_eo@30:[0.322876] 
+save successful
+epoch: 232, bpr_loss:0.020351 emb_loss:0.021707 
+ndcg@10:[0.192718] ndcg@20:[0.240624] ndcg@30:[0.270341] recall@10:[0.154025] recall@20:[0.232777] recall@30:[0.290579] js_dp@10:[0.282200] js_eo@10:[0.347779] js_dp@20:[0.264580] js_eo@20:[0.331302] js_dp@30:[0.254799] js_eo@30:[0.322593] 
+save successful
+epoch: 233, bpr_loss:0.020196 emb_loss:0.021710 
+ndcg@10:[0.192927] ndcg@20:[0.241041] ndcg@30:[0.270471] recall@10:[0.154098] recall@20:[0.233219] recall@30:[0.290450] js_dp@10:[0.281716] js_eo@10:[0.347355] js_dp@20:[0.264774] js_eo@20:[0.331394] js_dp@30:[0.254962] js_eo@30:[0.322091] 
+save successful
+epoch: 234, bpr_loss:0.020244 emb_loss:0.021712 
+ndcg@10:[0.192803] ndcg@20:[0.240932] ndcg@30:[0.270438] recall@10:[0.153999] recall@20:[0.233179] recall@30:[0.290515] js_dp@10:[0.282012] js_eo@10:[0.347594] js_dp@20:[0.264794] js_eo@20:[0.331367] js_dp@30:[0.254886] js_eo@30:[0.321723] 
+epoch: 235, bpr_loss:0.020050 emb_loss:0.021693 
+ndcg@10:[0.192476] ndcg@20:[0.240608] ndcg@30:[0.270077] recall@10:[0.153796] recall@20:[0.232940] recall@30:[0.290229] js_dp@10:[0.282498] js_eo@10:[0.347659] js_dp@20:[0.265140] js_eo@20:[0.332152] js_dp@30:[0.255516] js_eo@30:[0.322228] 
+epoch: 236, bpr_loss:0.020144 emb_loss:0.021686 
+ndcg@10:[0.192614] ndcg@20:[0.240825] ndcg@30:[0.270394] recall@10:[0.153844] recall@20:[0.233160] recall@30:[0.290625] js_dp@10:[0.282554] js_eo@10:[0.348406] js_dp@20:[0.265548] js_eo@20:[0.332636] js_dp@30:[0.255553] js_eo@30:[0.322170] 
+epoch: 237, bpr_loss:0.020012 emb_loss:0.021683 
+ndcg@10:[0.192911] ndcg@20:[0.241220] ndcg@30:[0.270748] recall@10:[0.153949] recall@20:[0.233394] recall@30:[0.290821] js_dp@10:[0.282508] js_eo@10:[0.348401] js_dp@20:[0.265257] js_eo@20:[0.332612] js_dp@30:[0.255415] js_eo@30:[0.322287] 
+epoch: 238, bpr_loss:0.020012 emb_loss:0.021688 
+ndcg@10:[0.193040] ndcg@20:[0.241339] ndcg@30:[0.270954] recall@10:[0.153981] recall@20:[0.233359] recall@30:[0.290959] js_dp@10:[0.282361] js_eo@10:[0.347884] js_dp@20:[0.265412] js_eo@20:[0.332224] js_dp@30:[0.255259] js_eo@30:[0.322352] 
+save successful
+epoch: 239, bpr_loss:0.019828 emb_loss:0.021700 
+ndcg@10:[0.193053] ndcg@20:[0.241266] ndcg@30:[0.271034] recall@10:[0.154019] recall@20:[0.233281] recall@30:[0.291219] js_dp@10:[0.282470] js_eo@10:[0.348357] js_dp@20:[0.265497] js_eo@20:[0.332761] js_dp@30:[0.255344] js_eo@30:[0.322208] 
+save successful
+epoch: 240, bpr_loss:0.019991 emb_loss:0.021682 
+ndcg@10:[0.193074] ndcg@20:[0.241106] ndcg@30:[0.270834] recall@10:[0.154207] recall@20:[0.233144] recall@30:[0.290961] js_dp@10:[0.281830] js_eo@10:[0.347609] js_dp@20:[0.265271] js_eo@20:[0.332191] js_dp@30:[0.255294] js_eo@30:[0.322328] 
+save successful
+epoch: 241, bpr_loss:0.019852 emb_loss:0.021695 
+ndcg@10:[0.193367] ndcg@20:[0.241447] ndcg@30:[0.271043] recall@10:[0.154420] recall@20:[0.233460] recall@30:[0.291007] js_dp@10:[0.282154] js_eo@10:[0.348095] js_dp@20:[0.265355] js_eo@20:[0.332088] js_dp@30:[0.255524] js_eo@30:[0.322393] 
+save successful
+epoch: 242, bpr_loss:0.019859 emb_loss:0.021700 
+ndcg@10:[0.193392] ndcg@20:[0.241596] ndcg@30:[0.271137] recall@10:[0.154341] recall@20:[0.233584] recall@30:[0.291036] js_dp@10:[0.282634] js_eo@10:[0.348397] js_dp@20:[0.265489] js_eo@20:[0.332183] js_dp@30:[0.255642] js_eo@30:[0.322965] 
+save successful
+epoch: 243, bpr_loss:0.019714 emb_loss:0.021704 
+ndcg@10:[0.193499] ndcg@20:[0.241736] ndcg@30:[0.271238] recall@10:[0.154434] recall@20:[0.233762] recall@30:[0.291116] js_dp@10:[0.282269] js_eo@10:[0.348227] js_dp@20:[0.265402] js_eo@20:[0.332030] js_dp@30:[0.255459] js_eo@30:[0.322660] 
+save successful
+epoch: 244, bpr_loss:0.019733 emb_loss:0.021691 
+ndcg@10:[0.193364] ndcg@20:[0.241602] ndcg@30:[0.271186] recall@10:[0.154273] recall@20:[0.233556] recall@30:[0.291061] js_dp@10:[0.282367] js_eo@10:[0.348132] js_dp@20:[0.265910] js_eo@20:[0.332230] js_dp@30:[0.255980] js_eo@30:[0.322862] 
+epoch: 245, bpr_loss:0.019704 emb_loss:0.021670 
+ndcg@10:[0.193585] ndcg@20:[0.241841] ndcg@30:[0.271580] recall@10:[0.154349] recall@20:[0.233681] recall@30:[0.291530] js_dp@10:[0.282705] js_eo@10:[0.347786] js_dp@20:[0.265801] js_eo@20:[0.332189] js_dp@30:[0.255765] js_eo@30:[0.323145] 
+save successful
+epoch: 246, bpr_loss:0.019729 emb_loss:0.021688 
+ndcg@10:[0.193406] ndcg@20:[0.241656] ndcg@30:[0.271256] recall@10:[0.154341] recall@20:[0.233680] recall@30:[0.291277] js_dp@10:[0.282864] js_eo@10:[0.348296] js_dp@20:[0.266106] js_eo@20:[0.332077] js_dp@30:[0.256011] js_eo@30:[0.323412] 
+epoch: 247, bpr_loss:0.019574 emb_loss:0.021674 
+ndcg@10:[0.193781] ndcg@20:[0.241980] ndcg@30:[0.271659] recall@10:[0.154573] recall@20:[0.233808] recall@30:[0.291588] js_dp@10:[0.282606] js_eo@10:[0.347796] js_dp@20:[0.265958] js_eo@20:[0.332049] js_dp@30:[0.255756] js_eo@30:[0.323358] 
+save successful
+epoch: 248, bpr_loss:0.019448 emb_loss:0.021699 
+ndcg@10:[0.193852] ndcg@20:[0.242085] ndcg@30:[0.271778] recall@10:[0.154633] recall@20:[0.233945] recall@30:[0.291720] js_dp@10:[0.282500] js_eo@10:[0.347642] js_dp@20:[0.265676] js_eo@20:[0.331685] js_dp@30:[0.255540] js_eo@30:[0.323460] 
+save successful
+epoch: 249, bpr_loss:0.019617 emb_loss:0.021679 
+ndcg@10:[0.193708] ndcg@20:[0.242030] ndcg@30:[0.271691] recall@10:[0.154527] recall@20:[0.234007] recall@30:[0.291708] js_dp@10:[0.282515] js_eo@10:[0.348249] js_dp@20:[0.265919] js_eo@20:[0.332076] js_dp@30:[0.255558] js_eo@30:[0.323659] 
+epoch: 250, bpr_loss:0.019220 emb_loss:0.021682 
+ndcg@10:[0.193918] ndcg@20:[0.242178] ndcg@30:[0.271890] recall@10:[0.154640] recall@20:[0.234000] recall@30:[0.291801] js_dp@10:[0.282478] js_eo@10:[0.348886] js_dp@20:[0.265793] js_eo@20:[0.332319] js_dp@30:[0.255311] js_eo@30:[0.323539] 
+save successful
+epoch: 251, bpr_loss:0.019370 emb_loss:0.021686 
+ndcg@10:[0.193898] ndcg@20:[0.242122] ndcg@30:[0.271843] recall@10:[0.154700] recall@20:[0.234018] recall@30:[0.291860] js_dp@10:[0.282840] js_eo@10:[0.349252] js_dp@20:[0.265738] js_eo@20:[0.332255] js_dp@30:[0.255444] js_eo@30:[0.323441] 
+epoch: 252, bpr_loss:0.019348 emb_loss:0.021678 
+ndcg@10:[0.193963] ndcg@20:[0.242167] ndcg@30:[0.271958] recall@10:[0.154581] recall@20:[0.233843] recall@30:[0.291802] js_dp@10:[0.283207] js_eo@10:[0.349398] js_dp@20:[0.266077] js_eo@20:[0.332273] js_dp@30:[0.255584] js_eo@30:[0.323017] 
+save successful
+epoch: 253, bpr_loss:0.019330 emb_loss:0.021669 
+ndcg@10:[0.194017] ndcg@20:[0.242176] ndcg@30:[0.272046] recall@10:[0.154729] recall@20:[0.233916] recall@30:[0.292025] js_dp@10:[0.282545] js_eo@10:[0.348848] js_dp@20:[0.266202] js_eo@20:[0.332862] js_dp@30:[0.255745] js_eo@30:[0.323431] 
+save successful
+epoch: 254, bpr_loss:0.019358 emb_loss:0.021676 
+ndcg@10:[0.193872] ndcg@20:[0.242133] ndcg@30:[0.271828] recall@10:[0.154625] recall@20:[0.233977] recall@30:[0.291736] js_dp@10:[0.282710] js_eo@10:[0.348203] js_dp@20:[0.266328] js_eo@20:[0.332938] js_dp@30:[0.255925] js_eo@30:[0.323766] 
+epoch: 255, bpr_loss:0.019278 emb_loss:0.021669 
+ndcg@10:[0.194029] ndcg@20:[0.242336] ndcg@30:[0.272052] recall@10:[0.154767] recall@20:[0.234214] recall@30:[0.291980] js_dp@10:[0.282658] js_eo@10:[0.348939] js_dp@20:[0.266435] js_eo@20:[0.333432] js_dp@30:[0.255791] js_eo@30:[0.323679] 
+save successful
+epoch: 256, bpr_loss:0.019054 emb_loss:0.021654 
+ndcg@10:[0.193912] ndcg@20:[0.242194] ndcg@30:[0.271847] recall@10:[0.154738] recall@20:[0.234151] recall@30:[0.291811] js_dp@10:[0.282777] js_eo@10:[0.348937] js_dp@20:[0.266660] js_eo@20:[0.333464] js_dp@30:[0.256116] js_eo@30:[0.323944] 
+epoch: 257, bpr_loss:0.019125 emb_loss:0.021642 
+ndcg@10:[0.193991] ndcg@20:[0.242338] ndcg@30:[0.271978] recall@10:[0.154768] recall@20:[0.234319] recall@30:[0.291949] js_dp@10:[0.283113] js_eo@10:[0.348561] js_dp@20:[0.266853] js_eo@20:[0.334030] js_dp@30:[0.256174] js_eo@30:[0.323557] 
+epoch: 258, bpr_loss:0.019206 emb_loss:0.021653 
+ndcg@10:[0.194154] ndcg@20:[0.242471] ndcg@30:[0.272179] recall@10:[0.154943] recall@20:[0.234410] recall@30:[0.292150] js_dp@10:[0.282592] js_eo@10:[0.348249] js_dp@20:[0.266202] js_eo@20:[0.333492] js_dp@30:[0.255675] js_eo@30:[0.323860] 
+save successful
+epoch: 259, bpr_loss:0.019276 emb_loss:0.021662 
+ndcg@10:[0.194122] ndcg@20:[0.242422] ndcg@30:[0.272048] recall@10:[0.155043] recall@20:[0.234456] recall@30:[0.292031] js_dp@10:[0.282630] js_eo@10:[0.348200] js_dp@20:[0.266211] js_eo@20:[0.333271] js_dp@30:[0.255614] js_eo@30:[0.323638] 
+epoch: 260, bpr_loss:0.018919 emb_loss:0.021645 
+ndcg@10:[0.193683] ndcg@20:[0.241984] ndcg@30:[0.271758] recall@10:[0.154670] recall@20:[0.234089] recall@30:[0.291992] js_dp@10:[0.283040] js_eo@10:[0.349027] js_dp@20:[0.266528] js_eo@20:[0.333746] js_dp@30:[0.255926] js_eo@30:[0.324370] 
+epoch: 261, bpr_loss:0.019079 emb_loss:0.021632 
+ndcg@10:[0.193836] ndcg@20:[0.242263] ndcg@30:[0.272011] recall@10:[0.154744] recall@20:[0.234345] recall@30:[0.292218] js_dp@10:[0.282807] js_eo@10:[0.349521] js_dp@20:[0.266026] js_eo@20:[0.332804] js_dp@30:[0.255655] js_eo@30:[0.323510] 
+epoch: 262, bpr_loss:0.018858 emb_loss:0.021651 
+ndcg@10:[0.194122] ndcg@20:[0.242446] ndcg@30:[0.272330] recall@10:[0.154960] recall@20:[0.234379] recall@30:[0.292569] js_dp@10:[0.282477] js_eo@10:[0.349041] js_dp@20:[0.265989] js_eo@20:[0.332909] js_dp@30:[0.255641] js_eo@30:[0.324059] 
+epoch: 263, bpr_loss:0.018980 emb_loss:0.021654 
+ndcg@10:[0.194113] ndcg@20:[0.242437] ndcg@30:[0.272239] recall@10:[0.154966] recall@20:[0.234378] recall@30:[0.292383] js_dp@10:[0.282476] js_eo@10:[0.348543] js_dp@20:[0.265857] js_eo@20:[0.332947] js_dp@30:[0.255570] js_eo@30:[0.323820] 
+epoch: 264, bpr_loss:0.018729 emb_loss:0.021655 
+ndcg@10:[0.194118] ndcg@20:[0.242591] ndcg@30:[0.272375] recall@10:[0.154933] recall@20:[0.234610] recall@30:[0.292592] js_dp@10:[0.282721] js_eo@10:[0.349638] js_dp@20:[0.265851] js_eo@20:[0.332681] js_dp@30:[0.255244] js_eo@30:[0.323431] 
+epoch: 265, bpr_loss:0.018923 emb_loss:0.021666 
+ndcg@10:[0.194273] ndcg@20:[0.242628] ndcg@30:[0.272514] recall@10:[0.155105] recall@20:[0.234604] recall@30:[0.292754] js_dp@10:[0.282576] js_eo@10:[0.348513] js_dp@20:[0.265907] js_eo@20:[0.332382] js_dp@30:[0.255236] js_eo@30:[0.323154] 
+save successful
+epoch: 266, bpr_loss:0.018769 emb_loss:0.021645 
+ndcg@10:[0.194196] ndcg@20:[0.242574] ndcg@30:[0.272448] recall@10:[0.155061] recall@20:[0.234586] recall@30:[0.292678] js_dp@10:[0.282831] js_eo@10:[0.349122] js_dp@20:[0.265820] js_eo@20:[0.332871] js_dp@30:[0.255277] js_eo@30:[0.323029] 
+epoch: 267, bpr_loss:0.018775 emb_loss:0.021642 
+ndcg@10:[0.194034] ndcg@20:[0.242514] ndcg@30:[0.272351] recall@10:[0.154898] recall@20:[0.234581] recall@30:[0.292626] js_dp@10:[0.282847] js_eo@10:[0.349644] js_dp@20:[0.265980] js_eo@20:[0.332945] js_dp@30:[0.255248] js_eo@30:[0.323965] 
+epoch: 268, bpr_loss:0.018619 emb_loss:0.021646 
+ndcg@10:[0.194367] ndcg@20:[0.242754] ndcg@30:[0.272676] recall@10:[0.155116] recall@20:[0.234663] recall@30:[0.292869] js_dp@10:[0.282805] js_eo@10:[0.348807] js_dp@20:[0.265786] js_eo@20:[0.332752] js_dp@30:[0.255233] js_eo@30:[0.323799] 
+save successful
+epoch: 269, bpr_loss:0.018569 emb_loss:0.021661 
+ndcg@10:[0.194300] ndcg@20:[0.242760] ndcg@30:[0.272529] recall@10:[0.155180] recall@20:[0.234843] recall@30:[0.292774] js_dp@10:[0.282774] js_eo@10:[0.349880] js_dp@20:[0.265792] js_eo@20:[0.333229] js_dp@30:[0.255251] js_eo@30:[0.323756] 
+epoch: 270, bpr_loss:0.018427 emb_loss:0.021640 
+ndcg@10:[0.194397] ndcg@20:[0.242942] ndcg@30:[0.272708] recall@10:[0.155135] recall@20:[0.234922] recall@30:[0.292837] js_dp@10:[0.282309] js_eo@10:[0.348565] js_dp@20:[0.265804] js_eo@20:[0.332838] js_dp@30:[0.254927] js_eo@30:[0.323376] 
+save successful
+epoch: 271, bpr_loss:0.018422 emb_loss:0.021644 
+ndcg@10:[0.194527] ndcg@20:[0.243008] ndcg@30:[0.272828] recall@10:[0.155290] recall@20:[0.234994] recall@30:[0.292999] js_dp@10:[0.282864] js_eo@10:[0.349569] js_dp@20:[0.265796] js_eo@20:[0.333368] js_dp@30:[0.255062] js_eo@30:[0.323401] 
+save successful
+epoch: 272, bpr_loss:0.018526 emb_loss:0.021637 
+ndcg@10:[0.194612] ndcg@20:[0.242995] ndcg@30:[0.272709] recall@10:[0.155421] recall@20:[0.234977] recall@30:[0.292810] js_dp@10:[0.283025] js_eo@10:[0.348821] js_dp@20:[0.266102] js_eo@20:[0.332969] js_dp@30:[0.255086] js_eo@30:[0.323640] 
+save successful
+epoch: 273, bpr_loss:0.018282 emb_loss:0.021640 
+ndcg@10:[0.194468] ndcg@20:[0.242875] ndcg@30:[0.272714] recall@10:[0.155343] recall@20:[0.234914] recall@30:[0.292990] js_dp@10:[0.283062] js_eo@10:[0.348930] js_dp@20:[0.265711] js_eo@20:[0.332632] js_dp@30:[0.254841] js_eo@30:[0.323732] 
+epoch: 274, bpr_loss:0.018408 emb_loss:0.021637 
+ndcg@10:[0.194439] ndcg@20:[0.242930] ndcg@30:[0.272720] recall@10:[0.155223] recall@20:[0.234969] recall@30:[0.292940] js_dp@10:[0.283118] js_eo@10:[0.349621] js_dp@20:[0.265828] js_eo@20:[0.333127] js_dp@30:[0.254937] js_eo@30:[0.323994] 
+epoch: 275, bpr_loss:0.018337 emb_loss:0.021641 
+ndcg@10:[0.194709] ndcg@20:[0.243002] ndcg@30:[0.272775] recall@10:[0.155497] recall@20:[0.234897] recall@30:[0.292841] js_dp@10:[0.283196] js_eo@10:[0.349769] js_dp@20:[0.265827] js_eo@20:[0.333091] js_dp@30:[0.255242] js_eo@30:[0.324005] 
+save successful
+epoch: 276, bpr_loss:0.018371 emb_loss:0.021638 
+ndcg@10:[0.194853] ndcg@20:[0.243191] ndcg@30:[0.273103] recall@10:[0.155520] recall@20:[0.234962] recall@30:[0.293191] js_dp@10:[0.282685] js_eo@10:[0.349827] js_dp@20:[0.265615] js_eo@20:[0.333304] js_dp@30:[0.255012] js_eo@30:[0.323771] 
+save successful
+epoch: 277, bpr_loss:0.018321 emb_loss:0.021638 
+ndcg@10:[0.194616] ndcg@20:[0.242879] ndcg@30:[0.272864] recall@10:[0.155454] recall@20:[0.234789] recall@30:[0.293160] js_dp@10:[0.282997] js_eo@10:[0.349347] js_dp@20:[0.265714] js_eo@20:[0.332850] js_dp@30:[0.255119] js_eo@30:[0.323804] 
+epoch: 278, bpr_loss:0.018083 emb_loss:0.021634 
+ndcg@10:[0.194723] ndcg@20:[0.242965] ndcg@30:[0.273001] recall@10:[0.155465] recall@20:[0.234767] recall@30:[0.293261] js_dp@10:[0.282984] js_eo@10:[0.349259] js_dp@20:[0.265445] js_eo@20:[0.332911] js_dp@30:[0.255026] js_eo@30:[0.323774] 
+epoch: 279, bpr_loss:0.018308 emb_loss:0.021625 
+ndcg@10:[0.194822] ndcg@20:[0.243108] ndcg@30:[0.273110] recall@10:[0.155531] recall@20:[0.234914] recall@30:[0.293276] js_dp@10:[0.283173] js_eo@10:[0.350104] js_dp@20:[0.265755] js_eo@20:[0.333224] js_dp@30:[0.255142] js_eo@30:[0.323679] 
+epoch: 280, bpr_loss:0.018199 emb_loss:0.021640 
+ndcg@10:[0.195206] ndcg@20:[0.243546] ndcg@30:[0.273511] recall@10:[0.155734] recall@20:[0.235232] recall@30:[0.293553] js_dp@10:[0.282811] js_eo@10:[0.350082] js_dp@20:[0.265471] js_eo@20:[0.332734] js_dp@30:[0.254849] js_eo@30:[0.323496] 
+save successful
+epoch: 281, bpr_loss:0.018115 emb_loss:0.021640 
+ndcg@10:[0.195129] ndcg@20:[0.243445] ndcg@30:[0.273429] recall@10:[0.155811] recall@20:[0.235270] recall@30:[0.293641] js_dp@10:[0.283101] js_eo@10:[0.350596] js_dp@20:[0.265561] js_eo@20:[0.332713] js_dp@30:[0.255136] js_eo@30:[0.323919] 
+epoch: 282, bpr_loss:0.018165 emb_loss:0.021609 
+ndcg@10:[0.194871] ndcg@20:[0.243250] ndcg@30:[0.273253] recall@10:[0.155582] recall@20:[0.235124] recall@30:[0.293532] js_dp@10:[0.283503] js_eo@10:[0.350788] js_dp@20:[0.265933] js_eo@20:[0.332644] js_dp@30:[0.255719] js_eo@30:[0.324534] 
+epoch: 283, bpr_loss:0.017993 emb_loss:0.021603 
+ndcg@10:[0.195017] ndcg@20:[0.243477] ndcg@30:[0.273401] recall@10:[0.155638] recall@20:[0.235335] recall@30:[0.293571] js_dp@10:[0.282925] js_eo@10:[0.349660] js_dp@20:[0.265600] js_eo@20:[0.333261] js_dp@30:[0.255415] js_eo@30:[0.324724] 
+epoch: 284, bpr_loss:0.017982 emb_loss:0.021592 
+ndcg@10:[0.195092] ndcg@20:[0.243450] ndcg@30:[0.273471] recall@10:[0.155734] recall@20:[0.235244] recall@30:[0.293685] js_dp@10:[0.283140] js_eo@10:[0.350089] js_dp@20:[0.265668] js_eo@20:[0.333180] js_dp@30:[0.255523] js_eo@30:[0.323908] 
+epoch: 285, bpr_loss:0.018005 emb_loss:0.021609 
+ndcg@10:[0.195078] ndcg@20:[0.243523] ndcg@30:[0.273419] recall@10:[0.155751] recall@20:[0.235453] recall@30:[0.293630] js_dp@10:[0.283257] js_eo@10:[0.350865] js_dp@20:[0.265730] js_eo@20:[0.332783] js_dp@30:[0.255503] js_eo@30:[0.323937] 
+epoch: 286, bpr_loss:0.017904 emb_loss:0.021606 
+ndcg@10:[0.195181] ndcg@20:[0.243618] ndcg@30:[0.273516] recall@10:[0.155892] recall@20:[0.235552] recall@30:[0.293707] js_dp@10:[0.283708] js_eo@10:[0.350027] js_dp@20:[0.265995] js_eo@20:[0.333086] js_dp@30:[0.255450] js_eo@30:[0.323718] 
+epoch: 287, bpr_loss:0.017900 emb_loss:0.021608 
+ndcg@10:[0.195049] ndcg@20:[0.243493] ndcg@30:[0.273529] recall@10:[0.155723] recall@20:[0.235415] recall@30:[0.293867] js_dp@10:[0.283563] js_eo@10:[0.349693] js_dp@20:[0.265700] js_eo@20:[0.332997] js_dp@30:[0.255444] js_eo@30:[0.324255] 
+epoch: 288, bpr_loss:0.017778 emb_loss:0.021614 
+ndcg@10:[0.195191] ndcg@20:[0.243709] ndcg@30:[0.273761] recall@10:[0.155847] recall@20:[0.235584] recall@30:[0.294110] js_dp@10:[0.282878] js_eo@10:[0.349697] js_dp@20:[0.265499] js_eo@20:[0.332221] js_dp@30:[0.255167] js_eo@30:[0.323566] 
+epoch: 289, bpr_loss:0.017805 emb_loss:0.021624 
+ndcg@10:[0.195278] ndcg@20:[0.243856] ndcg@30:[0.273819] recall@10:[0.155905] recall@20:[0.235812] recall@30:[0.294116] js_dp@10:[0.283089] js_eo@10:[0.349174] js_dp@20:[0.265310] js_eo@20:[0.332101] js_dp@30:[0.255243] js_eo@30:[0.324090] 
+save successful
+epoch: 290, bpr_loss:0.017642 emb_loss:0.021616 
+ndcg@10:[0.195362] ndcg@20:[0.243985] ndcg@30:[0.273918] recall@10:[0.155974] recall@20:[0.235922] recall@30:[0.294179] js_dp@10:[0.283004] js_eo@10:[0.348790] js_dp@20:[0.265237] js_eo@20:[0.332546] js_dp@30:[0.255091] js_eo@30:[0.323741] 
+save successful
+epoch: 291, bpr_loss:0.017870 emb_loss:0.021606 
+ndcg@10:[0.195331] ndcg@20:[0.243902] ndcg@30:[0.273924] recall@10:[0.155901] recall@20:[0.235765] recall@30:[0.294186] js_dp@10:[0.283380] js_eo@10:[0.349500] js_dp@20:[0.265603] js_eo@20:[0.332665] js_dp@30:[0.255342] js_eo@30:[0.323309] 
+epoch: 292, bpr_loss:0.017644 emb_loss:0.021602 
+ndcg@10:[0.195383] ndcg@20:[0.243824] ndcg@30:[0.273735] recall@10:[0.156046] recall@20:[0.235701] recall@30:[0.293886] js_dp@10:[0.283681] js_eo@10:[0.350200] js_dp@20:[0.265499] js_eo@20:[0.332878] js_dp@30:[0.255367] js_eo@30:[0.323793] 
+save successful
+epoch: 293, bpr_loss:0.017600 emb_loss:0.021602 
+ndcg@10:[0.195428] ndcg@20:[0.243875] ndcg@30:[0.273811] recall@10:[0.156093] recall@20:[0.235770] recall@30:[0.294017] js_dp@10:[0.283507] js_eo@10:[0.350191] js_dp@20:[0.266017] js_eo@20:[0.332845] js_dp@30:[0.255310] js_eo@30:[0.323933] 
+save successful
+epoch: 294, bpr_loss:0.017697 emb_loss:0.021589 
+ndcg@10:[0.195234] ndcg@20:[0.243798] ndcg@30:[0.273635] recall@10:[0.155860] recall@20:[0.235718] recall@30:[0.293772] js_dp@10:[0.283465] js_eo@10:[0.350254] js_dp@20:[0.265961] js_eo@20:[0.333018] js_dp@30:[0.255452] js_eo@30:[0.324485] 
+epoch: 295, bpr_loss:0.017611 emb_loss:0.021583 
+ndcg@10:[0.195254] ndcg@20:[0.243767] ndcg@30:[0.273736] recall@10:[0.155967] recall@20:[0.235768] recall@30:[0.294046] js_dp@10:[0.283649] js_eo@10:[0.349762] js_dp@20:[0.265700] js_eo@20:[0.333088] js_dp@30:[0.255714] js_eo@30:[0.324732] 
+epoch: 296, bpr_loss:0.017553 emb_loss:0.021587 
+ndcg@10:[0.195434] ndcg@20:[0.243962] ndcg@30:[0.273934] recall@10:[0.156006] recall@20:[0.235777] recall@30:[0.294083] js_dp@10:[0.283745] js_eo@10:[0.349602] js_dp@20:[0.265391] js_eo@20:[0.333119] js_dp@30:[0.255664] js_eo@30:[0.324608] 
+save successful
+epoch: 297, bpr_loss:0.017423 emb_loss:0.021575 
+ndcg@10:[0.195567] ndcg@20:[0.244126] ndcg@30:[0.274068] recall@10:[0.156154] recall@20:[0.236015] recall@30:[0.294242] js_dp@10:[0.283115] js_eo@10:[0.349586] js_dp@20:[0.265320] js_eo@20:[0.332843] js_dp@30:[0.255342] js_eo@30:[0.323855] 
+save successful
+epoch: 298, bpr_loss:0.017531 emb_loss:0.021587 
+ndcg@10:[0.195029] ndcg@20:[0.243739] ndcg@30:[0.273689] recall@10:[0.155709] recall@20:[0.235799] recall@30:[0.294061] js_dp@10:[0.283569] js_eo@10:[0.349612] js_dp@20:[0.265886] js_eo@20:[0.332994] js_dp@30:[0.255653] js_eo@30:[0.324162] 
+epoch: 299, bpr_loss:0.017453 emb_loss:0.021562 
+ndcg@10:[0.195237] ndcg@20:[0.243964] ndcg@30:[0.273864] recall@10:[0.155862] recall@20:[0.235990] recall@30:[0.294152] js_dp@10:[0.283800] js_eo@10:[0.350842] js_dp@20:[0.265732] js_eo@20:[0.332663] js_dp@30:[0.255599] js_eo@30:[0.324184] 
+epoch: 300, bpr_loss:0.017490 emb_loss:0.021574 
+ndcg@10:[0.195264] ndcg@20:[0.244082] ndcg@30:[0.273879] recall@10:[0.155855] recall@20:[0.236166] recall@30:[0.294108] js_dp@10:[0.284456] js_eo@10:[0.349841] js_dp@20:[0.265741] js_eo@20:[0.332999] js_dp@30:[0.255739] js_eo@30:[0.324249] 
+epoch: 301, bpr_loss:0.017156 emb_loss:0.021570 
+ndcg@10:[0.195355] ndcg@20:[0.244174] ndcg@30:[0.273916] recall@10:[0.155906] recall@20:[0.236248] recall@30:[0.294054] js_dp@10:[0.283907] js_eo@10:[0.350011] js_dp@20:[0.265823] js_eo@20:[0.332358] js_dp@30:[0.255839] js_eo@30:[0.324288] 
+epoch: 302, bpr_loss:0.017444 emb_loss:0.021576 
+ndcg@10:[0.195307] ndcg@20:[0.244116] ndcg@30:[0.273936] recall@10:[0.155887] recall@20:[0.236211] recall@30:[0.294176] js_dp@10:[0.284360] js_eo@10:[0.349746] js_dp@20:[0.266024] js_eo@20:[0.332734] js_dp@30:[0.256075] js_eo@30:[0.324563] 
+epoch: 303, bpr_loss:0.017303 emb_loss:0.021572 
+ndcg@10:[0.195777] ndcg@20:[0.244440] ndcg@30:[0.274347] recall@10:[0.156283] recall@20:[0.236333] recall@30:[0.294452] js_dp@10:[0.284279] js_eo@10:[0.349993] js_dp@20:[0.265953] js_eo@20:[0.333263] js_dp@30:[0.255906] js_eo@30:[0.323807] 
+save successful
+epoch: 304, bpr_loss:0.017399 emb_loss:0.021570 
+ndcg@10:[0.195431] ndcg@20:[0.244088] ndcg@30:[0.274055] recall@10:[0.156049] recall@20:[0.236053] recall@30:[0.294320] js_dp@10:[0.284410] js_eo@10:[0.350549] js_dp@20:[0.266057] js_eo@20:[0.333420] js_dp@30:[0.256030] js_eo@30:[0.324346] 
+epoch: 305, bpr_loss:0.017159 emb_loss:0.021560 
+ndcg@10:[0.195637] ndcg@20:[0.244497] ndcg@30:[0.274317] recall@10:[0.156141] recall@20:[0.236532] recall@30:[0.294510] js_dp@10:[0.284622] js_eo@10:[0.349808] js_dp@20:[0.266162] js_eo@20:[0.333289] js_dp@30:[0.256103] js_eo@30:[0.324487] 
+epoch: 306, bpr_loss:0.017208 emb_loss:0.021569 
+ndcg@10:[0.195552] ndcg@20:[0.244452] ndcg@30:[0.274270] recall@10:[0.156121] recall@20:[0.236579] recall@30:[0.294516] js_dp@10:[0.284646] js_eo@10:[0.350573] js_dp@20:[0.266164] js_eo@20:[0.333633] js_dp@30:[0.255925] js_eo@30:[0.324437] 
+epoch: 307, bpr_loss:0.017377 emb_loss:0.021561 
+ndcg@10:[0.195750] ndcg@20:[0.244572] ndcg@30:[0.274441] recall@10:[0.156241] recall@20:[0.236523] recall@30:[0.294558] js_dp@10:[0.284607] js_eo@10:[0.350268] js_dp@20:[0.266097] js_eo@20:[0.333199] js_dp@30:[0.256093] js_eo@30:[0.324804] 
+epoch: 308, bpr_loss:0.017247 emb_loss:0.021549 
+ndcg@10:[0.195655] ndcg@20:[0.244414] ndcg@30:[0.274281] recall@10:[0.156285] recall@20:[0.236511] recall@30:[0.294573] js_dp@10:[0.284901] js_eo@10:[0.350561] js_dp@20:[0.266120] js_eo@20:[0.333200] js_dp@30:[0.256039] js_eo@30:[0.324302] 
+epoch: 309, bpr_loss:0.017105 emb_loss:0.021552 
+ndcg@10:[0.195698] ndcg@20:[0.244458] ndcg@30:[0.274473] recall@10:[0.156200] recall@20:[0.236431] recall@30:[0.294790] js_dp@10:[0.285104] js_eo@10:[0.351445] js_dp@20:[0.266246] js_eo@20:[0.333141] js_dp@30:[0.256182] js_eo@30:[0.324384] 
+epoch: 310, bpr_loss:0.017017 emb_loss:0.021548 
+ndcg@10:[0.195741] ndcg@20:[0.244548] ndcg@30:[0.274526] recall@10:[0.156255] recall@20:[0.236554] recall@30:[0.294820] js_dp@10:[0.284822] js_eo@10:[0.350352] js_dp@20:[0.266197] js_eo@20:[0.333026] js_dp@30:[0.256006] js_eo@30:[0.324264] 
+epoch: 311, bpr_loss:0.017055 emb_loss:0.021546 
+ndcg@10:[0.195817] ndcg@20:[0.244691] ndcg@30:[0.274546] recall@10:[0.156293] recall@20:[0.236737] recall@30:[0.294727] js_dp@10:[0.284698] js_eo@10:[0.350719] js_dp@20:[0.266190] js_eo@20:[0.333556] js_dp@30:[0.256140] js_eo@30:[0.324590] 
+save successful
+epoch: 312, bpr_loss:0.017019 emb_loss:0.021562 
+ndcg@10:[0.195904] ndcg@20:[0.244605] ndcg@30:[0.274598] recall@10:[0.156489] recall@20:[0.236594] recall@30:[0.294901] js_dp@10:[0.284583] js_eo@10:[0.350747] js_dp@20:[0.266574] js_eo@20:[0.333710] js_dp@30:[0.256063] js_eo@30:[0.324632] 
+save successful
+epoch: 313, bpr_loss:0.016951 emb_loss:0.021548 
+ndcg@10:[0.195992] ndcg@20:[0.244696] ndcg@30:[0.274648] recall@10:[0.156544] recall@20:[0.236674] recall@30:[0.294880] js_dp@10:[0.284805] js_eo@10:[0.350917] js_dp@20:[0.266215] js_eo@20:[0.333574] js_dp@30:[0.256101] js_eo@30:[0.324484] 
+save successful
+epoch: 314, bpr_loss:0.016771 emb_loss:0.021552 
+ndcg@10:[0.195869] ndcg@20:[0.244671] ndcg@30:[0.274751] recall@10:[0.156329] recall@20:[0.236584] recall@30:[0.295086] js_dp@10:[0.284610] js_eo@10:[0.350940] js_dp@20:[0.265866] js_eo@20:[0.333455] js_dp@30:[0.256045] js_eo@30:[0.323906] 
+epoch: 315, bpr_loss:0.016893 emb_loss:0.021542 
+ndcg@10:[0.196013] ndcg@20:[0.244712] ndcg@30:[0.274621] recall@10:[0.156595] recall@20:[0.236706] recall@30:[0.294843] js_dp@10:[0.284870] js_eo@10:[0.351820] js_dp@20:[0.266184] js_eo@20:[0.333379] js_dp@30:[0.256406] js_eo@30:[0.324849] 
+save successful
+epoch: 316, bpr_loss:0.016822 emb_loss:0.021548 
+ndcg@10:[0.196064] ndcg@20:[0.244692] ndcg@30:[0.274738] recall@10:[0.156569] recall@20:[0.236586] recall@30:[0.295003] js_dp@10:[0.284763] js_eo@10:[0.351091] js_dp@20:[0.266403] js_eo@20:[0.334094] js_dp@30:[0.256170] js_eo@30:[0.324370] 
+save successful
+epoch: 317, bpr_loss:0.016800 emb_loss:0.021542 
+ndcg@10:[0.196369] ndcg@20:[0.245015] ndcg@30:[0.275077] recall@10:[0.156698] recall@20:[0.236714] recall@30:[0.295149] js_dp@10:[0.284883] js_eo@10:[0.352323] js_dp@20:[0.266169] js_eo@20:[0.333414] js_dp@30:[0.255835] js_eo@30:[0.324733] 
+save successful
+epoch: 318, bpr_loss:0.016628 emb_loss:0.021557 
+ndcg@10:[0.196357] ndcg@20:[0.244919] ndcg@30:[0.275002] recall@10:[0.156786] recall@20:[0.236641] recall@30:[0.295110] js_dp@10:[0.284997] js_eo@10:[0.351693] js_dp@20:[0.265869] js_eo@20:[0.333096] js_dp@30:[0.255838] js_eo@30:[0.324614] 
+epoch: 319, bpr_loss:0.016663 emb_loss:0.021530 
+ndcg@10:[0.196225] ndcg@20:[0.244772] ndcg@30:[0.274986] recall@10:[0.156648] recall@20:[0.236472] recall@30:[0.295222] js_dp@10:[0.285070] js_eo@10:[0.351756] js_dp@20:[0.266250] js_eo@20:[0.333617] js_dp@30:[0.255960] js_eo@30:[0.325004] 
+epoch: 320, bpr_loss:0.016739 emb_loss:0.021528 
+ndcg@10:[0.196303] ndcg@20:[0.244839] ndcg@30:[0.274973] recall@10:[0.156778] recall@20:[0.236629] recall@30:[0.295191] js_dp@10:[0.284904] js_eo@10:[0.351917] js_dp@20:[0.265715] js_eo@20:[0.334067] js_dp@30:[0.255847] js_eo@30:[0.324435] 
+epoch: 321, bpr_loss:0.016569 emb_loss:0.021525 
+ndcg@10:[0.196313] ndcg@20:[0.244999] ndcg@30:[0.274916] recall@10:[0.156804] recall@20:[0.236901] recall@30:[0.295068] js_dp@10:[0.284805] js_eo@10:[0.351511] js_dp@20:[0.265829] js_eo@20:[0.334205] js_dp@30:[0.255572] js_eo@30:[0.324657] 
+epoch: 322, bpr_loss:0.016499 emb_loss:0.021528 
+ndcg@10:[0.196506] ndcg@20:[0.245098] ndcg@30:[0.275148] recall@10:[0.156791] recall@20:[0.236739] recall@30:[0.295148] js_dp@10:[0.284774] js_eo@10:[0.352036] js_dp@20:[0.265795] js_eo@20:[0.334200] js_dp@30:[0.255445] js_eo@30:[0.324970] 
+save successful
+epoch: 323, bpr_loss:0.016698 emb_loss:0.021531 
+ndcg@10:[0.196491] ndcg@20:[0.245171] ndcg@30:[0.275155] recall@10:[0.156825] recall@20:[0.236944] recall@30:[0.295224] js_dp@10:[0.284568] js_eo@10:[0.351237] js_dp@20:[0.265844] js_eo@20:[0.334029] js_dp@30:[0.255545] js_eo@30:[0.324741] 
+epoch: 324, bpr_loss:0.016476 emb_loss:0.021533 
+ndcg@10:[0.196437] ndcg@20:[0.245240] ndcg@30:[0.275292] recall@10:[0.156639] recall@20:[0.237013] recall@30:[0.295396] js_dp@10:[0.284763] js_eo@10:[0.350643] js_dp@20:[0.265820] js_eo@20:[0.333676] js_dp@30:[0.255493] js_eo@30:[0.324812] 
+epoch: 325, bpr_loss:0.016660 emb_loss:0.021538 
+ndcg@10:[0.196601] ndcg@20:[0.245228] ndcg@30:[0.275419] recall@10:[0.156828] recall@20:[0.236841] recall@30:[0.295525] js_dp@10:[0.284351] js_eo@10:[0.350692] js_dp@20:[0.265838] js_eo@20:[0.333475] js_dp@30:[0.255434] js_eo@30:[0.324703] 
+save successful
+epoch: 326, bpr_loss:0.016653 emb_loss:0.021513 
+ndcg@10:[0.196338] ndcg@20:[0.245009] ndcg@30:[0.275116] recall@10:[0.156625] recall@20:[0.236746] recall@30:[0.295231] js_dp@10:[0.284083] js_eo@10:[0.350721] js_dp@20:[0.265811] js_eo@20:[0.333404] js_dp@30:[0.255398] js_eo@30:[0.325047] 
+epoch: 327, bpr_loss:0.016546 emb_loss:0.021501 
+ndcg@10:[0.196437] ndcg@20:[0.245204] ndcg@30:[0.275329] recall@10:[0.156665] recall@20:[0.236940] recall@30:[0.295438] js_dp@10:[0.283978] js_eo@10:[0.350924] js_dp@20:[0.265501] js_eo@20:[0.332940] js_dp@30:[0.255017] js_eo@30:[0.324530] 
+epoch: 328, bpr_loss:0.016363 emb_loss:0.021534 
+ndcg@10:[0.196575] ndcg@20:[0.245291] ndcg@30:[0.275407] recall@10:[0.156885] recall@20:[0.237067] recall@30:[0.295526] js_dp@10:[0.284278] js_eo@10:[0.349765] js_dp@20:[0.265560] js_eo@20:[0.332920] js_dp@30:[0.255218] js_eo@30:[0.324711] 
+epoch: 329, bpr_loss:0.016598 emb_loss:0.021513 
+ndcg@10:[0.196394] ndcg@20:[0.244977] ndcg@30:[0.275183] recall@10:[0.156784] recall@20:[0.236755] recall@30:[0.295416] js_dp@10:[0.284282] js_eo@10:[0.350358] js_dp@20:[0.265818] js_eo@20:[0.333700] js_dp@30:[0.255337] js_eo@30:[0.324649] 
+epoch: 330, bpr_loss:0.016469 emb_loss:0.021497 
+ndcg@10:[0.196309] ndcg@20:[0.245059] ndcg@30:[0.275187] recall@10:[0.156603] recall@20:[0.236833] recall@30:[0.295342] js_dp@10:[0.284364] js_eo@10:[0.350575] js_dp@20:[0.265844] js_eo@20:[0.333655] js_dp@30:[0.255495] js_eo@30:[0.324701] 
+epoch: 331, bpr_loss:0.016386 emb_loss:0.021500 
+ndcg@10:[0.196542] ndcg@20:[0.245124] ndcg@30:[0.275255] recall@10:[0.156900] recall@20:[0.236887] recall@30:[0.295422] js_dp@10:[0.284437] js_eo@10:[0.350979] js_dp@20:[0.265856] js_eo@20:[0.332882] js_dp@30:[0.255371] js_eo@30:[0.324345] 
+epoch: 332, bpr_loss:0.016288 emb_loss:0.021506 
+ndcg@10:[0.196453] ndcg@20:[0.245126] ndcg@30:[0.275391] recall@10:[0.156708] recall@20:[0.236765] recall@30:[0.295539] js_dp@10:[0.284256] js_eo@10:[0.350948] js_dp@20:[0.265669] js_eo@20:[0.332581] js_dp@30:[0.255131] js_eo@30:[0.324240] 
+epoch: 333, bpr_loss:0.016377 emb_loss:0.021510 
+ndcg@10:[0.196419] ndcg@20:[0.245247] ndcg@30:[0.275324] recall@10:[0.156724] recall@20:[0.237056] recall@30:[0.295521] js_dp@10:[0.284390] js_eo@10:[0.350010] js_dp@20:[0.265927] js_eo@20:[0.333145] js_dp@30:[0.255408] js_eo@30:[0.324455] 
+epoch: 334, bpr_loss:0.016361 emb_loss:0.021486 
+ndcg@10:[0.196673] ndcg@20:[0.245465] ndcg@30:[0.275517] recall@10:[0.156901] recall@20:[0.237200] recall@30:[0.295630] js_dp@10:[0.285046] js_eo@10:[0.350026] js_dp@20:[0.265665] js_eo@20:[0.332745] js_dp@30:[0.255388] js_eo@30:[0.324362] 
+save successful
+epoch: 335, bpr_loss:0.016338 emb_loss:0.021486 
+ndcg@10:[0.196562] ndcg@20:[0.245299] ndcg@30:[0.275387] recall@10:[0.156839] recall@20:[0.237047] recall@30:[0.295530] js_dp@10:[0.284779] js_eo@10:[0.350135] js_dp@20:[0.265690] js_eo@20:[0.333655] js_dp@30:[0.255346] js_eo@30:[0.324398] 
+epoch: 336, bpr_loss:0.016377 emb_loss:0.021489 
+ndcg@10:[0.196501] ndcg@20:[0.245227] ndcg@30:[0.275415] recall@10:[0.156866] recall@20:[0.237035] recall@30:[0.295686] js_dp@10:[0.284940] js_eo@10:[0.351051] js_dp@20:[0.265504] js_eo@20:[0.333298] js_dp@30:[0.255563] js_eo@30:[0.324680] 
+epoch: 337, bpr_loss:0.016353 emb_loss:0.021472 
+ndcg@10:[0.196576] ndcg@20:[0.245292] ndcg@30:[0.275570] recall@10:[0.156990] recall@20:[0.237116] recall@30:[0.295969] js_dp@10:[0.284898] js_eo@10:[0.350775] js_dp@20:[0.265561] js_eo@20:[0.333841] js_dp@30:[0.255656] js_eo@30:[0.324778] 
+epoch: 338, bpr_loss:0.016280 emb_loss:0.021479 
+ndcg@10:[0.196434] ndcg@20:[0.245156] ndcg@30:[0.275377] recall@10:[0.156870] recall@20:[0.237007] recall@30:[0.295722] js_dp@10:[0.284994] js_eo@10:[0.351249] js_dp@20:[0.265867] js_eo@20:[0.334161] js_dp@30:[0.255593] js_eo@30:[0.324803] 
+epoch: 339, bpr_loss:0.016205 emb_loss:0.021465 
+ndcg@10:[0.196443] ndcg@20:[0.245170] ndcg@30:[0.275409] recall@10:[0.156784] recall@20:[0.236879] recall@30:[0.295704] js_dp@10:[0.284797] js_eo@10:[0.350793] js_dp@20:[0.265671] js_eo@20:[0.334697] js_dp@30:[0.255515] js_eo@30:[0.324638] 
+epoch: 340, bpr_loss:0.016215 emb_loss:0.021469 
+ndcg@10:[0.196657] ndcg@20:[0.245403] ndcg@30:[0.275628] recall@10:[0.156952] recall@20:[0.237132] recall@30:[0.295898] js_dp@10:[0.284681] js_eo@10:[0.350650] js_dp@20:[0.265724] js_eo@20:[0.334392] js_dp@30:[0.255637] js_eo@30:[0.324229] 
+epoch: 341, bpr_loss:0.016086 emb_loss:0.021469 
+ndcg@10:[0.196750] ndcg@20:[0.245526] ndcg@30:[0.275778] recall@10:[0.157034] recall@20:[0.237268] recall@30:[0.296060] js_dp@10:[0.284626] js_eo@10:[0.350760] js_dp@20:[0.265600] js_eo@20:[0.333983] js_dp@30:[0.255504] js_eo@30:[0.324111] 
+save successful
+epoch: 342, bpr_loss:0.016103 emb_loss:0.021467 
+ndcg@10:[0.196513] ndcg@20:[0.245386] ndcg@30:[0.275577] recall@10:[0.156852] recall@20:[0.237231] recall@30:[0.295931] js_dp@10:[0.285324] js_eo@10:[0.351848] js_dp@20:[0.266182] js_eo@20:[0.334229] js_dp@30:[0.255859] js_eo@30:[0.324239] 
+epoch: 343, bpr_loss:0.016283 emb_loss:0.021454 
+ndcg@10:[0.196475] ndcg@20:[0.245368] ndcg@30:[0.275373] recall@10:[0.156823] recall@20:[0.237263] recall@30:[0.295566] js_dp@10:[0.285282] js_eo@10:[0.351582] js_dp@20:[0.265911] js_eo@20:[0.334356] js_dp@30:[0.255904] js_eo@30:[0.324489] 
+epoch: 344, bpr_loss:0.016185 emb_loss:0.021455 
+ndcg@10:[0.196685] ndcg@20:[0.245415] ndcg@30:[0.275556] recall@10:[0.157016] recall@20:[0.237127] recall@30:[0.295710] js_dp@10:[0.285351] js_eo@10:[0.352339] js_dp@20:[0.265684] js_eo@20:[0.334483] js_dp@30:[0.255621] js_eo@30:[0.325247] 
+epoch: 345, bpr_loss:0.015920 emb_loss:0.021452 
+ndcg@10:[0.196596] ndcg@20:[0.245414] ndcg@30:[0.275539] recall@10:[0.156912] recall@20:[0.237209] recall@30:[0.295756] js_dp@10:[0.285352] js_eo@10:[0.352129] js_dp@20:[0.265826] js_eo@20:[0.334123] js_dp@30:[0.255621] js_eo@30:[0.324620] 
+epoch: 346, bpr_loss:0.016001 emb_loss:0.021444 
+ndcg@10:[0.196702] ndcg@20:[0.245556] ndcg@30:[0.275685] recall@10:[0.156874] recall@20:[0.237198] recall@30:[0.295719] js_dp@10:[0.285030] js_eo@10:[0.352645] js_dp@20:[0.265599] js_eo@20:[0.333555] js_dp@30:[0.255400] js_eo@30:[0.324904] 
+epoch: 347, bpr_loss:0.015995 emb_loss:0.021462 
+ndcg@10:[0.196796] ndcg@20:[0.245631] ndcg@30:[0.275812] recall@10:[0.157061] recall@20:[0.237367] recall@30:[0.296013] js_dp@10:[0.285315] js_eo@10:[0.352601] js_dp@20:[0.265612] js_eo@20:[0.333052] js_dp@30:[0.255484] js_eo@30:[0.324795] 
+save successful
+epoch: 348, bpr_loss:0.015928 emb_loss:0.021441 
+ndcg@10:[0.196593] ndcg@20:[0.245401] ndcg@30:[0.275523] recall@10:[0.156881] recall@20:[0.237111] recall@30:[0.295674] js_dp@10:[0.285160] js_eo@10:[0.352045] js_dp@20:[0.265968] js_eo@20:[0.333790] js_dp@30:[0.255673] js_eo@30:[0.324946] 
+epoch: 349, bpr_loss:0.015820 emb_loss:0.021435 
+ndcg@10:[0.196796] ndcg@20:[0.245630] ndcg@30:[0.275745] recall@10:[0.156995] recall@20:[0.237285] recall@30:[0.295800] js_dp@10:[0.285253] js_eo@10:[0.351733] js_dp@20:[0.265972] js_eo@20:[0.334277] js_dp@30:[0.255855] js_eo@30:[0.324974] 
+save successful
+epoch: 350, bpr_loss:0.016198 emb_loss:0.021421 
+ndcg@10:[0.196726] ndcg@20:[0.245593] ndcg@30:[0.275739] recall@10:[0.156887] recall@20:[0.237228] recall@30:[0.295818] js_dp@10:[0.285214] js_eo@10:[0.351845] js_dp@20:[0.265880] js_eo@20:[0.333480] js_dp@30:[0.255900] js_eo@30:[0.325144] 
+epoch: 351, bpr_loss:0.015840 emb_loss:0.021433 
+ndcg@10:[0.197085] ndcg@20:[0.246025] ndcg@30:[0.276071] recall@10:[0.157179] recall@20:[0.237669] recall@30:[0.296077] js_dp@10:[0.285264] js_eo@10:[0.351453] js_dp@20:[0.265941] js_eo@20:[0.334030] js_dp@30:[0.255715] js_eo@30:[0.324869] 
+save successful
+epoch: 352, bpr_loss:0.015880 emb_loss:0.021438 
+ndcg@10:[0.196959] ndcg@20:[0.245949] ndcg@30:[0.276040] recall@10:[0.157059] recall@20:[0.237622] recall@30:[0.296127] js_dp@10:[0.285262] js_eo@10:[0.351206] js_dp@20:[0.265911] js_eo@20:[0.334145] js_dp@30:[0.255740] js_eo@30:[0.325299] 
+epoch: 353, bpr_loss:0.015946 emb_loss:0.021432 
+ndcg@10:[0.196882] ndcg@20:[0.245889] ndcg@30:[0.275940] recall@10:[0.157055] recall@20:[0.237668] recall@30:[0.296113] js_dp@10:[0.285503] js_eo@10:[0.351242] js_dp@20:[0.265852] js_eo@20:[0.333509] js_dp@30:[0.255734] js_eo@30:[0.325023] 
+epoch: 354, bpr_loss:0.015760 emb_loss:0.021423 
+ndcg@10:[0.197054] ndcg@20:[0.246049] ndcg@30:[0.276052] recall@10:[0.157152] recall@20:[0.237765] recall@30:[0.296094] js_dp@10:[0.285996] js_eo@10:[0.351160] js_dp@20:[0.265772] js_eo@20:[0.333361] js_dp@30:[0.255866] js_eo@30:[0.325290] 
+epoch: 355, bpr_loss:0.015776 emb_loss:0.021442 
+ndcg@10:[0.197258] ndcg@20:[0.246133] ndcg@30:[0.276239] recall@10:[0.157293] recall@20:[0.237718] recall@30:[0.296215] js_dp@10:[0.285519] js_eo@10:[0.350632] js_dp@20:[0.265761] js_eo@20:[0.333050] js_dp@30:[0.255540] js_eo@30:[0.325031] 
+save successful
+epoch: 356, bpr_loss:0.015730 emb_loss:0.021427 
+ndcg@10:[0.196866] ndcg@20:[0.245773] ndcg@30:[0.275902] recall@10:[0.157116] recall@20:[0.237546] recall@30:[0.296086] js_dp@10:[0.285629] js_eo@10:[0.352474] js_dp@20:[0.265879] js_eo@20:[0.333733] js_dp@30:[0.255774] js_eo@30:[0.325916] 
+epoch: 357, bpr_loss:0.015827 emb_loss:0.021411 
+ndcg@10:[0.197093] ndcg@20:[0.245855] ndcg@30:[0.276106] recall@10:[0.157304] recall@20:[0.237475] recall@30:[0.296275] js_dp@10:[0.285963] js_eo@10:[0.351213] js_dp@20:[0.265686] js_eo@20:[0.333610] js_dp@30:[0.255714] js_eo@30:[0.325023] 
+epoch: 358, bpr_loss:0.015716 emb_loss:0.021411 
+ndcg@10:[0.197009] ndcg@20:[0.245839] ndcg@30:[0.276110] recall@10:[0.157251] recall@20:[0.237579] recall@30:[0.296415] js_dp@10:[0.285860] js_eo@10:[0.350484] js_dp@20:[0.265925] js_eo@20:[0.333883] js_dp@30:[0.255789] js_eo@30:[0.325175] 
+epoch: 359, bpr_loss:0.015644 emb_loss:0.021405 
+ndcg@10:[0.196943] ndcg@20:[0.245858] ndcg@30:[0.276029] recall@10:[0.157274] recall@20:[0.237746] recall@30:[0.296383] js_dp@10:[0.286388] js_eo@10:[0.351102] js_dp@20:[0.266190] js_eo@20:[0.333803] js_dp@30:[0.255906] js_eo@30:[0.325210] 
+epoch: 360, bpr_loss:0.015638 emb_loss:0.021414 
+ndcg@10:[0.196916] ndcg@20:[0.245926] ndcg@30:[0.276055] recall@10:[0.157129] recall@20:[0.237704] recall@30:[0.296279] js_dp@10:[0.286185] js_eo@10:[0.350566] js_dp@20:[0.265927] js_eo@20:[0.333327] js_dp@30:[0.255346] js_eo@30:[0.324898] 
+epoch: 361, bpr_loss:0.015587 emb_loss:0.021409 
+ndcg@10:[0.197058] ndcg@20:[0.245996] ndcg@30:[0.276142] recall@10:[0.157191] recall@20:[0.237665] recall@30:[0.296279] js_dp@10:[0.285908] js_eo@10:[0.349922] js_dp@20:[0.265810] js_eo@20:[0.333364] js_dp@30:[0.255735] js_eo@30:[0.325047] 
+epoch: 362, bpr_loss:0.015609 emb_loss:0.021411 
+ndcg@10:[0.197017] ndcg@20:[0.246019] ndcg@30:[0.276155] recall@10:[0.157225] recall@20:[0.237802] recall@30:[0.296398] js_dp@10:[0.285536] js_eo@10:[0.350413] js_dp@20:[0.265542] js_eo@20:[0.333478] js_dp@30:[0.255485] js_eo@30:[0.324899] 
+epoch: 363, bpr_loss:0.015659 emb_loss:0.021399 
+ndcg@10:[0.196993] ndcg@20:[0.246027] ndcg@30:[0.276173] recall@10:[0.157140] recall@20:[0.237783] recall@30:[0.296406] js_dp@10:[0.285518] js_eo@10:[0.349785] js_dp@20:[0.265693] js_eo@20:[0.333211] js_dp@30:[0.255370] js_eo@30:[0.324985] 
+epoch: 364, bpr_loss:0.015604 emb_loss:0.021403 
+ndcg@10:[0.196984] ndcg@20:[0.246100] ndcg@30:[0.275979] recall@10:[0.157131] recall@20:[0.237943] recall@30:[0.296017] js_dp@10:[0.285446] js_eo@10:[0.350015] js_dp@20:[0.265883] js_eo@20:[0.333602] js_dp@30:[0.255453] js_eo@30:[0.325230] 
+epoch: 365, bpr_loss:0.015546 emb_loss:0.021382 
+ndcg@10:[0.196979] ndcg@20:[0.246029] ndcg@30:[0.276106] recall@10:[0.157142] recall@20:[0.237810] recall@30:[0.296304] js_dp@10:[0.285081] js_eo@10:[0.349751] js_dp@20:[0.265674] js_eo@20:[0.333586] js_dp@30:[0.255414] js_eo@30:[0.324741] 
+epoch: 366, bpr_loss:0.015506 emb_loss:0.021388 
+ndcg@10:[0.197217] ndcg@20:[0.246229] ndcg@30:[0.276283] recall@10:[0.157364] recall@20:[0.237990] recall@30:[0.296405] js_dp@10:[0.285056] js_eo@10:[0.349562] js_dp@20:[0.265630] js_eo@20:[0.333329] js_dp@30:[0.255325] js_eo@30:[0.324766] 
+epoch: 367, bpr_loss:0.015409 emb_loss:0.021406 
+ndcg@10:[0.197271] ndcg@20:[0.246356] ndcg@30:[0.276374] recall@10:[0.157255] recall@20:[0.238005] recall@30:[0.296350] js_dp@10:[0.285223] js_eo@10:[0.349747] js_dp@20:[0.265879] js_eo@20:[0.333837] js_dp@30:[0.255244] js_eo@30:[0.324509] 
+save successful
+epoch: 368, bpr_loss:0.015362 emb_loss:0.021401 
+ndcg@10:[0.197237] ndcg@20:[0.246263] ndcg@30:[0.276250] recall@10:[0.157263] recall@20:[0.237898] recall@30:[0.296204] js_dp@10:[0.285341] js_eo@10:[0.350385] js_dp@20:[0.265871] js_eo@20:[0.333850] js_dp@30:[0.255476] js_eo@30:[0.324986] 
+epoch: 369, bpr_loss:0.015469 emb_loss:0.021386 
+ndcg@10:[0.197252] ndcg@20:[0.246237] ndcg@30:[0.276192] recall@10:[0.157372] recall@20:[0.237941] recall@30:[0.296109] js_dp@10:[0.285000] js_eo@10:[0.349718] js_dp@20:[0.265904] js_eo@20:[0.333653] js_dp@30:[0.255344] js_eo@30:[0.324626] 
+epoch: 370, bpr_loss:0.015313 emb_loss:0.021395 
+ndcg@10:[0.197325] ndcg@20:[0.246204] ndcg@30:[0.276263] recall@10:[0.157405] recall@20:[0.237821] recall@30:[0.296198] js_dp@10:[0.285244] js_eo@10:[0.349793] js_dp@20:[0.265897] js_eo@20:[0.333399] js_dp@30:[0.255219] js_eo@30:[0.324966] 
+save successful
+epoch: 371, bpr_loss:0.015474 emb_loss:0.021366 
+ndcg@10:[0.197005] ndcg@20:[0.246028] ndcg@30:[0.276115] recall@10:[0.157156] recall@20:[0.237815] recall@30:[0.296268] js_dp@10:[0.285350] js_eo@10:[0.350743] js_dp@20:[0.265768] js_eo@20:[0.333319] js_dp@30:[0.255368] js_eo@30:[0.324833] 
+epoch: 372, bpr_loss:0.015470 emb_loss:0.021376 
+ndcg@10:[0.197266] ndcg@20:[0.246188] ndcg@30:[0.276299] recall@10:[0.157340] recall@20:[0.237827] recall@30:[0.296327] js_dp@10:[0.285510] js_eo@10:[0.350561] js_dp@20:[0.265894] js_eo@20:[0.333451] js_dp@30:[0.255520] js_eo@30:[0.325193] 
+epoch: 373, bpr_loss:0.015331 emb_loss:0.021370 
+ndcg@10:[0.197372] ndcg@20:[0.246255] ndcg@30:[0.276400] recall@10:[0.157519] recall@20:[0.237931] recall@30:[0.296495] js_dp@10:[0.285471] js_eo@10:[0.350180] js_dp@20:[0.266139] js_eo@20:[0.333797] js_dp@30:[0.255474] js_eo@30:[0.325180] 
+save successful
+epoch: 374, bpr_loss:0.015085 emb_loss:0.021384 
+ndcg@10:[0.197354] ndcg@20:[0.246237] ndcg@30:[0.276452] recall@10:[0.157535] recall@20:[0.237901] recall@30:[0.296636] js_dp@10:[0.285411] js_eo@10:[0.349610] js_dp@20:[0.266078] js_eo@20:[0.333190] js_dp@30:[0.255567] js_eo@30:[0.325375] 
+epoch: 375, bpr_loss:0.015188 emb_loss:0.021396 
+ndcg@10:[0.197521] ndcg@20:[0.246373] ndcg@30:[0.276607] recall@10:[0.157708] recall@20:[0.238050] recall@30:[0.296822] js_dp@10:[0.285687] js_eo@10:[0.349383] js_dp@20:[0.265855] js_eo@20:[0.333403] js_dp@30:[0.255639] js_eo@30:[0.325098] 
+save successful
+epoch: 376, bpr_loss:0.015402 emb_loss:0.021387 
+ndcg@10:[0.197595] ndcg@20:[0.246380] ndcg@30:[0.276663] recall@10:[0.157758] recall@20:[0.237943] recall@30:[0.296840] js_dp@10:[0.285834] js_eo@10:[0.349282] js_dp@20:[0.266040] js_eo@20:[0.333332] js_dp@30:[0.255858] js_eo@30:[0.325098] 
+save successful
+epoch: 377, bpr_loss:0.015195 emb_loss:0.021361 
+ndcg@10:[0.197282] ndcg@20:[0.246207] ndcg@30:[0.276476] recall@10:[0.157472] recall@20:[0.237907] recall@30:[0.296760] js_dp@10:[0.285602] js_eo@10:[0.350054] js_dp@20:[0.266151] js_eo@20:[0.333535] js_dp@30:[0.255558] js_eo@30:[0.325361] 
+epoch: 378, bpr_loss:0.015147 emb_loss:0.021368 
+ndcg@10:[0.197306] ndcg@20:[0.246286] ndcg@30:[0.276503] recall@10:[0.157430] recall@20:[0.237950] recall@30:[0.296675] js_dp@10:[0.285240] js_eo@10:[0.348890] js_dp@20:[0.265970] js_eo@20:[0.333931] js_dp@30:[0.255356] js_eo@30:[0.324909] 
+epoch: 379, bpr_loss:0.015212 emb_loss:0.021365 
+ndcg@10:[0.197289] ndcg@20:[0.246227] ndcg@30:[0.276424] recall@10:[0.157483] recall@20:[0.237979] recall@30:[0.296683] js_dp@10:[0.285191] js_eo@10:[0.349576] js_dp@20:[0.265922] js_eo@20:[0.333178] js_dp@30:[0.255141] js_eo@30:[0.325314] 
+epoch: 380, bpr_loss:0.015110 emb_loss:0.021359 
+ndcg@10:[0.197453] ndcg@20:[0.246418] ndcg@30:[0.276619] recall@10:[0.157642] recall@20:[0.238132] recall@30:[0.296825] js_dp@10:[0.285208] js_eo@10:[0.347905] js_dp@20:[0.265981] js_eo@20:[0.333578] js_dp@30:[0.255143] js_eo@30:[0.324559] 
+epoch: 381, bpr_loss:0.015140 emb_loss:0.021356 
+ndcg@10:[0.197508] ndcg@20:[0.246484] ndcg@30:[0.276604] recall@10:[0.157622] recall@20:[0.238152] recall@30:[0.296694] js_dp@10:[0.285126] js_eo@10:[0.348549] js_dp@20:[0.265839] js_eo@20:[0.333338] js_dp@30:[0.255234] js_eo@30:[0.324990] 
+epoch: 382, bpr_loss:0.015109 emb_loss:0.021353 
+ndcg@10:[0.197438] ndcg@20:[0.246383] ndcg@30:[0.276533] recall@10:[0.157627] recall@20:[0.238120] recall@30:[0.296708] js_dp@10:[0.285390] js_eo@10:[0.349293] js_dp@20:[0.265890] js_eo@20:[0.333557] js_dp@30:[0.255446] js_eo@30:[0.324887] 
+epoch: 383, bpr_loss:0.015319 emb_loss:0.021346 
+ndcg@10:[0.197361] ndcg@20:[0.246349] ndcg@30:[0.276533] recall@10:[0.157505] recall@20:[0.238030] recall@30:[0.296675] js_dp@10:[0.285562] js_eo@10:[0.349980] js_dp@20:[0.266071] js_eo@20:[0.333338] js_dp@30:[0.255380] js_eo@30:[0.324760] 
+epoch: 384, bpr_loss:0.015168 emb_loss:0.021341 
+ndcg@10:[0.197282] ndcg@20:[0.246268] ndcg@30:[0.276450] recall@10:[0.157476] recall@20:[0.237988] recall@30:[0.296638] js_dp@10:[0.285366] js_eo@10:[0.350589] js_dp@20:[0.266052] js_eo@20:[0.333641] js_dp@30:[0.255479] js_eo@30:[0.325147] 
+epoch: 385, bpr_loss:0.015133 emb_loss:0.021349 
+ndcg@10:[0.197331] ndcg@20:[0.246316] ndcg@30:[0.276482] recall@10:[0.157544] recall@20:[0.238104] recall@30:[0.296661] js_dp@10:[0.285387] js_eo@10:[0.350477] js_dp@20:[0.265762] js_eo@20:[0.333252] js_dp@30:[0.255484] js_eo@30:[0.324744] 
+epoch: 386, bpr_loss:0.014995 emb_loss:0.021328 
+ndcg@10:[0.197291] ndcg@20:[0.246339] ndcg@30:[0.276299] recall@10:[0.157611] recall@20:[0.238318] recall@30:[0.296515] js_dp@10:[0.285521] js_eo@10:[0.350413] js_dp@20:[0.265832] js_eo@20:[0.333540] js_dp@30:[0.255396] js_eo@30:[0.324854] 
+epoch: 387, bpr_loss:0.015179 emb_loss:0.021321 
+ndcg@10:[0.197364] ndcg@20:[0.246383] ndcg@30:[0.276405] recall@10:[0.157595] recall@20:[0.238241] recall@30:[0.296544] js_dp@10:[0.285201] js_eo@10:[0.350725] js_dp@20:[0.266012] js_eo@20:[0.333521] js_dp@30:[0.255377] js_eo@30:[0.324335] 
+epoch: 388, bpr_loss:0.015006 emb_loss:0.021326 
+ndcg@10:[0.197594] ndcg@20:[0.246652] ndcg@30:[0.276572] recall@10:[0.157771] recall@20:[0.238480] recall@30:[0.296576] js_dp@10:[0.285163] js_eo@10:[0.351535] js_dp@20:[0.265900] js_eo@20:[0.332928] js_dp@30:[0.255388] js_eo@30:[0.324422] 
+epoch: 389, bpr_loss:0.015059 emb_loss:0.021314 
+ndcg@10:[0.197547] ndcg@20:[0.246551] ndcg@30:[0.276588] recall@10:[0.157674] recall@20:[0.238267] recall@30:[0.296609] js_dp@10:[0.285306] js_eo@10:[0.351351] js_dp@20:[0.266163] js_eo@20:[0.333371] js_dp@30:[0.255829] js_eo@30:[0.324736] 
+epoch: 390, bpr_loss:0.014892 emb_loss:0.021314 
+ndcg@10:[0.197652] ndcg@20:[0.246626] ndcg@30:[0.276609] recall@10:[0.157745] recall@20:[0.238288] recall@30:[0.296510] js_dp@10:[0.285269] js_eo@10:[0.351910] js_dp@20:[0.266265] js_eo@20:[0.332905] js_dp@30:[0.255831] js_eo@30:[0.325056] 
+save successful
+epoch: 391, bpr_loss:0.015019 emb_loss:0.021329 
+ndcg@10:[0.197671] ndcg@20:[0.246711] ndcg@30:[0.276686] recall@10:[0.157729] recall@20:[0.238412] recall@30:[0.296618] js_dp@10:[0.284740] js_eo@10:[0.351405] js_dp@20:[0.265896] js_eo@20:[0.333239] js_dp@30:[0.255431] js_eo@30:[0.324836] 
+save successful
+epoch: 392, bpr_loss:0.014934 emb_loss:0.021309 
+ndcg@10:[0.197664] ndcg@20:[0.246623] ndcg@30:[0.276651] recall@10:[0.157745] recall@20:[0.238306] recall@30:[0.296597] js_dp@10:[0.284775] js_eo@10:[0.350826] js_dp@20:[0.265816] js_eo@20:[0.333145] js_dp@30:[0.255495] js_eo@30:[0.324354] 
+epoch: 393, bpr_loss:0.014864 emb_loss:0.021311 
+ndcg@10:[0.197751] ndcg@20:[0.246823] ndcg@30:[0.276763] recall@10:[0.157801] recall@20:[0.238533] recall@30:[0.296659] js_dp@10:[0.284698] js_eo@10:[0.350361] js_dp@20:[0.265707] js_eo@20:[0.332784] js_dp@30:[0.255331] js_eo@30:[0.324352] 
+save successful
+epoch: 394, bpr_loss:0.014792 emb_loss:0.021329 
+ndcg@10:[0.197685] ndcg@20:[0.246845] ndcg@30:[0.276761] recall@10:[0.157725] recall@20:[0.238582] recall@30:[0.296674] js_dp@10:[0.284618] js_eo@10:[0.350489] js_dp@20:[0.265623] js_eo@20:[0.332817] js_dp@30:[0.255004] js_eo@30:[0.324138] 
+epoch: 395, bpr_loss:0.014922 emb_loss:0.021314 
+ndcg@10:[0.197509] ndcg@20:[0.246614] ndcg@30:[0.276613] recall@10:[0.157519] recall@20:[0.238292] recall@30:[0.296524] js_dp@10:[0.285263] js_eo@10:[0.350407] js_dp@20:[0.265827] js_eo@20:[0.333464] js_dp@30:[0.255361] js_eo@30:[0.324587] 
+epoch: 396, bpr_loss:0.014867 emb_loss:0.021294 
+ndcg@10:[0.197579] ndcg@20:[0.246650] ndcg@30:[0.276599] recall@10:[0.157586] recall@20:[0.238300] recall@30:[0.296432] js_dp@10:[0.285098] js_eo@10:[0.350242] js_dp@20:[0.265971] js_eo@20:[0.333159] js_dp@30:[0.255394] js_eo@30:[0.324072] 
+epoch: 397, bpr_loss:0.014796 emb_loss:0.021289 

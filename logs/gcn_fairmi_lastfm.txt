@@ -1,0 +1,130 @@
+Namespace(bakcbone='gcn', dataset='./data/lastfm-360k/process/process.pkl', emb_size=64, hidden_size=256, lr=0.001, l2_reg=0.001, n_layers=3, batch_size=4096, num_workers=6, log_path='logs/gcn_fairmi_lastfm.txt', param_path='param/gcn_fairmi_lastfm.pth', pretrain_path='param/gcn_base_lastfm.pth', lower_reg=0.1, upper_reg=0.1, train_step=50, num_epochs=500, device='cuda:0')
+epoch: 1000, classify_loss: 0.002323
+epoch: 0, bpr_loss:0.684678 emb_loss:0.000082 lower_bound:1.187963 upper_bound:0.000077 mi_loss:-5.237425 
+ndcg@10:[0.074476] ndcg@20:[0.096939] ndcg@30:[0.111547] recall@10:[0.060133] recall@20:[0.097165] recall@30:[0.125647] js_dp@10:[0.781239] js_eo@10:[0.726198] js_dp@20:[0.773186] js_eo@20:[0.703940] js_dp@30:[0.769360] js_eo@30:[0.691815] 
+save successful
+epoch: 1, bpr_loss:0.676252 emb_loss:0.000183 lower_bound:1.150215 upper_bound:0.014723 mi_loss:-23.404176 
+ndcg@10:[0.111737] ndcg@20:[0.143330] ndcg@30:[0.163564] recall@10:[0.090780] recall@20:[0.142918] recall@30:[0.182321] js_dp@10:[0.249863] js_eo@10:[0.279710] js_dp@20:[0.240885] js_eo@20:[0.272915] js_dp@30:[0.235531] js_eo@30:[0.272185] 
+save successful
+epoch: 2, bpr_loss:0.609051 emb_loss:0.001018 lower_bound:1.171379 upper_bound:0.001170 mi_loss:-30.714785 
+ndcg@10:[0.099955] ndcg@20:[0.127330] ndcg@30:[0.145311] recall@10:[0.080668] recall@20:[0.125914] recall@30:[0.160943] js_dp@10:[0.130409] js_eo@10:[0.216105] js_dp@20:[0.121462] js_eo@20:[0.217112] js_dp@30:[0.116430] js_eo@30:[0.220399] 
+epoch: 3, bpr_loss:0.382768 emb_loss:0.005113 lower_bound:1.218833 upper_bound:0.001609 mi_loss:-31.110786 
+ndcg@10:[0.103819] ndcg@20:[0.132346] ndcg@30:[0.150630] recall@10:[0.084203] recall@20:[0.131287] recall@30:[0.166959] js_dp@10:[0.107209] js_eo@10:[0.210299] js_dp@20:[0.099998] js_eo@20:[0.207977] js_dp@30:[0.094993] js_eo@30:[0.212705] 
+epoch: 4, bpr_loss:0.247009 emb_loss:0.008968 lower_bound:1.223074 upper_bound:0.001832 mi_loss:-31.248154 
+ndcg@10:[0.124525] ndcg@20:[0.156997] ndcg@30:[0.177520] recall@10:[0.100461] recall@20:[0.154060] recall@30:[0.194017] js_dp@10:[0.125432] js_eo@10:[0.215728] js_dp@20:[0.118810] js_eo@20:[0.216170] js_dp@30:[0.113746] js_eo@30:[0.218854] 
+save successful
+epoch: 5, bpr_loss:0.184810 emb_loss:0.010971 lower_bound:1.213635 upper_bound:0.001985 mi_loss:-31.238344 
+ndcg@10:[0.141041] ndcg@20:[0.177002] ndcg@30:[0.199364] recall@10:[0.112732] recall@20:[0.172041] recall@30:[0.215612] js_dp@10:[0.140128] js_eo@10:[0.224784] js_dp@20:[0.132358] js_eo@20:[0.224181] js_dp@30:[0.127505] js_eo@30:[0.225461] 
+save successful
+epoch: 6, bpr_loss:0.148429 emb_loss:0.012294 lower_bound:1.204903 upper_bound:0.003111 mi_loss:-31.267889 
+ndcg@10:[0.152882] ndcg@20:[0.191190] ndcg@30:[0.215176] recall@10:[0.121248] recall@20:[0.184369] recall@30:[0.231050] js_dp@10:[0.144006] js_eo@10:[0.226593] js_dp@20:[0.136781] js_eo@20:[0.226241] js_dp@30:[0.131776] js_eo@30:[0.227305] 
+save successful
+epoch: 7, bpr_loss:0.125252 emb_loss:0.013291 lower_bound:1.197355 upper_bound:0.002183 mi_loss:-31.236979 
+ndcg@10:[0.162455] ndcg@20:[0.202553] ndcg@30:[0.227742] recall@10:[0.128396] recall@20:[0.194501] recall@30:[0.243535] js_dp@10:[0.148662] js_eo@10:[0.229566] js_dp@20:[0.141181] js_eo@20:[0.228613] js_dp@30:[0.136434] js_eo@30:[0.229613] 
+save successful
+epoch: 8, bpr_loss:0.108162 emb_loss:0.014142 lower_bound:1.191203 upper_bound:0.003534 mi_loss:-31.262925 
+ndcg@10:[0.169322] ndcg@20:[0.210843] ndcg@30:[0.237027] recall@10:[0.133446] recall@20:[0.201853] recall@30:[0.252783] js_dp@10:[0.146695] js_eo@10:[0.228788] js_dp@20:[0.138377] js_eo@20:[0.228008] js_dp@30:[0.133933] js_eo@30:[0.228879] 
+save successful
+epoch: 9, bpr_loss:0.095671 emb_loss:0.014858 lower_bound:1.186031 upper_bound:0.002915 mi_loss:-31.251834 
+ndcg@10:[0.175251] ndcg@20:[0.218039] ndcg@30:[0.244808] recall@10:[0.137865] recall@20:[0.208419] recall@30:[0.260451] js_dp@10:[0.147598] js_eo@10:[0.231337] js_dp@20:[0.139288] js_eo@20:[0.229947] js_dp@30:[0.134869] js_eo@30:[0.231094] 
+save successful
+epoch: 10, bpr_loss:0.085719 emb_loss:0.015496 lower_bound:1.181451 upper_bound:0.002894 mi_loss:-31.264846 
+ndcg@10:[0.179646] ndcg@20:[0.223538] ndcg@30:[0.250899] recall@10:[0.141364] recall@20:[0.213689] recall@30:[0.266895] js_dp@10:[0.148820] js_eo@10:[0.232510] js_dp@20:[0.140023] js_eo@20:[0.231583] js_dp@30:[0.135799] js_eo@30:[0.232194] 
+save successful
+epoch: 11, bpr_loss:0.078137 emb_loss:0.016023 lower_bound:1.177378 upper_bound:0.002953 mi_loss:-31.255917 
+ndcg@10:[0.183370] ndcg@20:[0.228164] ndcg@30:[0.255827] recall@10:[0.144197] recall@20:[0.217997] recall@30:[0.271796] js_dp@10:[0.146387] js_eo@10:[0.232387] js_dp@20:[0.138620] js_eo@20:[0.232635] js_dp@30:[0.134297] js_eo@30:[0.233462] 
+save successful
+epoch: 12, bpr_loss:0.071473 emb_loss:0.016544 lower_bound:1.173812 upper_bound:0.003319 mi_loss:-31.257924 
+ndcg@10:[0.186406] ndcg@20:[0.231754] ndcg@30:[0.259796] recall@10:[0.146709] recall@20:[0.221449] recall@30:[0.275957] js_dp@10:[0.147144] js_eo@10:[0.233566] js_dp@20:[0.138726] js_eo@20:[0.233237] js_dp@30:[0.134357] js_eo@30:[0.235862] 
+save successful
+epoch: 13, bpr_loss:0.065981 emb_loss:0.016991 lower_bound:1.170825 upper_bound:0.003193 mi_loss:-31.257750 
+ndcg@10:[0.188631] ndcg@20:[0.234667] ndcg@30:[0.262918] recall@10:[0.148489] recall@20:[0.224314] recall@30:[0.279258] js_dp@10:[0.145000] js_eo@10:[0.233654] js_dp@20:[0.136673] js_eo@20:[0.233682] js_dp@30:[0.132224] js_eo@30:[0.236346] 
+save successful
+epoch: 14, bpr_loss:0.061468 emb_loss:0.017427 lower_bound:1.168134 upper_bound:0.003249 mi_loss:-31.256079 
+ndcg@10:[0.190587] ndcg@20:[0.237147] ndcg@30:[0.265526] recall@10:[0.150123] recall@20:[0.226769] recall@30:[0.281992] js_dp@10:[0.145901] js_eo@10:[0.235009] js_dp@20:[0.136773] js_eo@20:[0.234800] js_dp@30:[0.132530] js_eo@30:[0.237424] 
+save successful
+epoch: 15, bpr_loss:0.057410 emb_loss:0.017823 lower_bound:1.165867 upper_bound:0.003236 mi_loss:-31.249831 
+ndcg@10:[0.191978] ndcg@20:[0.238773] ndcg@30:[0.267475] recall@10:[0.151325] recall@20:[0.228358] recall@30:[0.284222] js_dp@10:[0.142149] js_eo@10:[0.234975] js_dp@20:[0.133610] js_eo@20:[0.233968] js_dp@30:[0.128970] js_eo@30:[0.236788] 
+save successful
+epoch: 16, bpr_loss:0.053925 emb_loss:0.018205 lower_bound:1.163741 upper_bound:0.003587 mi_loss:-31.253648 
+ndcg@10:[0.193208] ndcg@20:[0.240595] ndcg@30:[0.269323] recall@10:[0.152316] recall@20:[0.230334] recall@30:[0.286264] js_dp@10:[0.141089] js_eo@10:[0.235080] js_dp@20:[0.133387] js_eo@20:[0.235133] js_dp@30:[0.128074] js_eo@30:[0.237446] 
+save successful
+epoch: 17, bpr_loss:0.050966 emb_loss:0.018552 lower_bound:1.161904 upper_bound:0.003081 mi_loss:-31.255325 
+ndcg@10:[0.194225] ndcg@20:[0.241694] ndcg@30:[0.270609] recall@10:[0.153174] recall@20:[0.231346] recall@30:[0.287584] js_dp@10:[0.138391] js_eo@10:[0.234017] js_dp@20:[0.130655] js_eo@20:[0.235162] js_dp@30:[0.125608] js_eo@30:[0.237085] 
+save successful
+epoch: 18, bpr_loss:0.048099 emb_loss:0.018890 lower_bound:1.160164 upper_bound:0.003068 mi_loss:-31.256324 
+ndcg@10:[0.194913] ndcg@20:[0.242634] ndcg@30:[0.271648] recall@10:[0.153828] recall@20:[0.232400] recall@30:[0.288826] js_dp@10:[0.137390] js_eo@10:[0.233702] js_dp@20:[0.129154] js_eo@20:[0.235495] js_dp@30:[0.124105] js_eo@30:[0.237106] 
+save successful
+epoch: 19, bpr_loss:0.045870 emb_loss:0.019206 lower_bound:1.158721 upper_bound:0.002673 mi_loss:-31.259019 
+ndcg@10:[0.195520] ndcg@20:[0.243377] ndcg@30:[0.272548] recall@10:[0.154395] recall@20:[0.233190] recall@30:[0.289960] js_dp@10:[0.136385] js_eo@10:[0.234405] js_dp@20:[0.127554] js_eo@20:[0.235765] js_dp@30:[0.122615] js_eo@30:[0.237346] 
+save successful
+epoch: 20, bpr_loss:0.043499 emb_loss:0.019519 lower_bound:1.157449 upper_bound:0.002372 mi_loss:-31.264360 
+ndcg@10:[0.196244] ndcg@20:[0.244197] ndcg@30:[0.273499] recall@10:[0.155080] recall@20:[0.234020] recall@30:[0.291052] js_dp@10:[0.135906] js_eo@10:[0.235805] js_dp@20:[0.127269] js_eo@20:[0.237118] js_dp@30:[0.122203] js_eo@30:[0.238315] 
+save successful
+epoch: 21, bpr_loss:0.041661 emb_loss:0.019816 lower_bound:1.156256 upper_bound:0.001662 mi_loss:-31.248049 
+ndcg@10:[0.196784] ndcg@20:[0.244880] ndcg@30:[0.274122] recall@10:[0.155699] recall@20:[0.234879] recall@30:[0.291803] js_dp@10:[0.136871] js_eo@10:[0.238488] js_dp@20:[0.128230] js_eo@20:[0.238469] js_dp@30:[0.122827] js_eo@30:[0.240106] 
+save successful
+epoch: 22, bpr_loss:0.039514 emb_loss:0.020113 lower_bound:1.155252 upper_bound:0.002350 mi_loss:-31.259834 
+ndcg@10:[0.197145] ndcg@20:[0.245458] ndcg@30:[0.274710] recall@10:[0.156035] recall@20:[0.235573] recall@30:[0.292498] js_dp@10:[0.137008] js_eo@10:[0.239573] js_dp@20:[0.128168] js_eo@20:[0.239736] js_dp@30:[0.122930] js_eo@30:[0.240658] 
+save successful
+epoch: 23, bpr_loss:0.038074 emb_loss:0.020369 lower_bound:1.154302 upper_bound:0.001867 mi_loss:-31.243202 
+ndcg@10:[0.197610] ndcg@20:[0.245802] ndcg@30:[0.275239] recall@10:[0.156555] recall@20:[0.235910] recall@30:[0.293203] js_dp@10:[0.136830] js_eo@10:[0.240968] js_dp@20:[0.127753] js_eo@20:[0.240856] js_dp@30:[0.122440] js_eo@30:[0.241642] 
+save successful
+epoch: 24, bpr_loss:0.036679 emb_loss:0.020618 lower_bound:1.153383 upper_bound:0.002809 mi_loss:-31.252531 
+ndcg@10:[0.197632] ndcg@20:[0.245946] ndcg@30:[0.275403] recall@10:[0.156573] recall@20:[0.236166] recall@30:[0.293508] js_dp@10:[0.135522] js_eo@10:[0.240492] js_dp@20:[0.126381] js_eo@20:[0.240012] js_dp@30:[0.121046] js_eo@30:[0.240467] 
+save successful
+epoch: 25, bpr_loss:0.035322 emb_loss:0.020841 lower_bound:1.152695 upper_bound:0.002327 mi_loss:-31.251512 
+ndcg@10:[0.197733] ndcg@20:[0.246042] ndcg@30:[0.275433] recall@10:[0.156749] recall@20:[0.236310] recall@30:[0.293512] js_dp@10:[0.133317] js_eo@10:[0.240245] js_dp@20:[0.123936] js_eo@20:[0.239441] js_dp@30:[0.118818] js_eo@30:[0.240184] 
+save successful
+epoch: 26, bpr_loss:0.034289 emb_loss:0.021058 lower_bound:1.152026 upper_bound:0.002204 mi_loss:-31.251065 
+ndcg@10:[0.197681] ndcg@20:[0.246003] ndcg@30:[0.275570] recall@10:[0.156718] recall@20:[0.236279] recall@30:[0.293823] js_dp@10:[0.132333] js_eo@10:[0.239386] js_dp@20:[0.122876] js_eo@20:[0.238879] js_dp@30:[0.117779] js_eo@30:[0.239778] 
+epoch: 27, bpr_loss:0.033171 emb_loss:0.021273 lower_bound:1.151308 upper_bound:0.001874 mi_loss:-31.252108 
+ndcg@10:[0.197686] ndcg@20:[0.246112] ndcg@30:[0.275764] recall@10:[0.156697] recall@20:[0.236451] recall@30:[0.294132] js_dp@10:[0.130493] js_eo@10:[0.240102] js_dp@20:[0.120873] js_eo@20:[0.239456] js_dp@30:[0.115785] js_eo@30:[0.239298] 
+epoch: 28, bpr_loss:0.031938 emb_loss:0.021473 lower_bound:1.150775 upper_bound:0.001674 mi_loss:-31.249482 
+ndcg@10:[0.197709] ndcg@20:[0.246220] ndcg@30:[0.275840] recall@10:[0.156787] recall@20:[0.236672] recall@30:[0.294339] js_dp@10:[0.130881] js_eo@10:[0.240611] js_dp@20:[0.120878] js_eo@20:[0.239193] js_dp@30:[0.115652] js_eo@30:[0.239512] 
+epoch: 29, bpr_loss:0.031019 emb_loss:0.021681 lower_bound:1.150202 upper_bound:0.001530 mi_loss:-31.243337 
+ndcg@10:[0.197732] ndcg@20:[0.246284] ndcg@30:[0.275918] recall@10:[0.156828] recall@20:[0.236749] recall@30:[0.294445] js_dp@10:[0.130199] js_eo@10:[0.241761] js_dp@20:[0.120147] js_eo@20:[0.240438] js_dp@30:[0.114813] js_eo@30:[0.240047] 
+epoch: 30, bpr_loss:0.030076 emb_loss:0.021868 lower_bound:1.149724 upper_bound:0.001873 mi_loss:-31.244160 
+ndcg@10:[0.197739] ndcg@20:[0.246264] ndcg@30:[0.275812] recall@10:[0.156895] recall@20:[0.236775] recall@30:[0.294294] js_dp@10:[0.130854] js_eo@10:[0.242055] js_dp@20:[0.120247] js_eo@20:[0.240135] js_dp@30:[0.114964] js_eo@30:[0.240354] 
+save successful
+epoch: 31, bpr_loss:0.029421 emb_loss:0.022038 lower_bound:1.149318 upper_bound:0.001698 mi_loss:-31.246310 
+ndcg@10:[0.197673] ndcg@20:[0.246029] ndcg@30:[0.275662] recall@10:[0.156975] recall@20:[0.236584] recall@30:[0.294269] js_dp@10:[0.129819] js_eo@10:[0.242587] js_dp@20:[0.118689] js_eo@20:[0.239754] js_dp@30:[0.113764] js_eo@30:[0.240377] 
+epoch: 32, bpr_loss:0.028588 emb_loss:0.022193 lower_bound:1.148841 upper_bound:0.001621 mi_loss:-31.246795 
+ndcg@10:[0.197524] ndcg@20:[0.245991] ndcg@30:[0.275623] recall@10:[0.156829] recall@20:[0.236600] recall@30:[0.294301] js_dp@10:[0.129241] js_eo@10:[0.242257] js_dp@20:[0.118250] js_eo@20:[0.239694] js_dp@30:[0.113107] js_eo@30:[0.240778] 
+epoch: 33, bpr_loss:0.028146 emb_loss:0.022366 lower_bound:1.148501 upper_bound:0.001477 mi_loss:-31.247068 
+ndcg@10:[0.197465] ndcg@20:[0.245970] ndcg@30:[0.275588] recall@10:[0.156748] recall@20:[0.236595] recall@30:[0.294236] js_dp@10:[0.128698] js_eo@10:[0.242331] js_dp@20:[0.117302] js_eo@20:[0.239832] js_dp@30:[0.112046] js_eo@30:[0.240885] 
+epoch: 34, bpr_loss:0.027273 emb_loss:0.022507 lower_bound:1.148250 upper_bound:0.001342 mi_loss:-31.247190 
+ndcg@10:[0.197357] ndcg@20:[0.245883] ndcg@30:[0.275439] recall@10:[0.156720] recall@20:[0.236591] recall@30:[0.294124] js_dp@10:[0.128879] js_eo@10:[0.242530] js_dp@20:[0.117162] js_eo@20:[0.240260] js_dp@30:[0.111715] js_eo@30:[0.241728] 
+epoch: 35, bpr_loss:0.026779 emb_loss:0.022656 lower_bound:1.147887 upper_bound:0.001097 mi_loss:-31.241402 
+ndcg@10:[0.197317] ndcg@20:[0.245853] ndcg@30:[0.275570] recall@10:[0.156659] recall@20:[0.236574] recall@30:[0.294403] js_dp@10:[0.128867] js_eo@10:[0.243594] js_dp@20:[0.117149] js_eo@20:[0.241616] js_dp@30:[0.111752] js_eo@30:[0.243059] 
+epoch: 36, bpr_loss:0.026107 emb_loss:0.022792 lower_bound:1.147577 upper_bound:0.001510 mi_loss:-31.242728 
+ndcg@10:[0.197159] ndcg@20:[0.245609] ndcg@30:[0.275240] recall@10:[0.156581] recall@20:[0.236349] recall@30:[0.293998] js_dp@10:[0.128567] js_eo@10:[0.244517] js_dp@20:[0.117447] js_eo@20:[0.242091] js_dp@30:[0.111832] js_eo@30:[0.242899] 
+epoch: 37, bpr_loss:0.025508 emb_loss:0.022926 lower_bound:1.147289 upper_bound:0.001291 mi_loss:-31.245345 
+ndcg@10:[0.197037] ndcg@20:[0.245504] ndcg@30:[0.275178] recall@10:[0.156496] recall@20:[0.236330] recall@30:[0.294077] js_dp@10:[0.127755] js_eo@10:[0.244675] js_dp@20:[0.116287] js_eo@20:[0.242117] js_dp@30:[0.110624] js_eo@30:[0.243342] 
+epoch: 38, bpr_loss:0.025054 emb_loss:0.023059 lower_bound:1.147063 upper_bound:0.001227 mi_loss:-31.245579 
+ndcg@10:[0.196687] ndcg@20:[0.245270] ndcg@30:[0.274768] recall@10:[0.156278] recall@20:[0.236313] recall@30:[0.293706] js_dp@10:[0.128542] js_eo@10:[0.245119] js_dp@20:[0.116768] js_eo@20:[0.242278] js_dp@30:[0.110947] js_eo@30:[0.243925] 
+epoch: 39, bpr_loss:0.024716 emb_loss:0.023180 lower_bound:1.146795 upper_bound:0.001100 mi_loss:-31.243157 
+ndcg@10:[0.196717] ndcg@20:[0.245191] ndcg@30:[0.274811] recall@10:[0.156267] recall@20:[0.236144] recall@30:[0.293771] js_dp@10:[0.128368] js_eo@10:[0.245861] js_dp@20:[0.116651] js_eo@20:[0.242880] js_dp@30:[0.110889] js_eo@30:[0.244559] 
+epoch: 40, bpr_loss:0.024264 emb_loss:0.023293 lower_bound:1.146673 upper_bound:0.001424 mi_loss:-31.245201 
+ndcg@10:[0.196547] ndcg@20:[0.244973] ndcg@30:[0.274563] recall@10:[0.156153] recall@20:[0.235930] recall@30:[0.293490] js_dp@10:[0.128332] js_eo@10:[0.246922] js_dp@20:[0.116604] js_eo@20:[0.242821] js_dp@30:[0.110684] js_eo@30:[0.244764] 
+epoch: 41, bpr_loss:0.023844 emb_loss:0.023400 lower_bound:1.146538 upper_bound:0.001276 mi_loss:-31.244069 
+ndcg@10:[0.196252] ndcg@20:[0.244616] ndcg@30:[0.274306] recall@10:[0.155862] recall@20:[0.235515] recall@30:[0.293277] js_dp@10:[0.127991] js_eo@10:[0.246392] js_dp@20:[0.115838] js_eo@20:[0.243540] js_dp@30:[0.109952] js_eo@30:[0.244505] 
+epoch: 42, bpr_loss:0.023586 emb_loss:0.023509 lower_bound:1.146319 upper_bound:0.001368 mi_loss:-31.245191 
+ndcg@10:[0.196040] ndcg@20:[0.244387] ndcg@30:[0.273973] recall@10:[0.155842] recall@20:[0.235485] recall@30:[0.293032] js_dp@10:[0.127963] js_eo@10:[0.247004] js_dp@20:[0.116145] js_eo@20:[0.243642] js_dp@30:[0.110169] js_eo@30:[0.245381] 
+epoch: 43, bpr_loss:0.023179 emb_loss:0.023598 lower_bound:1.146180 upper_bound:0.001111 mi_loss:-31.246308 
+ndcg@10:[0.195833] ndcg@20:[0.244300] ndcg@30:[0.273913] recall@10:[0.155542] recall@20:[0.235373] recall@30:[0.292998] js_dp@10:[0.127729] js_eo@10:[0.247630] js_dp@20:[0.115953] js_eo@20:[0.244058] js_dp@30:[0.109727] js_eo@30:[0.245325] 
+epoch: 44, bpr_loss:0.022799 emb_loss:0.023699 lower_bound:1.146100 upper_bound:0.001187 mi_loss:-31.244037 
+ndcg@10:[0.195564] ndcg@20:[0.244009] ndcg@30:[0.273605] recall@10:[0.155413] recall@20:[0.235165] recall@30:[0.292749] js_dp@10:[0.128461] js_eo@10:[0.248517] js_dp@20:[0.116563] js_eo@20:[0.245042] js_dp@30:[0.110222] js_eo@30:[0.246427] 
+epoch: 45, bpr_loss:0.022386 emb_loss:0.023782 lower_bound:1.145866 upper_bound:0.001292 mi_loss:-31.245628 
+ndcg@10:[0.195477] ndcg@20:[0.243863] ndcg@30:[0.273363] recall@10:[0.155482] recall@20:[0.235150] recall@30:[0.292545] js_dp@10:[0.127767] js_eo@10:[0.248577] js_dp@20:[0.115859] js_eo@20:[0.244759] js_dp@30:[0.109315] js_eo@30:[0.245987] 
+epoch: 46, bpr_loss:0.022091 emb_loss:0.023878 lower_bound:1.145704 upper_bound:0.001081 mi_loss:-31.244257 
+ndcg@10:[0.195395] ndcg@20:[0.243740] ndcg@30:[0.273263] recall@10:[0.155458] recall@20:[0.235061] recall@30:[0.292484] js_dp@10:[0.128262] js_eo@10:[0.249693] js_dp@20:[0.116536] js_eo@20:[0.245508] js_dp@30:[0.109750] js_eo@30:[0.246840] 
+epoch: 47, bpr_loss:0.021966 emb_loss:0.023951 lower_bound:1.145567 upper_bound:0.001313 mi_loss:-31.248962 
+ndcg@10:[0.195132] ndcg@20:[0.243549] ndcg@30:[0.273000] recall@10:[0.155223] recall@20:[0.234979] recall@30:[0.292315] js_dp@10:[0.128132] js_eo@10:[0.250863] js_dp@20:[0.115938] js_eo@20:[0.245708] js_dp@30:[0.109126] js_eo@30:[0.246608] 
+epoch: 48, bpr_loss:0.021578 emb_loss:0.024033 lower_bound:1.145569 upper_bound:0.001121 mi_loss:-31.242485 
+ndcg@10:[0.195077] ndcg@20:[0.243364] ndcg@30:[0.272808] recall@10:[0.155291] recall@20:[0.234795] recall@30:[0.292077] js_dp@10:[0.128332] js_eo@10:[0.250412] js_dp@20:[0.116127] js_eo@20:[0.246342] js_dp@30:[0.109539] js_eo@30:[0.247000] 
+epoch: 49, bpr_loss:0.021287 emb_loss:0.024093 lower_bound:1.145377 upper_bound:0.001447 mi_loss:-31.245901 
+ndcg@10:[0.194593] ndcg@20:[0.242946] ndcg@30:[0.272375] recall@10:[0.154947] recall@20:[0.234546] recall@30:[0.291797] js_dp@10:[0.127451] js_eo@10:[0.249406] js_dp@20:[0.115403] js_eo@20:[0.245729] js_dp@30:[0.108657] js_eo@30:[0.246275] 
+epoch: 50, bpr_loss:0.021107 emb_loss:0.024157 lower_bound:1.145300 upper_bound:0.001174 mi_loss:-31.244478 
+ndcg@10:[0.194325] ndcg@20:[0.242686] ndcg@30:[0.272102] recall@10:[0.154720] recall@20:[0.234321] recall@30:[0.291554] js_dp@10:[0.127041] js_eo@10:[0.250380] js_dp@20:[0.115243] js_eo@20:[0.245845] js_dp@30:[0.108031] js_eo@30:[0.246728] 
+epoch: 51, bpr_loss:0.020939 emb_loss:0.024214 lower_bound:1.145225 upper_bound:0.001155 mi_loss:-31.242606 

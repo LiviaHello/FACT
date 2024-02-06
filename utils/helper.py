@@ -3,7 +3,7 @@
 
 @author: LMC_ZC
 """
-
+import os
 import sys
 from scipy import stats
 
@@ -11,6 +11,9 @@ from scipy import stats
 class Logger(object):
     def __init__(self, fileN="Default.logs"):
         self.terminal = sys.stdout
+        dir_name = os.path.dirname(fileN)
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
         self.log = open(fileN, "w")
 
     def write(self, message):

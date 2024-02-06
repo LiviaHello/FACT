@@ -1,0 +1,1 @@
+Namespace(bakcbone='gcn', dataset='./data/ml-1m/process/process.pkl', emb_size=64, hidden_size=256, lr=0.001, l2_reg=0.001, n_layers=3, batch_size=2048, num_workers=6, log_path='logs/gcn_fairmi.txt', param_path='param/gcn_fairmi.pth', pretrain_path='param/gcn_base.pth', lreg=0.1, ureg=0.1, train_step=50, num_epochs=100, device='cuda:0')

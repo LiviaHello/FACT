@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FACT
 Assignment for FACT UVA
 =======

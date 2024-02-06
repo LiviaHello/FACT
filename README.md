@@ -151,4 +151,3 @@ python train_gcn_baseline_electronics.py
 ```shell
 python train_gcn_fairmi_electrinics.py
 ```
->>>>>>> first-commit
